@@ -27,9 +27,9 @@ npm install nodemon --save-dev
 
 : add "typeRoots" with value "node_modules/@types" to the TypeScript compiler options!
 
-: add the 'scripts' tag to 'package.json'
+: add the 'scripts' tag to 'package.json' with entry: "build:live": "nodemon --exec .\\node_modules\\.bin\\ts-node -- .\\src\\index.ts"
 
-: start npm and watch live compiling of specified TypeScript file
+: start npm and watch live execution of specified TypeScript file
 npm start
 
 
