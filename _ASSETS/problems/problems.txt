@@ -1,0 +1,5 @@
+/*
+    How to specify own targets in package.json ????
+
+    "webpack": ".\\node_modules\\.bin\\webpack"
+*/

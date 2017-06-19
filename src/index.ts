@@ -1,7 +1,16 @@
 
+    window.alert("The going is much more than trying from this point!");
+
+
+
+
     // Example A =======================================================================================================
 
-    import _ from 'lodash';
+    //import _ from 'lodash';
+    // import { debounce } from "lodash";
+    // import * as debouce from 'lodash/debounce';
+
+
 
     // test
     alert("index.ts being invoked");
@@ -14,7 +23,9 @@
         let element = document.createElement('div');
 
         // Lodash, currently included via a script, is required for this line to work
-        element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+        element.innerHTML = 'Welcome - TypeScript test.';
+
+        //_.join(['Hello', 'webpack'], ' ');
 
         return element;
     }
@@ -27,8 +38,7 @@
 
     import { style } from 'typestyle';
 
-    // impossible via node ?
-    //window.alert("The going is much more than trying from this point!");
+
 
     console.log("index.ts being invoked");
 
