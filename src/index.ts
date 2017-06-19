@@ -1,4 +1,9 @@
 
+    // .. is not a module. ????
+    // import FPSMeter from 'FPSMeter';
+
+
+
     window.alert("The going is much more than trying from this point!");
 
 

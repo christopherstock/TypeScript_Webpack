@@ -1,5 +1,14 @@
+___________________________________________________
+
 /*
     How to specify own targets in package.json ????
 
     "webpack": ".\\node_modules\\.bin\\webpack"
 */
+___________________________________________________
+
+src/index.ts(2,26): error TS2306: File 'C:/Users/Stock/workspaces/www-local/Type
+Script_Webpack/node_modules/@types/FPSMeter/index.d.ts' is not a module.
+
+
+

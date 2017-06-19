@@ -704,6 +704,8 @@ function createTypeStyle(target) {
 
 "use strict";
 
+// .. is not a module. ????
+// import FPSMeter from 'FPSMeter';
 Object.defineProperty(exports, "__esModule", { value: true });
 window.alert("The going is much more than trying from this point!");
 // Example A =======================================================================================================
