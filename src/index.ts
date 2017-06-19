@@ -1,8 +1,7 @@
 
     // .. is not a module. ????
     // import FPSMeter from 'FPSMeter';
-
-
+    // import FPSMeter = require('FPSMeter');
 
     window.alert("The going is much more than trying from this point!");
 
