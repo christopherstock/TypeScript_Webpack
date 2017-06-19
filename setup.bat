@@ -23,7 +23,7 @@ npm install ts-node --save-dev
 npm install nodemon --save-dev
 
 
-: setup 'tsconfig.json' and 'package.json' for auto compilation ============================================================
+: setup 'tsconfig.json' and 'package.json' for auto compilation ========================================================
 
 : add "typeRoots" with value "node_modules/@types" to the TypeScript compiler options!
 
@@ -33,4 +33,13 @@ npm install nodemon --save-dev
 npm start
 
 
+: create a TypeScript module ===========================================================================================
 
+
+: install an external TypeScript module ================================================================================
+
+: install JS library
+npm install fpsmeter
+
+: install TS type definitions
+npm install @types/fpsmeter
