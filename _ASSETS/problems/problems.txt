@@ -9,6 +9,12 @@ ___________________________________________________
 
 src/index.ts(2,26): error TS2306: File 'C:/Users/Stock/workspaces/www-local/Type
 Script_Webpack/node_modules/@types/FPSMeter/index.d.ts' is not a module.
+___________________________________________________
+
+Problems importing and loading lodash
+___________________________________________________
+
+How to make an own module??
 
 
 
