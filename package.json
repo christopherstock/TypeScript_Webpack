@@ -6,8 +6,11 @@
     "types": "lib/index",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "npm run build:live",
-        "build:live": "nodemon --exec .\\node_modules\\.bin\\tsc",
+        "start": "npm run build:live_webpack",
+
+        "build:live_webpack": "nodemon --config nodemon.config.json --exec webpack",
+        "build:live_tsc": "nodemon --exec .\\node_modules\\.bin\\tsc",
+
         "build": "webpack"
     },
     "keywords": [],

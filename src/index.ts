@@ -3,7 +3,9 @@
     // import FPSMeter from 'FPSMeter';
     // import FPSMeter = require('FPSMeter');
 
-    window.alert("The going is much more than trying from this point!");
+    console.log("Chris and Carsten here! TEST !");
+
+
 
 
 
@@ -16,27 +18,24 @@
 
 
 
-    // test
-    alert("index.ts being invoked");
-    console.log("index.ts being invoked");
-
-    // test function
 
     function component () {
 
         let element = document.createElement('div');
 
-        // Lodash, currently included via a script, is required for this line to work
-        element.innerHTML = 'Welcome - TypeScript test.';
-
-        //_.join(['Hello', 'webpack'], ' ');
+        element.innerHTML = 'Welcome to our next TypeScript test.';
 
         return element;
+
+        // Lodash, currently included via a script, is required for this line to work
+        //_.join(['Hello', 'webpack'], ' ');
     }
 
     document.body.appendChild( component() );
 
 
+
+/*
 
     // Example B =======================================================================================================
 
@@ -61,3 +60,4 @@
     }
 
     NodeTest1.test();
+*/
