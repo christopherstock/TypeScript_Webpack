@@ -1,4 +1,7 @@
 
+
+    // Example A =======================================================================================================
+
     console.log("Chris and Carsten here! TEST !");
 
     function component () {
@@ -7,43 +10,15 @@
         element.innerHTML = 'Welcome to our TypeScript test!';
         return element;
     }
-
     document.body.appendChild( component() );
-
-
-
-
-
-
-
-
-    // .. is not a module. ????
-    // import FPSMeter from 'FPSMeter';
-    // import FPSMeter = require('FPSMeter');
-
-
-
-
-
-
-
-    // Example A =======================================================================================================
-
-    //import _ from 'lodash';
-    // import { debounce } from "lodash";
-    // import * as debouce from 'lodash/debounce';
 
 
     // Example B =======================================================================================================
 
     import { style } from 'typestyle';
 
-
     /** convert a style object to a CSS class name */
     const className = style({color: 'red', fontSize: '20px'});
-
-
-
 
     console.log("Testing import of 'typestyle':");
 
@@ -54,10 +29,6 @@
     element2.className = className;
 
     document.body.appendChild(element2);
-
-
-
-
 
     class NodeTest1
     {
@@ -78,3 +49,27 @@
     }
 
     NodeTest1.test();
+
+
+    // Example C =======================================================================================================
+
+
+
+
+
+    // .. is not a module. ????
+    // import FPSMeter from 'FPSMeter';
+    // import FPSMeter = require('FPSMeter');
+
+
+
+
+
+
+
+
+    //import _ from 'lodash';
+    // import { debounce } from "lodash";
+    // import * as debouce from 'lodash/debounce';
+
+
