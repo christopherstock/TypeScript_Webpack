@@ -73,3 +73,11 @@
 
     let options:FPSMeterOptions = fpsMeter.options;
     options.heat = 1;
+
+
+    // Example D =======================================================================================================
+
+    import * as math from 'mathjs';
+
+    let test2:number = math.abs(-7.5);
+    console.log("Math abs is: [" + test2 + "]");
