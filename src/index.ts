@@ -1,9 +1,26 @@
 
+    console.log("Chris and Carsten here! TEST !");
+
+    function component () {
+
+        let element = document.createElement('div');
+        element.innerHTML = 'Welcome to our TypeScript test!';
+        return element;
+    }
+
+    document.body.appendChild( component() );
+
+
+
+
+
+
+
+
     // .. is not a module. ????
     // import FPSMeter from 'FPSMeter';
     // import FPSMeter = require('FPSMeter');
 
-    console.log("Chris and Carsten here! TEST !");
 
 
 
@@ -17,33 +34,30 @@
     // import * as debouce from 'lodash/debounce';
 
 
-
-
-    function component () {
-
-        let element = document.createElement('div');
-
-        element.innerHTML = 'Welcome to our next TypeScript test.';
-
-        return element;
-
-        // Lodash, currently included via a script, is required for this line to work
-        //_.join(['Hello', 'webpack'], ' ');
-    }
-
-    document.body.appendChild( component() );
-
-
-
-/*
-
     // Example B =======================================================================================================
 
     import { style } from 'typestyle';
 
 
+    /** convert a style object to a CSS class name */
+    const className = style({color: 'red', fontSize: '20px'});
 
-    console.log("index.ts being invoked");
+
+
+
+    console.log("Testing import of 'typestyle':");
+
+    console.log("Classname is: [" + className + "]");
+
+    let element2 = document.createElement('div');
+    element2.innerHTML = 'Carsten';
+    element2.className = className;
+
+    document.body.appendChild(element2);
+
+
+
+
 
     class NodeTest1
     {
@@ -51,13 +65,16 @@
         {
             console.log("NodeTest1::test() being invoked");
 
+            let test:number = style.length;
+            console.log(">>> style length is [" + test + "]");
+
+
             // let fpsMeter:FPSMeter = new FPSMeter();
 
-            let test:number = style.length;
+            //let test:number = style.length;
 
-            console.log("style length is [" + test + "]");
+
         }
     }
 
     NodeTest1.test();
-*/
