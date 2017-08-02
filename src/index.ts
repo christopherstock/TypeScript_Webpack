@@ -53,23 +53,23 @@
 
     // Example C =======================================================================================================
 
+     import 'fpsmeter';
 
+     const fpsMeter = new FPSMeter(
+        undefined,
+        {
+            graph:    1,
+            decimals: 1,
+            position: "absolute",
+            zIndex:   10,
+            right:    "5px",
+            top:      "auto",
+            left:     "auto",
+            bottom:   "5px",
+            margin:   "0",
+            heat:     0
+        }
+    );
 
-
-
-    // .. is not a module. ????
-    // import FPSMeter from 'FPSMeter';
-    // import FPSMeter = require('FPSMeter');
-
-
-
-
-
-
-
-
-    //import _ from 'lodash';
-    // import { debounce } from "lodash";
-    // import * as debouce from 'lodash/debounce';
-
-
+    let options:FPSMeterOptions = fpsMeter.options;
+    options.heat = 1;
