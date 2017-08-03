@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 151);
+/******/ 	return __webpack_require__(__webpack_require__.s = 554);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -1902,7 +1902,7 @@ exports.factory = factory;
 
 
 var formatNumber = __webpack_require__(3).format;
-var formatBigNumber = __webpack_require__(540).format;
+var formatBigNumber = __webpack_require__(539).format;
 
 /**
  * Test whether value is a string
@@ -5529,7 +5529,7 @@ exports.factory = factory;
 
 
 exports.array = __webpack_require__(2);
-exports['boolean'] = __webpack_require__(543);
+exports['boolean'] = __webpack_require__(542);
 exports['function'] = __webpack_require__(34);
 exports.number = __webpack_require__(3);
 exports.object = __webpack_require__(5);
@@ -5613,7 +5613,7 @@ exports.factory = factory;
 "use strict";
 
 
-var naturalSort = __webpack_require__(155);
+var naturalSort = __webpack_require__(153);
 
 function factory (type, config, load, typed) {
   var getTypeOf = load(__webpack_require__(81));
@@ -13172,7 +13172,7 @@ exports.factory = factory;
 "use strict";
 
 
-var scatter = __webpack_require__(544);
+var scatter = __webpack_require__(543);
 var DimensionError = __webpack_require__(10);
 
 function factory (type, config, load, typed) {
@@ -14609,7 +14609,7 @@ function factory (type, config, load, typed, math) {
   var array = __webpack_require__(2);
 
   // seeded pseudo random number generator
-  var rng = load(__webpack_require__(455));
+  var rng = load(__webpack_require__(454));
 
   /**
    * Create a distribution object with a set of random functions for given
@@ -16434,7 +16434,7 @@ function create(hash, debug) {
 }
 exports.create = create;
 //# sourceMappingURL=free-style.js.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(546)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(545)))
 
 /***/ }),
 /* 89 */
@@ -16656,39 +16656,39 @@ function factory (construction, config, load, typed) {
 
 
   // construction functions
-  docs.bignumber = __webpack_require__(179);
-  docs['boolean'] = __webpack_require__(180);
-  docs.complex = __webpack_require__(181);
-  docs.createUnit = __webpack_require__(182);
-  docs.fraction = __webpack_require__(183);
-  docs.index = __webpack_require__(184);
-  docs.matrix = __webpack_require__(185);
-  docs.number = __webpack_require__(186);
-  docs.sparse = __webpack_require__(187);
-  docs.splitUnit = __webpack_require__(188);
-  docs.string = __webpack_require__(189);
-  docs.unit = __webpack_require__(190);
+  docs.bignumber = __webpack_require__(178);
+  docs['boolean'] = __webpack_require__(179);
+  docs.complex = __webpack_require__(180);
+  docs.createUnit = __webpack_require__(181);
+  docs.fraction = __webpack_require__(182);
+  docs.index = __webpack_require__(183);
+  docs.matrix = __webpack_require__(184);
+  docs.number = __webpack_require__(185);
+  docs.sparse = __webpack_require__(186);
+  docs.splitUnit = __webpack_require__(187);
+  docs.string = __webpack_require__(188);
+  docs.unit = __webpack_require__(189);
 
   // constants
   docs.e = __webpack_require__(90);
   docs.E = __webpack_require__(90);
-  docs['false'] = __webpack_require__(172);
-  docs.i = __webpack_require__(173);
-  docs['Infinity'] = __webpack_require__(164);
-  docs.LN2 = __webpack_require__(166);
-  docs.LN10 = __webpack_require__(165);
-  docs.LOG2E = __webpack_require__(168);
-  docs.LOG10E = __webpack_require__(167);
-  docs.NaN = __webpack_require__(169);
-  docs['null'] = __webpack_require__(174);
+  docs['false'] = __webpack_require__(171);
+  docs.i = __webpack_require__(172);
+  docs['Infinity'] = __webpack_require__(163);
+  docs.LN2 = __webpack_require__(165);
+  docs.LN10 = __webpack_require__(164);
+  docs.LOG2E = __webpack_require__(167);
+  docs.LOG10E = __webpack_require__(166);
+  docs.NaN = __webpack_require__(168);
+  docs['null'] = __webpack_require__(173);
   docs.pi = __webpack_require__(91);
   docs.PI = __webpack_require__(91);
-  docs.phi = __webpack_require__(175);
-  docs.SQRT1_2 = __webpack_require__(170);
-  docs.SQRT2 = __webpack_require__(171);
-  docs.tau = __webpack_require__(176);
-  docs['true'] = __webpack_require__(177);
-  docs.version = __webpack_require__(178);
+  docs.phi = __webpack_require__(174);
+  docs.SQRT1_2 = __webpack_require__(169);
+  docs.SQRT2 = __webpack_require__(170);
+  docs.tau = __webpack_require__(175);
+  docs['true'] = __webpack_require__(176);
+  docs.version = __webpack_require__(177);
 
   // physical constants
   // TODO: more detailed docs for physical constants
@@ -16751,206 +16751,206 @@ function factory (construction, config, load, typed) {
   docs.planckTemperature = {description: 'Planck temperature', examples: ['planckTemperature']};
 
   // functions - algebra
-  docs.derivative = __webpack_require__(194);
-  docs.lsolve = __webpack_require__(195);
-  docs.lup = __webpack_require__(196);
-  docs.lusolve = __webpack_require__(197);
-  docs.simplify = __webpack_require__(199);
-  docs.slu = __webpack_require__(200);
-  docs.usolve = __webpack_require__(201);
-  docs.qr = __webpack_require__(198);
+  docs.derivative = __webpack_require__(193);
+  docs.lsolve = __webpack_require__(194);
+  docs.lup = __webpack_require__(195);
+  docs.lusolve = __webpack_require__(196);
+  docs.simplify = __webpack_require__(198);
+  docs.slu = __webpack_require__(199);
+  docs.usolve = __webpack_require__(200);
+  docs.qr = __webpack_require__(197);
 
   // functions - arithmetic
-  docs.abs = __webpack_require__(202);
-  docs.add = __webpack_require__(203);
-  docs.cbrt = __webpack_require__(204);
-  docs.ceil = __webpack_require__(205);
-  docs.cube = __webpack_require__(206);
-  docs.divide = __webpack_require__(207);
-  docs.dotDivide = __webpack_require__(208);
-  docs.dotMultiply = __webpack_require__(209);
-  docs.dotPow = __webpack_require__(210);
-  docs.exp = __webpack_require__(211);
-  docs.fix = __webpack_require__(212);
-  docs.floor = __webpack_require__(213);
-  docs.gcd = __webpack_require__(214);
-  docs.hypot = __webpack_require__(215);
-  docs.lcm = __webpack_require__(216);
-  docs.log = __webpack_require__(217);
-  docs.log10 = __webpack_require__(218);
-  docs.mod = __webpack_require__(219);
-  docs.multiply = __webpack_require__(220);
-  docs.norm = __webpack_require__(221);
-  docs.nthRoot = __webpack_require__(222);
-  docs.pow = __webpack_require__(223);
-  docs.round = __webpack_require__(224);
-  docs.sign = __webpack_require__(225);
-  docs.sqrt = __webpack_require__(226);
-  docs.square = __webpack_require__(227);
-  docs.subtract = __webpack_require__(228);
-  docs.unaryMinus = __webpack_require__(229);
-  docs.unaryPlus = __webpack_require__(230);
-  docs.xgcd = __webpack_require__(231);
+  docs.abs = __webpack_require__(201);
+  docs.add = __webpack_require__(202);
+  docs.cbrt = __webpack_require__(203);
+  docs.ceil = __webpack_require__(204);
+  docs.cube = __webpack_require__(205);
+  docs.divide = __webpack_require__(206);
+  docs.dotDivide = __webpack_require__(207);
+  docs.dotMultiply = __webpack_require__(208);
+  docs.dotPow = __webpack_require__(209);
+  docs.exp = __webpack_require__(210);
+  docs.fix = __webpack_require__(211);
+  docs.floor = __webpack_require__(212);
+  docs.gcd = __webpack_require__(213);
+  docs.hypot = __webpack_require__(214);
+  docs.lcm = __webpack_require__(215);
+  docs.log = __webpack_require__(216);
+  docs.log10 = __webpack_require__(217);
+  docs.mod = __webpack_require__(218);
+  docs.multiply = __webpack_require__(219);
+  docs.norm = __webpack_require__(220);
+  docs.nthRoot = __webpack_require__(221);
+  docs.pow = __webpack_require__(222);
+  docs.round = __webpack_require__(223);
+  docs.sign = __webpack_require__(224);
+  docs.sqrt = __webpack_require__(225);
+  docs.square = __webpack_require__(226);
+  docs.subtract = __webpack_require__(227);
+  docs.unaryMinus = __webpack_require__(228);
+  docs.unaryPlus = __webpack_require__(229);
+  docs.xgcd = __webpack_require__(230);
 
   // functions - bitwise
-  docs.bitAnd = __webpack_require__(232);
-  docs.bitNot = __webpack_require__(233);
-  docs.bitOr = __webpack_require__(234);
-  docs.bitXor = __webpack_require__(235);
-  docs.leftShift = __webpack_require__(236);
-  docs.rightArithShift = __webpack_require__(237);
-  docs.rightLogShift = __webpack_require__(238);
+  docs.bitAnd = __webpack_require__(231);
+  docs.bitNot = __webpack_require__(232);
+  docs.bitOr = __webpack_require__(233);
+  docs.bitXor = __webpack_require__(234);
+  docs.leftShift = __webpack_require__(235);
+  docs.rightArithShift = __webpack_require__(236);
+  docs.rightLogShift = __webpack_require__(237);
 
   // functions - combinatorics
-  docs.bellNumbers = __webpack_require__(239);
-  docs.catalan = __webpack_require__(240);
-  docs.composition = __webpack_require__(241);
-  docs.stirlingS2 = __webpack_require__(242);
+  docs.bellNumbers = __webpack_require__(238);
+  docs.catalan = __webpack_require__(239);
+  docs.composition = __webpack_require__(240);
+  docs.stirlingS2 = __webpack_require__(241);
 
   // functions - core
-  docs['config'] =  __webpack_require__(191);
-  docs['import'] =  __webpack_require__(192);
-  docs['typed'] =  __webpack_require__(193);
+  docs['config'] =  __webpack_require__(190);
+  docs['import'] =  __webpack_require__(191);
+  docs['typed'] =  __webpack_require__(192);
 
   // functions - complex
-  docs.arg = __webpack_require__(243);
-  docs.conj = __webpack_require__(244);
-  docs.re = __webpack_require__(246);
-  docs.im = __webpack_require__(245);
+  docs.arg = __webpack_require__(242);
+  docs.conj = __webpack_require__(243);
+  docs.re = __webpack_require__(245);
+  docs.im = __webpack_require__(244);
 
   // functions - expression
-  docs['eval'] =  __webpack_require__(247);
-  docs.help =  __webpack_require__(248);
+  docs['eval'] =  __webpack_require__(246);
+  docs.help =  __webpack_require__(247);
 
   // functions - geometry
-  docs.distance = __webpack_require__(249);
-  docs.intersect = __webpack_require__(250);
+  docs.distance = __webpack_require__(248);
+  docs.intersect = __webpack_require__(249);
 
   // functions - logical
-  docs['and'] = __webpack_require__(251);
-  docs['not'] = __webpack_require__(252);
-  docs['or'] = __webpack_require__(253);
-  docs['xor'] = __webpack_require__(254);
+  docs['and'] = __webpack_require__(250);
+  docs['not'] = __webpack_require__(251);
+  docs['or'] = __webpack_require__(252);
+  docs['xor'] = __webpack_require__(253);
 
   // functions - matrix
-  docs['concat'] = __webpack_require__(255);
-  docs.cross = __webpack_require__(256);
-  docs.det = __webpack_require__(257);
-  docs.diag = __webpack_require__(258);
-  docs.dot = __webpack_require__(259);
-  docs.eye = __webpack_require__(260);
-  docs.filter =  __webpack_require__(261);
-  docs.flatten = __webpack_require__(262);
-  docs.forEach =  __webpack_require__(263);
-  docs.inv = __webpack_require__(264);
-  docs.kron = __webpack_require__(265);
-  docs.map =  __webpack_require__(266);
-  docs.ones = __webpack_require__(267);
-  docs.partitionSelect =  __webpack_require__(268);
-  docs.range = __webpack_require__(269);
-  docs.resize = __webpack_require__(271);
-  docs.reshape = __webpack_require__(270);
-  docs.size = __webpack_require__(272);
-  docs.sort =  __webpack_require__(273);
-  docs.squeeze = __webpack_require__(274);
-  docs.subset = __webpack_require__(275);
-  docs.trace = __webpack_require__(276);
-  docs.transpose = __webpack_require__(277);
-  docs.zeros = __webpack_require__(278);
+  docs['concat'] = __webpack_require__(254);
+  docs.cross = __webpack_require__(255);
+  docs.det = __webpack_require__(256);
+  docs.diag = __webpack_require__(257);
+  docs.dot = __webpack_require__(258);
+  docs.eye = __webpack_require__(259);
+  docs.filter =  __webpack_require__(260);
+  docs.flatten = __webpack_require__(261);
+  docs.forEach =  __webpack_require__(262);
+  docs.inv = __webpack_require__(263);
+  docs.kron = __webpack_require__(264);
+  docs.map =  __webpack_require__(265);
+  docs.ones = __webpack_require__(266);
+  docs.partitionSelect =  __webpack_require__(267);
+  docs.range = __webpack_require__(268);
+  docs.resize = __webpack_require__(270);
+  docs.reshape = __webpack_require__(269);
+  docs.size = __webpack_require__(271);
+  docs.sort =  __webpack_require__(272);
+  docs.squeeze = __webpack_require__(273);
+  docs.subset = __webpack_require__(274);
+  docs.trace = __webpack_require__(275);
+  docs.transpose = __webpack_require__(276);
+  docs.zeros = __webpack_require__(277);
 
   // functions - probability
-  docs.combinations = __webpack_require__(279);
+  docs.combinations = __webpack_require__(278);
   //docs.distribution = require('./function/probability/distribution');
-  docs.factorial = __webpack_require__(280);
-  docs.gamma = __webpack_require__(281);
-  docs.kldivergence = __webpack_require__(282);
-  docs.multinomial = __webpack_require__(283);
-  docs.permutations = __webpack_require__(284);
-  docs.pickRandom = __webpack_require__(285);
-  docs.random = __webpack_require__(286);
-  docs.randomInt = __webpack_require__(287);
+  docs.factorial = __webpack_require__(279);
+  docs.gamma = __webpack_require__(280);
+  docs.kldivergence = __webpack_require__(281);
+  docs.multinomial = __webpack_require__(282);
+  docs.permutations = __webpack_require__(283);
+  docs.pickRandom = __webpack_require__(284);
+  docs.random = __webpack_require__(285);
+  docs.randomInt = __webpack_require__(286);
 
   // functions - relational
-  docs.compare = __webpack_require__(288);
-  docs.compareNatural = __webpack_require__(289);
-  docs.deepEqual = __webpack_require__(290);
-  docs['equal'] = __webpack_require__(291);
-  docs.larger = __webpack_require__(292);
-  docs.largerEq = __webpack_require__(293);
-  docs.smaller = __webpack_require__(294);
-  docs.smallerEq = __webpack_require__(295);
-  docs.unequal = __webpack_require__(296);
+  docs.compare = __webpack_require__(287);
+  docs.compareNatural = __webpack_require__(288);
+  docs.deepEqual = __webpack_require__(289);
+  docs['equal'] = __webpack_require__(290);
+  docs.larger = __webpack_require__(291);
+  docs.largerEq = __webpack_require__(292);
+  docs.smaller = __webpack_require__(293);
+  docs.smallerEq = __webpack_require__(294);
+  docs.unequal = __webpack_require__(295);
 
   // functions - set
-  docs.setCartesian = __webpack_require__(297);
-  docs.setDifference = __webpack_require__(298);
-  docs.setDistinct = __webpack_require__(299);
-  docs.setIntersect = __webpack_require__(300);
-  docs.setIsSubset = __webpack_require__(301);
-  docs.setMultiplicity = __webpack_require__(302);
-  docs.setPowerset = __webpack_require__(303);
-  docs.setSize = __webpack_require__(304);
-  docs.setSymDifference = __webpack_require__(305);
-  docs.setUnion = __webpack_require__(306);
+  docs.setCartesian = __webpack_require__(296);
+  docs.setDifference = __webpack_require__(297);
+  docs.setDistinct = __webpack_require__(298);
+  docs.setIntersect = __webpack_require__(299);
+  docs.setIsSubset = __webpack_require__(300);
+  docs.setMultiplicity = __webpack_require__(301);
+  docs.setPowerset = __webpack_require__(302);
+  docs.setSize = __webpack_require__(303);
+  docs.setSymDifference = __webpack_require__(304);
+  docs.setUnion = __webpack_require__(305);
 
   // functions - special
-  docs.erf = __webpack_require__(307);
+  docs.erf = __webpack_require__(306);
 
   // functions - statistics
-  docs.mad = __webpack_require__(308);
-  docs.max = __webpack_require__(309);
-  docs.mean = __webpack_require__(310);
-  docs.median = __webpack_require__(311);
-  docs.min = __webpack_require__(312);
-  docs.mode = __webpack_require__(313);
-  docs.prod = __webpack_require__(314);
-  docs.quantileSeq = __webpack_require__(315);
-  docs.std = __webpack_require__(316);
-  docs.sum = __webpack_require__(317);
-  docs['var'] = __webpack_require__(318);
+  docs.mad = __webpack_require__(307);
+  docs.max = __webpack_require__(308);
+  docs.mean = __webpack_require__(309);
+  docs.median = __webpack_require__(310);
+  docs.min = __webpack_require__(311);
+  docs.mode = __webpack_require__(312);
+  docs.prod = __webpack_require__(313);
+  docs.quantileSeq = __webpack_require__(314);
+  docs.std = __webpack_require__(315);
+  docs.sum = __webpack_require__(316);
+  docs['var'] = __webpack_require__(317);
 
   // functions - trigonometry
-  docs.acos = __webpack_require__(319);
-  docs.acosh = __webpack_require__(320);
-  docs.acot = __webpack_require__(321);
-  docs.acoth = __webpack_require__(322);
-  docs.acsc = __webpack_require__(323);
-  docs.acsch = __webpack_require__(324);
-  docs.asec = __webpack_require__(325);
-  docs.asech = __webpack_require__(326);
-  docs.asin = __webpack_require__(327);
-  docs.asinh = __webpack_require__(328);
-  docs.atan = __webpack_require__(329);
-  docs.atanh = __webpack_require__(331);
-  docs.atan2 = __webpack_require__(330);
-  docs.cos = __webpack_require__(332);
-  docs.cosh = __webpack_require__(333);
-  docs.cot = __webpack_require__(334);
-  docs.coth = __webpack_require__(335);
-  docs.csc = __webpack_require__(336);
-  docs.csch = __webpack_require__(337);
-  docs.sec = __webpack_require__(338);
-  docs.sech = __webpack_require__(339);
-  docs.sin = __webpack_require__(340);
-  docs.sinh = __webpack_require__(341);
-  docs.tan = __webpack_require__(342);
-  docs.tanh = __webpack_require__(343);
+  docs.acos = __webpack_require__(318);
+  docs.acosh = __webpack_require__(319);
+  docs.acot = __webpack_require__(320);
+  docs.acoth = __webpack_require__(321);
+  docs.acsc = __webpack_require__(322);
+  docs.acsch = __webpack_require__(323);
+  docs.asec = __webpack_require__(324);
+  docs.asech = __webpack_require__(325);
+  docs.asin = __webpack_require__(326);
+  docs.asinh = __webpack_require__(327);
+  docs.atan = __webpack_require__(328);
+  docs.atanh = __webpack_require__(330);
+  docs.atan2 = __webpack_require__(329);
+  docs.cos = __webpack_require__(331);
+  docs.cosh = __webpack_require__(332);
+  docs.cot = __webpack_require__(333);
+  docs.coth = __webpack_require__(334);
+  docs.csc = __webpack_require__(335);
+  docs.csch = __webpack_require__(336);
+  docs.sec = __webpack_require__(337);
+  docs.sech = __webpack_require__(338);
+  docs.sin = __webpack_require__(339);
+  docs.sinh = __webpack_require__(340);
+  docs.tan = __webpack_require__(341);
+  docs.tanh = __webpack_require__(342);
 
   // functions - units
-  docs.to = __webpack_require__(344);
+  docs.to = __webpack_require__(343);
 
   // functions - utils
-  docs.clone = __webpack_require__(345);
-  docs.format = __webpack_require__(346);
-  docs.isNaN = __webpack_require__(348);
-  docs.isInteger = __webpack_require__(347);
-  docs.isNegative = __webpack_require__(349);
-  docs.isNumeric = __webpack_require__(350);
-  docs.isPositive = __webpack_require__(351);
-  docs.isPrime = __webpack_require__(352);
-  docs.isZero = __webpack_require__(353);
+  docs.clone = __webpack_require__(344);
+  docs.format = __webpack_require__(345);
+  docs.isNaN = __webpack_require__(347);
+  docs.isInteger = __webpack_require__(346);
+  docs.isNegative = __webpack_require__(348);
+  docs.isNumeric = __webpack_require__(349);
+  docs.isPositive = __webpack_require__(350);
+  docs.isPrime = __webpack_require__(351);
+  docs.isZero = __webpack_require__(352);
   // docs.print = require('./function/utils/print'); // TODO: add documentation for print as soon as the parser supports objects.
-  docs['typeof'] =  __webpack_require__(354);
+  docs['typeof'] =  __webpack_require__(353);
 
   return docs;
 }
@@ -17243,7 +17243,7 @@ function factory (type, config, load, typed) {
   var Node = load(__webpack_require__(13));
   var ArrayNode = load(__webpack_require__(71));
   var matrix = load(__webpack_require__(0));
-  var assign = load(__webpack_require__(363));
+  var assign = load(__webpack_require__(362));
   var access = load(__webpack_require__(100));
 
   var keywords = __webpack_require__(70);
@@ -18810,8 +18810,8 @@ var number = util.number,
 
 function factory (type, config, load, typed) {
 
-  var cs_sqr = load(__webpack_require__(392));
-  var cs_lu = load(__webpack_require__(387));
+  var cs_sqr = load(__webpack_require__(391));
+  var cs_lu = load(__webpack_require__(386));
 
   /**
    * Calculate the Sparse Matrix LU decomposition with full pivoting. Sparse Matrix `A` is decomposed in two matrices (`L`, `U`) and two permutation vectors (`pinv`, `q`) where
@@ -18890,7 +18890,7 @@ function factory (type, config, load, typed, math) {
   var ParenthesisNode = load(__webpack_require__(59));
   var SymbolNode = load(__webpack_require__(35));
   var Node = load(__webpack_require__(13));
-  var simplifyConstant = load(__webpack_require__(378));
+  var simplifyConstant = load(__webpack_require__(377));
 
   var util = load(__webpack_require__(105));
   var isCommutative = util.isCommutative;
@@ -23752,7 +23752,7 @@ exports.factory = factory;
 /* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Complex = __webpack_require__(152);
+var Complex = __webpack_require__(149);
 var format = __webpack_require__(3).format;
 var isNumber = __webpack_require__(3).isNumber;
 
@@ -24643,7 +24643,7 @@ function hasher (args) {
 /* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Emitter = __webpack_require__(548);
+var Emitter = __webpack_require__(547);
 
 /**
  * Extend given object with emitter functions `on`, `off`, `once`, `emit`
@@ -24763,1039 +24763,17 @@ var mediaLength = function (value) {
 
 /***/ }),
 /* 148 */
-/***/ (function(module, exports) {
-
-/*!
- * FPSMeter 0.3.1 - 9th May 2013
- * https://github.com/Darsain/fpsmeter
- *
- * Licensed under the MIT license.
- * http://opensource.org/licenses/MIT
- */
-;(function (w, undefined) {
-	'use strict';
-
-	/**
-	 * Create a new element.
-	 *
-	 * @param  {String} name Element type name.
-	 *
-	 * @return {Element}
-	 */
-	function newEl(name) {
-		return document.createElement(name);
-	}
-
-	/**
-	 * Apply theme CSS properties to element.
-	 *
-	 * @param  {Element} element DOM element.
-	 * @param  {Object}  theme   Theme object.
-	 *
-	 * @return {Element}
-	 */
-	function applyTheme(element, theme) {
-		for (var name in theme) {
-			try {
-				element.style[name] = theme[name];
-			} catch (e) {}
-		}
-		return element;
-	}
-
-	/**
-	 * Return type of the value.
-	 *
-	 * @param  {Mixed} value
-	 *
-	 * @return {String}
-	 */
-	function type(value) {
-		if (value == null) {
-			return String(value);
-		}
-
-		if (typeof value === 'object' || typeof value === 'function') {
-			return Object.prototype.toString.call(value).match(/\s([a-z]+)/i)[1].toLowerCase() || 'object';
-		}
-
-		return typeof value;
-	}
-
-	/**
-	 * Check whether the value is in an array.
-	 *
-	 * @param  {Mixed} value
-	 * @param  {Array} array
-	 *
-	 * @return {Integer} Array index or -1 when not found.
-	 */
-	function inArray(value, array) {
-		if (type(array) !== 'array') {
-			return -1;
-		}
-		if (array.indexOf) {
-			return array.indexOf(value);
-		}
-		for (var i = 0, l = array.length; i < l; i++) {
-			if (array[i] === value) {
-				return i;
-			}
-		}
-		return -1;
-	}
-
-	/**
-	 * Poor man's deep object extend.
-	 *
-	 * Example:
-	 *   extend({}, defaults, options);
-	 *
-	 * @return {Void}
-	 */
-	function extend() {
-		var args = arguments;
-		for (var key in args[1]) {
-			if (args[1].hasOwnProperty(key)) {
-				switch (type(args[1][key])) {
-					case 'object':
-						args[0][key] = extend({}, args[0][key], args[1][key]);
-						break;
-
-					case 'array':
-						args[0][key] = args[1][key].slice(0);
-						break;
-
-					default:
-						args[0][key] = args[1][key];
-				}
-			}
-		}
-		return args.length > 2 ?
-			extend.apply(null, [args[0]].concat(Array.prototype.slice.call(args, 2))) :
-			args[0];
-	}
-
-	/**
-	 * Convert HSL color to HEX string.
-	 *
-	 * @param  {Array} hsl Array with [hue, saturation, lightness].
-	 *
-	 * @return {Array} Array with [red, green, blue].
-	 */
-	function hslToHex(h, s, l) {
-		var r, g, b;
-		var v, min, sv, sextant, fract, vsf;
-
-		if (l <= 0.5) {
-			v = l * (1 + s);
-		} else {
-			v = l + s - l * s;
-		}
-
-		if (v === 0) {
-			return '#000';
-		} else {
-			min = 2 * l - v;
-			sv = (v - min) / v;
-			h = 6 * h;
-			sextant = Math.floor(h);
-			fract = h - sextant;
-			vsf = v * sv * fract;
-			if (sextant === 0 || sextant === 6) {
-				r = v;
-				g = min + vsf;
-				b = min;
-			} else if (sextant === 1) {
-				r = v - vsf;
-				g = v;
-				b = min;
-			} else if (sextant === 2) {
-				r = min;
-				g = v;
-				b = min + vsf;
-			} else if (sextant === 3) {
-				r = min;
-				g = v - vsf;
-				b = v;
-			} else if (sextant === 4) {
-				r = min + vsf;
-				g = min;
-				b = v;
-			} else {
-				r = v;
-				g = min;
-				b = v - vsf;
-			}
-			return '#' + componentToHex(r) + componentToHex(g) + componentToHex(b);
-		}
-	}
-
-	/**
-	 * Helper function for hslToHex.
-	 */
-	function componentToHex(c) {
-		c = Math.round(c * 255).toString(16);
-		return c.length === 1 ? '0' + c : c;
-	}
-
-	/**
-	 * Manage element event listeners.
-	 *
-	 * @param  {Node}     element
-	 * @param  {Event}    eventName
-	 * @param  {Function} handler
-	 * @param  {Bool}     remove
-	 *
-	 * @return {Void}
-	 */
-	function listener(element, eventName, handler, remove) {
-		if (element.addEventListener) {
-			element[remove ? 'removeEventListener' : 'addEventListener'](eventName, handler, false);
-		} else if (element.attachEvent) {
-			element[remove ? 'detachEvent' : 'attachEvent']('on' + eventName, handler);
-		}
-	}
-
-	// Preferred timing funtion
-	var getTime;
-	(function () {
-		var perf = w.performance;
-		if (perf && (perf.now || perf.webkitNow)) {
-			var perfNow = perf.now ? 'now' : 'webkitNow';
-			getTime = perf[perfNow].bind(perf);
-		} else {
-			getTime = function () {
-				return +new Date();
-			};
-		}
-	}());
-
-	// Local WindowAnimationTiming interface polyfill
-	var cAF = w.cancelAnimationFrame || w.cancelRequestAnimationFrame;
-	var rAF = w.requestAnimationFrame;
-	(function () {
-		var vendors = ['moz', 'webkit', 'o'];
-		var lastTime = 0;
-
-		// For a more accurate WindowAnimationTiming interface implementation, ditch the native
-		// requestAnimationFrame when cancelAnimationFrame is not present (older versions of Firefox)
-		for (var i = 0, l = vendors.length; i < l && !cAF; ++i) {
-			cAF = w[vendors[i]+'CancelAnimationFrame'] || w[vendors[i]+'CancelRequestAnimationFrame'];
-			rAF = cAF && w[vendors[i]+'RequestAnimationFrame'];
-		}
-
-		if (!cAF) {
-			rAF = function (callback) {
-				var currTime = getTime();
-				var timeToCall = Math.max(0, 16 - (currTime - lastTime));
-				lastTime = currTime + timeToCall;
-				return w.setTimeout(function () { callback(currTime + timeToCall); }, timeToCall);
-			};
-
-			cAF = function (id) {
-				clearTimeout(id);
-			};
-		}
-	}());
-
-	// Property name for assigning element text content
-	var textProp = type(document.createElement('div').textContent) === 'string' ? 'textContent' : 'innerText';
-
-	/**
-	 * FPSMeter class.
-	 *
-	 * @param {Element} anchor  Element to append the meter to. Default is document.body.
-	 * @param {Object}  options Object with options.
-	 */
-	function FPSMeter(anchor, options) {
-		// Optional arguments
-		if (type(anchor) === 'object' && anchor.nodeType === undefined) {
-			options = anchor;
-			anchor = document.body;
-		}
-		if (!anchor) {
-			anchor = document.body;
-		}
-
-		// Private properties
-		var self = this;
-		var o = extend({}, FPSMeter.defaults, options || {});
-
-		var el = {};
-		var cols = [];
-		var theme, heatmaps;
-		var heatDepth = 100;
-		var heating = [];
-
-		var thisFrameTime = 0;
-		var frameTime = o.threshold;
-		var frameStart = 0;
-		var lastLoop = getTime() - frameTime;
-		var time;
-
-		var fpsHistory = [];
-		var durationHistory = [];
-
-		var frameID, renderID;
-		var showFps = o.show === 'fps';
-		var graphHeight, count, i, j;
-
-		// Exposed properties
-		self.options = o;
-		self.fps = 0;
-		self.duration = 0;
-		self.isPaused = 0;
-
-		/**
-		 * Tick start for measuring the actual rendering duration.
-		 *
-		 * @return {Void}
-		 */
-		self.tickStart = function () {
-			frameStart = getTime();
-		};
-
-		/**
-		 * FPS tick.
-		 *
-		 * @return {Void}
-		 */
-		self.tick = function () {
-			time = getTime();
-			thisFrameTime = time - lastLoop;
-			frameTime += (thisFrameTime - frameTime) / o.smoothing;
-			self.fps = 1000 / frameTime;
-			self.duration = frameStart < lastLoop ? frameTime : time - frameStart;
-			lastLoop = time;
-		};
-
-		/**
-		 * Pause display rendering.
-		 *
-		 * @return {Object} FPSMeter instance.
-		 */
-		self.pause = function () {
-			if (frameID) {
-				self.isPaused = 1;
-				clearTimeout(frameID);
-				cAF(frameID);
-				cAF(renderID);
-				frameID = renderID = 0;
-			}
-			return self;
-		};
-
-		/**
-		 * Resume display rendering.
-		 *
-		 * @return {Object} FPSMeter instance.
-		 */
-		self.resume = function () {
-			if (!frameID) {
-				self.isPaused = 0;
-				requestRender();
-			}
-			return self;
-		};
-
-		/**
-		 * Update options.
-		 *
-		 * @param {String} name  Option name.
-		 * @param {Mixed}  value New value.
-		 *
-		 * @return {Object} FPSMeter instance.
-		 */
-		self.set = function (name, value) {
-			o[name] = value;
-			showFps = o.show === 'fps';
-
-			// Rebuild or reposition elements when specific option has been updated
-			if (inArray(name, rebuilders) !== -1) {
-				createMeter();
-			}
-			if (inArray(name, repositioners) !== -1) {
-				positionMeter();
-			}
-			return self;
-		};
-
-		/**
-		 * Change meter into rendering duration mode.
-		 *
-		 * @return {Object} FPSMeter instance.
-		 */
-		self.showDuration = function () {
-			self.set('show', 'ms');
-			return self;
-		};
-
-		/**
-		 * Change meter into FPS mode.
-		 *
-		 * @return {Object} FPSMeter instance.
-		 */
-		self.showFps = function () {
-			self.set('show', 'fps');
-			return self;
-		};
-
-		/**
-		 * Toggles between show: 'fps' and show: 'duration'.
-		 *
-		 * @return {Object} FPSMeter instance.
-		 */
-		self.toggle = function () {
-			self.set('show', showFps ? 'ms' : 'fps');
-			return self;
-		};
-
-		/**
-		 * Hide the FPSMeter. Also pauses the rendering.
-		 *
-		 * @return {Object} FPSMeter instance.
-		 */
-		self.hide = function () {
-			self.pause();
-			el.container.style.display = 'none';
-			return self;
-		};
-
-		/**
-		 * Show the FPSMeter. Also resumes the rendering.
-		 *
-		 * @return {Object} FPSMeter instance.
-		 */
-		self.show = function () {
-			self.resume();
-			el.container.style.display = 'block';
-			return self;
-		};
-
-		/**
-		 * Check the current FPS and save it in history.
-		 *
-		 * @return {Void}
-		 */
-		function historyTick() {
-			for (i = o.history; i--;) {
-				fpsHistory[i] = i === 0 ? self.fps : fpsHistory[i-1];
-				durationHistory[i] = i === 0 ? self.duration : durationHistory[i-1];
-			}
-		}
-
-		/**
-		 * Returns heat hex color based on values passed.
-		 *
-		 * @param  {Integer} heatmap
-		 * @param  {Integer} value
-		 * @param  {Integer} min
-		 * @param  {Integer} max
-		 *
-		 * @return {Integer}
-		 */
-		function getHeat(heatmap, value, min, max) {
-			return heatmaps[0|heatmap][Math.round(Math.min((value - min) / (max - min) * heatDepth, heatDepth))];
-		}
-
-		/**
-		 * Update counter number and legend.
-		 *
-		 * @return {Void}
-		 */
-		function updateCounter() {
-			// Update legend only when changed
-			if (el.legend.fps !== showFps) {
-				el.legend.fps = showFps;
-				el.legend[textProp] = showFps ? 'FPS' : 'ms';
-			}
-			// Update counter with a nicely formated & readable number
-			count = showFps ? self.fps : self.duration;
-			el.count[textProp] = count > 999 ? '999+' : count.toFixed(count > 99 ? 0 : o.decimals);
-		}
-
-		/**
-		 * Render current FPS state.
-		 *
-		 * @return {Void}
-		 */
-		function render() {
-			time = getTime();
-			// If renderer stopped reporting, do a simulated drop to 0 fps
-			if (lastLoop < time - o.threshold) {
-				self.fps -= self.fps / Math.max(1, o.smoothing * 60 / o.interval);
-				self.duration = 1000 / self.fps;
-			}
-
-			historyTick();
-			updateCounter();
-
-			// Apply heat to elements
-			if (o.heat) {
-				if (heating.length) {
-					for (i = heating.length; i--;) {
-						heating[i].el.style[theme[heating[i].name].heatOn] = showFps ?
-							getHeat(theme[heating[i].name].heatmap, self.fps, 0, o.maxFps) :
-							getHeat(theme[heating[i].name].heatmap, self.duration, o.threshold, 0);
-					}
-				}
-
-				if (el.graph && theme.column.heatOn) {
-					for (i = cols.length; i--;) {
-						cols[i].style[theme.column.heatOn] = showFps ?
-							getHeat(theme.column.heatmap, fpsHistory[i], 0, o.maxFps) :
-							getHeat(theme.column.heatmap, durationHistory[i], o.threshold, 0);
-					}
-				}
-			}
-
-			// Update graph columns height
-			if (el.graph) {
-				for (j = 0; j < o.history; j++) {
-					cols[j].style.height = (showFps ?
-						(fpsHistory[j] ? Math.round(graphHeight / o.maxFps * Math.min(fpsHistory[j], o.maxFps)) : 0) :
-						(durationHistory[j] ? Math.round(graphHeight / o.threshold * Math.min(durationHistory[j], o.threshold)) : 0)
-					) + 'px';
-				}
-			}
-		}
-
-		/**
-		 * Request rendering loop.
-		 *
-		 * @return {Int} Animation frame index.
-		 */
-		function requestRender() {
-			if (o.interval < 20) {
-				frameID = rAF(requestRender);
-				render();
-			} else {
-				frameID = setTimeout(requestRender, o.interval);
-				renderID = rAF(render);
-			}
-		}
-
-		/**
-		 * Meter events handler.
-		 *
-		 * @return {Void}
-		 */
-		function eventHandler(event) {
-			event = event || window.event;
-			if (event.preventDefault) {
-				event.preventDefault();
-				event.stopPropagation();
-			} else {
-				event.returnValue = false;
-				event.cancelBubble = true;
-			}
-			self.toggle();
-		}
-
-		/**
-		 * Destroys the current FPSMeter instance.
-		 *
-		 * @return {Void}
-		 */
-		self.destroy = function () {
-			// Stop rendering
-			self.pause();
-			// Remove elements
-			removeMeter();
-			// Stop listening
-			self.tick = self.tickStart = function () {};
-		};
-
-		/**
-		 * Remove meter element.
-		 *
-		 * @return {Void}
-		 */
-		function removeMeter() {
-			// Unbind listeners
-			if (o.toggleOn) {
-				listener(el.container, o.toggleOn, eventHandler, 1);
-			}
-			// Detach element
-			anchor.removeChild(el.container);
-		}
-
-		/**
-		 * Sets the theme, and generates heatmaps when needed.
-		 */
-		function setTheme() {
-			theme = FPSMeter.theme[o.theme];
-
-			// Generate heatmaps
-			heatmaps = theme.compiledHeatmaps || [];
-			if (!heatmaps.length && theme.heatmaps.length) {
-				for (j = 0; j < theme.heatmaps.length; j++) {
-					heatmaps[j] = [];
-					for (i = 0; i <= heatDepth; i++) {
-						heatmaps[j][i] = hslToHex(0.33 / heatDepth * i, theme.heatmaps[j].saturation, theme.heatmaps[j].lightness);
-					}
-				}
-				theme.compiledHeatmaps = heatmaps;
-			}
-		}
-
-		/**
-		 * Creates and attaches the meter element.
-		 *
-		 * @return {Void}
-		 */
-		function createMeter() {
-			// Remove old meter if present
-			if (el.container) {
-				removeMeter();
-			}
-
-			// Set theme
-			setTheme();
-
-			// Create elements
-			el.container = applyTheme(newEl('div'), theme.container);
-			el.count = el.container.appendChild(applyTheme(newEl('div'), theme.count));
-			el.legend = el.container.appendChild(applyTheme(newEl('div'), theme.legend));
-			el.graph = o.graph ? el.container.appendChild(applyTheme(newEl('div'), theme.graph)) : 0;
-
-			// Add elements to heating array
-			heating.length = 0;
-			for (var key in el) {
-				if (el[key] && theme[key].heatOn) {
-					heating.push({
-						name: key,
-						el: el[key]
-					});
-				}
-			}
-
-			// Graph
-			cols.length = 0;
-			if (el.graph) {
-				// Create graph
-				el.graph.style.width = (o.history * theme.column.width + (o.history - 1) * theme.column.spacing) + 'px';
-
-				// Add columns
-				for (i = 0; i < o.history; i++) {
-					cols[i] = el.graph.appendChild(applyTheme(newEl('div'), theme.column));
-					cols[i].style.position = 'absolute';
-					cols[i].style.bottom = 0;
-					cols[i].style.right = (i * theme.column.width + i * theme.column.spacing) + 'px';
-					cols[i].style.width = theme.column.width + 'px';
-					cols[i].style.height = '0px';
-				}
-			}
-
-			// Set the initial state
-			positionMeter();
-			updateCounter();
-
-			// Append container to anchor
-			anchor.appendChild(el.container);
-
-			// Retrieve graph height after it was appended to DOM
-			if (el.graph) {
-				graphHeight = el.graph.clientHeight;
-			}
-
-			// Add event listeners
-			if (o.toggleOn) {
-				if (o.toggleOn === 'click') {
-					el.container.style.cursor = 'pointer';
-				}
-				listener(el.container, o.toggleOn, eventHandler);
-			}
-		}
-
-		/**
-		 * Positions the meter based on options.
-		 *
-		 * @return {Void}
-		 */
-		function positionMeter() {
-			applyTheme(el.container, o);
-		}
-
-		/**
-		 * Construct.
-		 */
-		(function () {
-			// Create meter element
-			createMeter();
-			// Start rendering
-			requestRender();
-		}());
-	}
-
-	// Expose the extend function
-	FPSMeter.extend = extend;
-
-	// Expose the FPSMeter class
-	window.FPSMeter = FPSMeter;
-
-	// Default options
-	FPSMeter.defaults = {
-		interval:  100,     // Update interval in milliseconds.
-		smoothing: 10,      // Spike smoothing strength. 1 means no smoothing.
-		show:      'fps',   // Whether to show 'fps', or 'ms' = frame duration in milliseconds.
-		toggleOn:  'click', // Toggle between show 'fps' and 'ms' on this event.
-		decimals:  1,       // Number of decimals in FPS number. 1 = 59.9, 2 = 59.94, ...
-		maxFps:    60,      // Max expected FPS value.
-		threshold: 100,     // Minimal tick reporting interval in milliseconds.
-
-		// Meter position
-		position: 'absolute', // Meter position.
-		zIndex:   10,         // Meter Z index.
-		left:     '5px',      // Meter left offset.
-		top:      '5px',      // Meter top offset.
-		right:    'auto',     // Meter right offset.
-		bottom:   'auto',     // Meter bottom offset.
-		margin:   '0 0 0 0',  // Meter margin. Helps with centering the counter when left: 50%;
-
-		// Theme
-		theme: 'dark', // Meter theme. Build in: 'dark', 'light', 'transparent', 'colorful'.
-		heat:  0,      // Allow themes to use coloring by FPS heat. 0 FPS = red, maxFps = green.
-
-		// Graph
-		graph:   0, // Whether to show history graph.
-		history: 20 // How many history states to show in a graph.
-	};
-
-	// Option names that trigger FPSMeter rebuild or reposition when modified
-	var rebuilders = [
-		'toggleOn',
-		'theme',
-		'heat',
-		'graph',
-		'history'
-	];
-	var repositioners = [
-		'position',
-		'zIndex',
-		'left',
-		'top',
-		'right',
-		'bottom',
-		'margin'
-	];
-}(window));
-;(function (w, FPSMeter, undefined) {
-	'use strict';
-
-	// Themes object
-	FPSMeter.theme = {};
-
-	// Base theme with layout, no colors
-	var base = FPSMeter.theme.base = {
-		heatmaps: [],
-		container: {
-			// Settings
-			heatOn: null,
-			heatmap: null,
-
-			// Styles
-			padding: '5px',
-			minWidth: '95px',
-			height: '30px',
-			lineHeight: '30px',
-			textAlign: 'right',
-			textShadow: 'none'
-		},
-		count: {
-			// Settings
-			heatOn: null,
-			heatmap: null,
-
-			// Styles
-			position: 'absolute',
-			top: 0,
-			right: 0,
-			padding: '5px 10px',
-			height: '30px',
-			fontSize: '24px',
-			fontFamily: 'Consolas, Andale Mono, monospace',
-			zIndex: 2
-		},
-		legend: {
-			// Settings
-			heatOn: null,
-			heatmap: null,
-
-			// Styles
-			position: 'absolute',
-			top: 0,
-			left: 0,
-			padding: '5px 10px',
-			height: '30px',
-			fontSize: '12px',
-			lineHeight: '32px',
-			fontFamily: 'sans-serif',
-			textAlign: 'left',
-			zIndex: 2
-		},
-		graph: {
-			// Settings
-			heatOn: null,
-			heatmap: null,
-
-			// Styles
-			position: 'relative',
-			boxSizing: 'padding-box',
-			MozBoxSizing: 'padding-box',
-			height: '100%',
-			zIndex: 1
-		},
-		column: {
-			// Settings
-			width: 4,
-			spacing: 1,
-			heatOn: null,
-			heatmap: null
-		}
-	};
-
-	// Dark theme
-	FPSMeter.theme.dark = FPSMeter.extend({}, base, {
-		heatmaps: [{
-			saturation: 0.8,
-			lightness: 0.8
-		}],
-		container: {
-			background: '#222',
-			color: '#fff',
-			border: '1px solid #1a1a1a',
-			textShadow: '1px 1px 0 #222'
-		},
-		count: {
-			heatOn: 'color'
-		},
-		column: {
-			background: '#3f3f3f'
-		}
-	});
-
-	// Light theme
-	FPSMeter.theme.light = FPSMeter.extend({}, base, {
-		heatmaps: [{
-			saturation: 0.5,
-			lightness: 0.5
-		}],
-		container: {
-			color: '#666',
-			background: '#fff',
-			textShadow: '1px 1px 0 rgba(255,255,255,.5), -1px -1px 0 rgba(255,255,255,.5)',
-			boxShadow: '0 0 0 1px rgba(0,0,0,.1)'
-		},
-		count: {
-			heatOn: 'color'
-		},
-		column: {
-			background: '#eaeaea'
-		}
-	});
-
-	// Colorful theme
-	FPSMeter.theme.colorful = FPSMeter.extend({}, base, {
-		heatmaps: [{
-			saturation: 0.5,
-			lightness: 0.6
-		}],
-		container: {
-			heatOn: 'backgroundColor',
-			background: '#888',
-			color: '#fff',
-			textShadow: '1px 1px 0 rgba(0,0,0,.2)',
-			boxShadow: '0 0 0 1px rgba(0,0,0,.1)'
-		},
-		column: {
-			background: '#777',
-			backgroundColor: 'rgba(0,0,0,.2)'
-		}
-	});
-
-	// Transparent theme
-	FPSMeter.theme.transparent = FPSMeter.extend({}, base, {
-		heatmaps: [{
-			saturation: 0.8,
-			lightness: 0.5
-		}],
-		container: {
-			padding: 0,
-			color: '#fff',
-			textShadow: '1px 1px 0 rgba(0,0,0,.5)'
-		},
-		count: {
-			padding: '0 5px',
-			height: '40px',
-			lineHeight: '40px'
-		},
-		legend: {
-			padding: '0 5px',
-			height: '40px',
-			lineHeight: '42px'
-		},
-		graph: {
-			height: '40px'
-		},
-		column: {
-			width: 5,
-			background: '#999',
-			heatOn: 'backgroundColor',
-			opacity: 0.5
-		}
-	});
-}(window, FPSMeter));
-
-/***/ }),
-/* 149 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var core = __webpack_require__(156);
-
-/**
- * math.js factory function. Creates a new instance of math.js
- *
- * @param {Object} [config] Available configuration options:
- *                            {number} epsilon
- *                              Minimum relative difference between two
- *                              compared values, used by all comparison functions.
- *                            {string} matrix
- *                              A string 'matrix' (default) or 'array'.
- *                            {string} number
- *                              A string 'number' (default), 'bignumber', or
- *                              'fraction'
- *                            {number} precision
- *                              The number of significant digits for BigNumbers.
- *                              Not applicable for Numbers.
- *                            {boolean} predictable
- *                              Predictable output type of functions. When true,
- *                              output type depends only on the input types. When
- *                              false (default), output type can vary depending
- *                              on input values. For example `math.sqrt(-4)`
- *                              returns `complex('2i')` when predictable is false, and
- *                              returns `NaN` when true.
- */
-function create (config) {
-  // create a new math.js instance
-  var math = core.create(config);
-  math.create = create;
-
-  // import data types, functions, constants, expression parser, etc.
-  math['import'](__webpack_require__(507));
-
-  return math;
-}
-
-// return a new instance of math.js
-module.exports = create();
-
-
-/***/ }),
-/* 150 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setStylesTarget", function() { return setStylesTarget; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssRaw", function() { return cssRaw; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssRule", function() { return cssRule; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "forceRenderStyles", function() { return forceRenderStyles; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fontFace", function() { return fontFace; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStyles", function() { return getStyles; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "keyframes", function() { return keyframes; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "reinit", function() { return reinit; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "style", function() { return style; });
-/* harmony export (immutable) */ __webpack_exports__["createTypeStyle"] = createTypeStyle;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_typestyle__ = __webpack_require__(551);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TypeStyle", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_typestyle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__types__ = __webpack_require__(552);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__types__);
-/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "types", function() { return __WEBPACK_IMPORTED_MODULE_1__types__; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__internal_utilities__ = __webpack_require__(147);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "extend", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_utilities__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "classes", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_utilities__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "media", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_utilities__["c"]; });
-
-
-/**
- * All the CSS types in the 'types' namespace
- */
-
-
-/**
- * Export certain utilities
- */
-
-/** Zero configuration, default instance of TypeStyle */
-var ts = new __WEBPACK_IMPORTED_MODULE_0__internal_typestyle__["a" /* TypeStyle */]({ autoGenerateTag: true });
-/** Sets the target tag where we write the css on style updates */
-var setStylesTarget = ts.setStylesTarget;
-/**
- * Insert `raw` CSS as a string. This is useful for e.g.
- * - third party CSS that you are customizing with template strings
- * - generating raw CSS in JavaScript
- * - reset libraries like normalize.css that you can use without loaders
- */
-var cssRaw = ts.cssRaw;
-/**
- * Takes CSSProperties and registers it to a global selector (body, html, etc.)
- */
-var cssRule = ts.cssRule;
-/**
- * Renders styles to the singleton tag imediately
- * NOTE: You should only call it on initial render to prevent any non CSS flash.
- * After that it is kept sync using `requestAnimationFrame` and we haven't noticed any bad flashes.
- **/
-var forceRenderStyles = ts.forceRenderStyles;
-/**
- * Utility function to register an @font-face
- */
-var fontFace = ts.fontFace;
-/**
- * Allows use to use the stylesheet in a node.js environment
- */
-var getStyles = ts.getStyles;
-/**
- * Takes keyframes and returns a generated animationName
- */
-var keyframes = ts.keyframes;
-/**
- * Helps with testing. Reinitializes FreeStyle + raw
- */
-var reinit = ts.reinit;
-/**
- * Takes CSSProperties and return a generated className you can use on your component
- */
-var style = ts.style;
-/**
- * Creates a new instance of TypeStyle separate from the default instance.
- *
- * - Use this for creating a different typestyle instance for a shadow dom component.
- * - Use this if you don't want an auto tag generated and you just want to collect the CSS.
- *
- * NOTE: styles aren't shared between different instances.
- */
-function createTypeStyle(target) {
-    var instance = new __WEBPACK_IMPORTED_MODULE_0__internal_typestyle__["a" /* TypeStyle */]({ autoGenerateTag: false });
-    if (target) {
-        instance.setStylesTarget(target);
-    }
-    return instance;
-}
-
-
-/***/ }),
-/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var typestyle_1 = __webpack_require__(150);
-__webpack_require__(148);
-var math = __webpack_require__(149);
+var typestyle_1 = __webpack_require__(549);
+__webpack_require__(151);
+var math = __webpack_require__(155);
+var b2d_collision = Box2D.Collision;
+// import * from 'Box2D.Collision';
+// import 'Box2D.Collision';
 var MyTest;
 (function (MyTest) {
     // Example A ===================================================================================================
@@ -25848,11 +24826,269 @@ var MyTest;
     // Example D ===================================================================================================
     var test2 = math.abs(-7.5);
     console.log("Math abs is: [" + test2 + "]");
+    function createWorld() {
+        alert("2");
+        console.log("createWorld() invoked");
+        var worldAABB = new b2d_collision.b2AABB();
+        console.log("ACCESS SOLVED!");
+        worldAABB.minVertex.Set(-1000, -1000);
+        worldAABB.maxVertex.Set(1000, 1000);
+        var gravity = new b2Vec2(0, 300);
+        var doSleep = true;
+        var world = new b2World(worldAABB, gravity, doSleep);
+        createGround(world);
+        createBox(world, 0, 125, 10, 250);
+        createBox(world, 500, 125, 10, 250);
+        return world;
+    }
+    alert("1");
+    var demos = {};
+    demos.InitWorlds = [];
+    demos.top = {};
+    demos.top.createBall = function (world, x, y, rad, fixed) {
+        var ballSd = new b2CircleDef();
+        if (!fixed)
+            ballSd.density = 1.0;
+        ballSd.radius = rad || 10;
+        ballSd.restitution = 0.2;
+        var ballBd = new b2BodyDef();
+        ballBd.AddShape(ballSd);
+        ballBd.position.Set(x, y);
+        return world.CreateBody(ballBd);
+    };
+    demos.top.createPoly = function (world, x, y, points, fixed) {
+        var polySd = new b2PolyDef();
+        if (!fixed)
+            polySd.density = 1.0;
+        polySd.vertexCount = points.length;
+        for (var i = 0; i < points.length; i++) {
+            polySd.vertices[i].Set(points[i][0], points[i][1]);
+        }
+        var polyBd = new b2BodyDef();
+        polyBd.AddShape(polySd);
+        polyBd.position.Set(x, y);
+        return world.CreateBody(polyBd);
+    };
+    demos.top.initWorld = function (world) {
+        demos.top.createBall(world, 350, 100, 50, true);
+        demos.top.createPoly(world, 100, 100, [[0, 0], [10, 30], [-10, 30]], true);
+        demos.top.createPoly(world, 150, 150, [[0, 0], [10, 30], [-10, 30]], true);
+        var pendulum = createBox(world, 150, 100, 20, 20, false);
+        var jointDef = new b2RevoluteJointDef();
+        jointDef.body1 = pendulum;
+        jointDef.body2 = world.GetGroundBody();
+        jointDef.anchorPoint = pendulum.GetCenterPosition();
+        world.CreateJoint(jointDef);
+        var seesaw = demos.top.createPoly(world, 300, 200, [[0, 0], [100, 30], [-100, 30]]);
+        jointDef.body1 = seesaw;
+        jointDef.anchorPoint = seesaw.GetCenterPosition();
+        world.CreateJoint(jointDef);
+    };
+    demos.InitWorlds.push(demos.top.initWorld);
+    demos.stack = {};
+    demos.stack.initWorld = function (world) {
+        var sd = new b2BoxDef();
+        var bd = new b2BodyDef();
+        bd.AddShape(sd);
+        sd.density = 1.0;
+        sd.friction = 0.5;
+        sd.extents.Set(10, 10);
+        var i;
+        for (i = 0; i < 8; i++) {
+            bd.position.Set(500 / 2 - Math.random() * 2 - 1, (250 - 5 - i * 22));
+            world.CreateBody(bd);
+        }
+        for (i = 0; i < 8; i++) {
+            bd.position.Set(500 / 2 - 100 - Math.random() * 5 + i, (250 - 5 - i * 22));
+            world.CreateBody(bd);
+        }
+        for (i = 0; i < 8; i++) {
+            bd.position.Set(500 / 2 + 100 + Math.random() * 5 - i, (250 - 5 - i * 22));
+            world.CreateBody(bd);
+        }
+    };
+    demos.InitWorlds.push(demos.stack.initWorld);
+    demos.compound = {};
+    demos.compound.createCompoundBall = function (world, x, y) {
+        var ballSd1 = new b2CircleDef();
+        ballSd1.density = 1.0;
+        ballSd1.radius = 20;
+        ballSd1.restitution = 0.2;
+        ballSd1.localPosition.Set(-20, 0);
+        var ballSd2 = new b2CircleDef();
+        ballSd2.density = 1.0;
+        ballSd2.radius = 20;
+        ballSd2.restitution = 0.2;
+        ballSd2.localPosition.Set(20, 0);
+        var ballBd = new b2BodyDef();
+        ballBd.AddShape(ballSd1);
+        ballBd.AddShape(ballSd2);
+        ballBd.position.Set(x, y);
+        return world.CreateBody(ballBd);
+    };
+    demos.compound.createCompoundPoly = function (world, x, y) {
+        var points = [[-30, 0], [30, 0], [0, 15]];
+        var polySd1 = new b2PolyDef();
+        polySd1.vertexCount = points.length;
+        for (var i = 0; i < points.length; i++) {
+            polySd1.vertices[i].Set(points[i][0], points[i][1]);
+        }
+        polySd1.localRotation = 0.3524 * Math.PI;
+        var R1 = new b2Mat22(polySd1.localRotation);
+        polySd1.localPosition = b2Math.b2MulMV(R1, new b2Vec2(30, 0));
+        polySd1.density = 1.0;
+        var polySd2 = new b2PolyDef();
+        polySd2.vertexCount = points.length;
+        for (var i = 0; i < points.length; i++) {
+            polySd2.vertices[i].Set(points[i][0], points[i][1]);
+        }
+        polySd2.localRotation = -0.3524 * Math.PI;
+        var R2 = new b2Mat22(polySd2.localRotation);
+        polySd2.localPosition = b2Math.b2MulMV(R2, new b2Vec2(-30, 0));
+        var polyBd = new b2BodyDef();
+        polyBd.AddShape(polySd1);
+        polyBd.AddShape(polySd2);
+        polyBd.position.Set(x, y);
+        return world.CreateBody(polyBd);
+    };
+    demos.compound.initWorld = function (world) {
+        var i;
+        for (i = 1; i <= 4; i++) {
+            demos.compound.createCompoundPoly(world, 150 + 3 * Math.random(), 40 * i);
+        }
+        for (i = 1; i <= 4; i++) {
+            demos.compound.createCompoundBall(world, 350 + 3 * Math.random(), 45 * i);
+        }
+    };
+    demos.InitWorlds.push(demos.compound.initWorld);
+    demos.pendulum = {};
+    demos.pendulum.initWorld = function (world) {
+        var i;
+        var ground = world.GetGroundBody();
+        var jointDef = new b2RevoluteJointDef();
+        var L = 150;
+        for (i = 0; i < 4; i++) {
+            jointDef.anchorPoint.Set(250 + 40 * i, 200 - L);
+            jointDef.body1 = ground;
+            jointDef.body2 = createBall(world, 250 + 40 * i, 200);
+            world.CreateJoint(jointDef);
+        }
+        jointDef.anchorPoint.Set(250 - 40, 200 - L);
+        jointDef.body1 = ground;
+        jointDef.body2 = createBall(world, 250 - 40 - L, 200 - L);
+        world.CreateJoint(jointDef);
+    };
+    demos.InitWorlds.push(demos.pendulum.initWorld);
+    demos.crank = {};
+    demos.crank.initWorld = function (world) {
+        var ground = world.m_groundBody;
+        // Define crank.
+        var sd = new b2BoxDef();
+        sd.extents.Set(5, 25);
+        sd.density = 1.0;
+        var bd = new b2BodyDef();
+        bd.AddShape(sd);
+        var rjd = new b2RevoluteJointDef();
+        var prevBody = ground;
+        bd.position.Set(500 / 2, 210);
+        var body = world.CreateBody(bd);
+        rjd.anchorPoint.Set(500 / 2, 235);
+        rjd.body1 = prevBody;
+        rjd.body2 = body;
+        rjd.motorSpeed = -1.0 * Math.PI;
+        rjd.motorTorque = 500000000.0;
+        rjd.enableMotor = true;
+        world.CreateJoint(rjd);
+        prevBody = body;
+        // Define follower.
+        sd.extents.Set(5, 45);
+        bd.position.Set(500 / 2, 140);
+        body = world.CreateBody(bd);
+        rjd.anchorPoint.Set(500 / 2, 185);
+        rjd.body1 = prevBody;
+        rjd.body2 = body;
+        rjd.enableMotor = false;
+        world.CreateJoint(rjd);
+        prevBody = body;
+        // Define piston
+        sd.extents.Set(20, 20);
+        bd.position.Set(500 / 2, 95);
+        body = world.CreateBody(bd);
+        rjd.anchorPoint.Set(500 / 2, 95);
+        rjd.body1 = prevBody;
+        rjd.body2 = body;
+        world.CreateJoint(rjd);
+        var pjd = new b2PrismaticJointDef();
+        pjd.anchorPoint.Set(500 / 2, 95);
+        pjd.body1 = ground;
+        pjd.body2 = body;
+        pjd.axis.Set(0.0, 1.0);
+        pjd.motorSpeed = 0.0; // joint friction
+        pjd.motorForce = 100000.0;
+        pjd.enableMotor = true;
+        world.CreateJoint(pjd);
+        // Create a payload
+        sd.density = 2.0;
+        bd.position.Set(500 / 2, 10);
+        world.CreateBody(bd);
+    };
+    demos.InitWorlds.push(demos.crank.initWorld);
+    var initId = 0;
+    var world = createWorld();
+    var ctx;
+    var canvasWidth;
+    var canvasHeight;
+    var canvasTop;
+    var canvasLeft;
+    function setupWorld(did) {
+        if (!did)
+            did = 0;
+        world = createWorld();
+        initId += did;
+        initId %= demos.InitWorlds.length;
+        if (initId < 0)
+            initId = demos.InitWorlds.length + initId;
+        demos.InitWorlds[initId](world);
+    }
+    function setupNextWorld() { setupWorld(1); }
+    function setupPrevWorld() { setupWorld(-1); }
+    function step(cnt) {
+        var stepping = false;
+        var timeStep = 1.0 / 60;
+        var iteration = 1;
+        world.Step(timeStep, iteration);
+        ctx.clearRect(0, 0, canvasWidth, canvasHeight);
+        drawWorld(world, ctx);
+        setTimeout('step(' + (cnt || 0) + ')', 10);
+    }
+    Event.observe(window, 'load', function () {
+        setupWorld();
+        ctx = $('canvas').getContext('2d');
+        var canvasElm = $('canvas');
+        canvasWidth = parseInt(canvasElm.width);
+        canvasHeight = parseInt(canvasElm.height);
+        canvasTop = parseInt(canvasElm.style.top);
+        canvasLeft = parseInt(canvasElm.style.left);
+        Event.observe('canvas', 'click', function (e) {
+            //setupNextWorld();
+            if (Math.random() < 0.5)
+                demos.top.createBall(world, Event.pointerX(e) - canvasLeft, Event.pointerY(e) - canvasTop);
+            else
+                createBox(world, Event.pointerX(e) - canvasLeft, Event.pointerY(e) - canvasTop, 10, 10, false);
+        });
+        Event.observe('canvas', 'contextmenu', function (e) {
+            if (e.preventDefault)
+                e.preventDefault();
+            setupPrevWorld();
+            return false;
+        });
+        step();
+    });
 })(MyTest || (MyTest = {}));
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 152 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -27112,7 +26348,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 153 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;/*! decimal.js v7.2.3 https://github.com/MikeMcl/decimal.js/LICENCE */
@@ -31932,7 +31168,894 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*! decimal.js v7.2.3 https://github.com/MikeM
 
 
 /***/ }),
-/* 154 */
+/* 151 */
+/***/ (function(module, exports) {
+
+/*!
+ * FPSMeter 0.3.1 - 9th May 2013
+ * https://github.com/Darsain/fpsmeter
+ *
+ * Licensed under the MIT license.
+ * http://opensource.org/licenses/MIT
+ */
+;(function (w, undefined) {
+	'use strict';
+
+	/**
+	 * Create a new element.
+	 *
+	 * @param  {String} name Element type name.
+	 *
+	 * @return {Element}
+	 */
+	function newEl(name) {
+		return document.createElement(name);
+	}
+
+	/**
+	 * Apply theme CSS properties to element.
+	 *
+	 * @param  {Element} element DOM element.
+	 * @param  {Object}  theme   Theme object.
+	 *
+	 * @return {Element}
+	 */
+	function applyTheme(element, theme) {
+		for (var name in theme) {
+			try {
+				element.style[name] = theme[name];
+			} catch (e) {}
+		}
+		return element;
+	}
+
+	/**
+	 * Return type of the value.
+	 *
+	 * @param  {Mixed} value
+	 *
+	 * @return {String}
+	 */
+	function type(value) {
+		if (value == null) {
+			return String(value);
+		}
+
+		if (typeof value === 'object' || typeof value === 'function') {
+			return Object.prototype.toString.call(value).match(/\s([a-z]+)/i)[1].toLowerCase() || 'object';
+		}
+
+		return typeof value;
+	}
+
+	/**
+	 * Check whether the value is in an array.
+	 *
+	 * @param  {Mixed} value
+	 * @param  {Array} array
+	 *
+	 * @return {Integer} Array index or -1 when not found.
+	 */
+	function inArray(value, array) {
+		if (type(array) !== 'array') {
+			return -1;
+		}
+		if (array.indexOf) {
+			return array.indexOf(value);
+		}
+		for (var i = 0, l = array.length; i < l; i++) {
+			if (array[i] === value) {
+				return i;
+			}
+		}
+		return -1;
+	}
+
+	/**
+	 * Poor man's deep object extend.
+	 *
+	 * Example:
+	 *   extend({}, defaults, options);
+	 *
+	 * @return {Void}
+	 */
+	function extend() {
+		var args = arguments;
+		for (var key in args[1]) {
+			if (args[1].hasOwnProperty(key)) {
+				switch (type(args[1][key])) {
+					case 'object':
+						args[0][key] = extend({}, args[0][key], args[1][key]);
+						break;
+
+					case 'array':
+						args[0][key] = args[1][key].slice(0);
+						break;
+
+					default:
+						args[0][key] = args[1][key];
+				}
+			}
+		}
+		return args.length > 2 ?
+			extend.apply(null, [args[0]].concat(Array.prototype.slice.call(args, 2))) :
+			args[0];
+	}
+
+	/**
+	 * Convert HSL color to HEX string.
+	 *
+	 * @param  {Array} hsl Array with [hue, saturation, lightness].
+	 *
+	 * @return {Array} Array with [red, green, blue].
+	 */
+	function hslToHex(h, s, l) {
+		var r, g, b;
+		var v, min, sv, sextant, fract, vsf;
+
+		if (l <= 0.5) {
+			v = l * (1 + s);
+		} else {
+			v = l + s - l * s;
+		}
+
+		if (v === 0) {
+			return '#000';
+		} else {
+			min = 2 * l - v;
+			sv = (v - min) / v;
+			h = 6 * h;
+			sextant = Math.floor(h);
+			fract = h - sextant;
+			vsf = v * sv * fract;
+			if (sextant === 0 || sextant === 6) {
+				r = v;
+				g = min + vsf;
+				b = min;
+			} else if (sextant === 1) {
+				r = v - vsf;
+				g = v;
+				b = min;
+			} else if (sextant === 2) {
+				r = min;
+				g = v;
+				b = min + vsf;
+			} else if (sextant === 3) {
+				r = min;
+				g = v - vsf;
+				b = v;
+			} else if (sextant === 4) {
+				r = min + vsf;
+				g = min;
+				b = v;
+			} else {
+				r = v;
+				g = min;
+				b = v - vsf;
+			}
+			return '#' + componentToHex(r) + componentToHex(g) + componentToHex(b);
+		}
+	}
+
+	/**
+	 * Helper function for hslToHex.
+	 */
+	function componentToHex(c) {
+		c = Math.round(c * 255).toString(16);
+		return c.length === 1 ? '0' + c : c;
+	}
+
+	/**
+	 * Manage element event listeners.
+	 *
+	 * @param  {Node}     element
+	 * @param  {Event}    eventName
+	 * @param  {Function} handler
+	 * @param  {Bool}     remove
+	 *
+	 * @return {Void}
+	 */
+	function listener(element, eventName, handler, remove) {
+		if (element.addEventListener) {
+			element[remove ? 'removeEventListener' : 'addEventListener'](eventName, handler, false);
+		} else if (element.attachEvent) {
+			element[remove ? 'detachEvent' : 'attachEvent']('on' + eventName, handler);
+		}
+	}
+
+	// Preferred timing funtion
+	var getTime;
+	(function () {
+		var perf = w.performance;
+		if (perf && (perf.now || perf.webkitNow)) {
+			var perfNow = perf.now ? 'now' : 'webkitNow';
+			getTime = perf[perfNow].bind(perf);
+		} else {
+			getTime = function () {
+				return +new Date();
+			};
+		}
+	}());
+
+	// Local WindowAnimationTiming interface polyfill
+	var cAF = w.cancelAnimationFrame || w.cancelRequestAnimationFrame;
+	var rAF = w.requestAnimationFrame;
+	(function () {
+		var vendors = ['moz', 'webkit', 'o'];
+		var lastTime = 0;
+
+		// For a more accurate WindowAnimationTiming interface implementation, ditch the native
+		// requestAnimationFrame when cancelAnimationFrame is not present (older versions of Firefox)
+		for (var i = 0, l = vendors.length; i < l && !cAF; ++i) {
+			cAF = w[vendors[i]+'CancelAnimationFrame'] || w[vendors[i]+'CancelRequestAnimationFrame'];
+			rAF = cAF && w[vendors[i]+'RequestAnimationFrame'];
+		}
+
+		if (!cAF) {
+			rAF = function (callback) {
+				var currTime = getTime();
+				var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+				lastTime = currTime + timeToCall;
+				return w.setTimeout(function () { callback(currTime + timeToCall); }, timeToCall);
+			};
+
+			cAF = function (id) {
+				clearTimeout(id);
+			};
+		}
+	}());
+
+	// Property name for assigning element text content
+	var textProp = type(document.createElement('div').textContent) === 'string' ? 'textContent' : 'innerText';
+
+	/**
+	 * FPSMeter class.
+	 *
+	 * @param {Element} anchor  Element to append the meter to. Default is document.body.
+	 * @param {Object}  options Object with options.
+	 */
+	function FPSMeter(anchor, options) {
+		// Optional arguments
+		if (type(anchor) === 'object' && anchor.nodeType === undefined) {
+			options = anchor;
+			anchor = document.body;
+		}
+		if (!anchor) {
+			anchor = document.body;
+		}
+
+		// Private properties
+		var self = this;
+		var o = extend({}, FPSMeter.defaults, options || {});
+
+		var el = {};
+		var cols = [];
+		var theme, heatmaps;
+		var heatDepth = 100;
+		var heating = [];
+
+		var thisFrameTime = 0;
+		var frameTime = o.threshold;
+		var frameStart = 0;
+		var lastLoop = getTime() - frameTime;
+		var time;
+
+		var fpsHistory = [];
+		var durationHistory = [];
+
+		var frameID, renderID;
+		var showFps = o.show === 'fps';
+		var graphHeight, count, i, j;
+
+		// Exposed properties
+		self.options = o;
+		self.fps = 0;
+		self.duration = 0;
+		self.isPaused = 0;
+
+		/**
+		 * Tick start for measuring the actual rendering duration.
+		 *
+		 * @return {Void}
+		 */
+		self.tickStart = function () {
+			frameStart = getTime();
+		};
+
+		/**
+		 * FPS tick.
+		 *
+		 * @return {Void}
+		 */
+		self.tick = function () {
+			time = getTime();
+			thisFrameTime = time - lastLoop;
+			frameTime += (thisFrameTime - frameTime) / o.smoothing;
+			self.fps = 1000 / frameTime;
+			self.duration = frameStart < lastLoop ? frameTime : time - frameStart;
+			lastLoop = time;
+		};
+
+		/**
+		 * Pause display rendering.
+		 *
+		 * @return {Object} FPSMeter instance.
+		 */
+		self.pause = function () {
+			if (frameID) {
+				self.isPaused = 1;
+				clearTimeout(frameID);
+				cAF(frameID);
+				cAF(renderID);
+				frameID = renderID = 0;
+			}
+			return self;
+		};
+
+		/**
+		 * Resume display rendering.
+		 *
+		 * @return {Object} FPSMeter instance.
+		 */
+		self.resume = function () {
+			if (!frameID) {
+				self.isPaused = 0;
+				requestRender();
+			}
+			return self;
+		};
+
+		/**
+		 * Update options.
+		 *
+		 * @param {String} name  Option name.
+		 * @param {Mixed}  value New value.
+		 *
+		 * @return {Object} FPSMeter instance.
+		 */
+		self.set = function (name, value) {
+			o[name] = value;
+			showFps = o.show === 'fps';
+
+			// Rebuild or reposition elements when specific option has been updated
+			if (inArray(name, rebuilders) !== -1) {
+				createMeter();
+			}
+			if (inArray(name, repositioners) !== -1) {
+				positionMeter();
+			}
+			return self;
+		};
+
+		/**
+		 * Change meter into rendering duration mode.
+		 *
+		 * @return {Object} FPSMeter instance.
+		 */
+		self.showDuration = function () {
+			self.set('show', 'ms');
+			return self;
+		};
+
+		/**
+		 * Change meter into FPS mode.
+		 *
+		 * @return {Object} FPSMeter instance.
+		 */
+		self.showFps = function () {
+			self.set('show', 'fps');
+			return self;
+		};
+
+		/**
+		 * Toggles between show: 'fps' and show: 'duration'.
+		 *
+		 * @return {Object} FPSMeter instance.
+		 */
+		self.toggle = function () {
+			self.set('show', showFps ? 'ms' : 'fps');
+			return self;
+		};
+
+		/**
+		 * Hide the FPSMeter. Also pauses the rendering.
+		 *
+		 * @return {Object} FPSMeter instance.
+		 */
+		self.hide = function () {
+			self.pause();
+			el.container.style.display = 'none';
+			return self;
+		};
+
+		/**
+		 * Show the FPSMeter. Also resumes the rendering.
+		 *
+		 * @return {Object} FPSMeter instance.
+		 */
+		self.show = function () {
+			self.resume();
+			el.container.style.display = 'block';
+			return self;
+		};
+
+		/**
+		 * Check the current FPS and save it in history.
+		 *
+		 * @return {Void}
+		 */
+		function historyTick() {
+			for (i = o.history; i--;) {
+				fpsHistory[i] = i === 0 ? self.fps : fpsHistory[i-1];
+				durationHistory[i] = i === 0 ? self.duration : durationHistory[i-1];
+			}
+		}
+
+		/**
+		 * Returns heat hex color based on values passed.
+		 *
+		 * @param  {Integer} heatmap
+		 * @param  {Integer} value
+		 * @param  {Integer} min
+		 * @param  {Integer} max
+		 *
+		 * @return {Integer}
+		 */
+		function getHeat(heatmap, value, min, max) {
+			return heatmaps[0|heatmap][Math.round(Math.min((value - min) / (max - min) * heatDepth, heatDepth))];
+		}
+
+		/**
+		 * Update counter number and legend.
+		 *
+		 * @return {Void}
+		 */
+		function updateCounter() {
+			// Update legend only when changed
+			if (el.legend.fps !== showFps) {
+				el.legend.fps = showFps;
+				el.legend[textProp] = showFps ? 'FPS' : 'ms';
+			}
+			// Update counter with a nicely formated & readable number
+			count = showFps ? self.fps : self.duration;
+			el.count[textProp] = count > 999 ? '999+' : count.toFixed(count > 99 ? 0 : o.decimals);
+		}
+
+		/**
+		 * Render current FPS state.
+		 *
+		 * @return {Void}
+		 */
+		function render() {
+			time = getTime();
+			// If renderer stopped reporting, do a simulated drop to 0 fps
+			if (lastLoop < time - o.threshold) {
+				self.fps -= self.fps / Math.max(1, o.smoothing * 60 / o.interval);
+				self.duration = 1000 / self.fps;
+			}
+
+			historyTick();
+			updateCounter();
+
+			// Apply heat to elements
+			if (o.heat) {
+				if (heating.length) {
+					for (i = heating.length; i--;) {
+						heating[i].el.style[theme[heating[i].name].heatOn] = showFps ?
+							getHeat(theme[heating[i].name].heatmap, self.fps, 0, o.maxFps) :
+							getHeat(theme[heating[i].name].heatmap, self.duration, o.threshold, 0);
+					}
+				}
+
+				if (el.graph && theme.column.heatOn) {
+					for (i = cols.length; i--;) {
+						cols[i].style[theme.column.heatOn] = showFps ?
+							getHeat(theme.column.heatmap, fpsHistory[i], 0, o.maxFps) :
+							getHeat(theme.column.heatmap, durationHistory[i], o.threshold, 0);
+					}
+				}
+			}
+
+			// Update graph columns height
+			if (el.graph) {
+				for (j = 0; j < o.history; j++) {
+					cols[j].style.height = (showFps ?
+						(fpsHistory[j] ? Math.round(graphHeight / o.maxFps * Math.min(fpsHistory[j], o.maxFps)) : 0) :
+						(durationHistory[j] ? Math.round(graphHeight / o.threshold * Math.min(durationHistory[j], o.threshold)) : 0)
+					) + 'px';
+				}
+			}
+		}
+
+		/**
+		 * Request rendering loop.
+		 *
+		 * @return {Int} Animation frame index.
+		 */
+		function requestRender() {
+			if (o.interval < 20) {
+				frameID = rAF(requestRender);
+				render();
+			} else {
+				frameID = setTimeout(requestRender, o.interval);
+				renderID = rAF(render);
+			}
+		}
+
+		/**
+		 * Meter events handler.
+		 *
+		 * @return {Void}
+		 */
+		function eventHandler(event) {
+			event = event || window.event;
+			if (event.preventDefault) {
+				event.preventDefault();
+				event.stopPropagation();
+			} else {
+				event.returnValue = false;
+				event.cancelBubble = true;
+			}
+			self.toggle();
+		}
+
+		/**
+		 * Destroys the current FPSMeter instance.
+		 *
+		 * @return {Void}
+		 */
+		self.destroy = function () {
+			// Stop rendering
+			self.pause();
+			// Remove elements
+			removeMeter();
+			// Stop listening
+			self.tick = self.tickStart = function () {};
+		};
+
+		/**
+		 * Remove meter element.
+		 *
+		 * @return {Void}
+		 */
+		function removeMeter() {
+			// Unbind listeners
+			if (o.toggleOn) {
+				listener(el.container, o.toggleOn, eventHandler, 1);
+			}
+			// Detach element
+			anchor.removeChild(el.container);
+		}
+
+		/**
+		 * Sets the theme, and generates heatmaps when needed.
+		 */
+		function setTheme() {
+			theme = FPSMeter.theme[o.theme];
+
+			// Generate heatmaps
+			heatmaps = theme.compiledHeatmaps || [];
+			if (!heatmaps.length && theme.heatmaps.length) {
+				for (j = 0; j < theme.heatmaps.length; j++) {
+					heatmaps[j] = [];
+					for (i = 0; i <= heatDepth; i++) {
+						heatmaps[j][i] = hslToHex(0.33 / heatDepth * i, theme.heatmaps[j].saturation, theme.heatmaps[j].lightness);
+					}
+				}
+				theme.compiledHeatmaps = heatmaps;
+			}
+		}
+
+		/**
+		 * Creates and attaches the meter element.
+		 *
+		 * @return {Void}
+		 */
+		function createMeter() {
+			// Remove old meter if present
+			if (el.container) {
+				removeMeter();
+			}
+
+			// Set theme
+			setTheme();
+
+			// Create elements
+			el.container = applyTheme(newEl('div'), theme.container);
+			el.count = el.container.appendChild(applyTheme(newEl('div'), theme.count));
+			el.legend = el.container.appendChild(applyTheme(newEl('div'), theme.legend));
+			el.graph = o.graph ? el.container.appendChild(applyTheme(newEl('div'), theme.graph)) : 0;
+
+			// Add elements to heating array
+			heating.length = 0;
+			for (var key in el) {
+				if (el[key] && theme[key].heatOn) {
+					heating.push({
+						name: key,
+						el: el[key]
+					});
+				}
+			}
+
+			// Graph
+			cols.length = 0;
+			if (el.graph) {
+				// Create graph
+				el.graph.style.width = (o.history * theme.column.width + (o.history - 1) * theme.column.spacing) + 'px';
+
+				// Add columns
+				for (i = 0; i < o.history; i++) {
+					cols[i] = el.graph.appendChild(applyTheme(newEl('div'), theme.column));
+					cols[i].style.position = 'absolute';
+					cols[i].style.bottom = 0;
+					cols[i].style.right = (i * theme.column.width + i * theme.column.spacing) + 'px';
+					cols[i].style.width = theme.column.width + 'px';
+					cols[i].style.height = '0px';
+				}
+			}
+
+			// Set the initial state
+			positionMeter();
+			updateCounter();
+
+			// Append container to anchor
+			anchor.appendChild(el.container);
+
+			// Retrieve graph height after it was appended to DOM
+			if (el.graph) {
+				graphHeight = el.graph.clientHeight;
+			}
+
+			// Add event listeners
+			if (o.toggleOn) {
+				if (o.toggleOn === 'click') {
+					el.container.style.cursor = 'pointer';
+				}
+				listener(el.container, o.toggleOn, eventHandler);
+			}
+		}
+
+		/**
+		 * Positions the meter based on options.
+		 *
+		 * @return {Void}
+		 */
+		function positionMeter() {
+			applyTheme(el.container, o);
+		}
+
+		/**
+		 * Construct.
+		 */
+		(function () {
+			// Create meter element
+			createMeter();
+			// Start rendering
+			requestRender();
+		}());
+	}
+
+	// Expose the extend function
+	FPSMeter.extend = extend;
+
+	// Expose the FPSMeter class
+	window.FPSMeter = FPSMeter;
+
+	// Default options
+	FPSMeter.defaults = {
+		interval:  100,     // Update interval in milliseconds.
+		smoothing: 10,      // Spike smoothing strength. 1 means no smoothing.
+		show:      'fps',   // Whether to show 'fps', or 'ms' = frame duration in milliseconds.
+		toggleOn:  'click', // Toggle between show 'fps' and 'ms' on this event.
+		decimals:  1,       // Number of decimals in FPS number. 1 = 59.9, 2 = 59.94, ...
+		maxFps:    60,      // Max expected FPS value.
+		threshold: 100,     // Minimal tick reporting interval in milliseconds.
+
+		// Meter position
+		position: 'absolute', // Meter position.
+		zIndex:   10,         // Meter Z index.
+		left:     '5px',      // Meter left offset.
+		top:      '5px',      // Meter top offset.
+		right:    'auto',     // Meter right offset.
+		bottom:   'auto',     // Meter bottom offset.
+		margin:   '0 0 0 0',  // Meter margin. Helps with centering the counter when left: 50%;
+
+		// Theme
+		theme: 'dark', // Meter theme. Build in: 'dark', 'light', 'transparent', 'colorful'.
+		heat:  0,      // Allow themes to use coloring by FPS heat. 0 FPS = red, maxFps = green.
+
+		// Graph
+		graph:   0, // Whether to show history graph.
+		history: 20 // How many history states to show in a graph.
+	};
+
+	// Option names that trigger FPSMeter rebuild or reposition when modified
+	var rebuilders = [
+		'toggleOn',
+		'theme',
+		'heat',
+		'graph',
+		'history'
+	];
+	var repositioners = [
+		'position',
+		'zIndex',
+		'left',
+		'top',
+		'right',
+		'bottom',
+		'margin'
+	];
+}(window));
+;(function (w, FPSMeter, undefined) {
+	'use strict';
+
+	// Themes object
+	FPSMeter.theme = {};
+
+	// Base theme with layout, no colors
+	var base = FPSMeter.theme.base = {
+		heatmaps: [],
+		container: {
+			// Settings
+			heatOn: null,
+			heatmap: null,
+
+			// Styles
+			padding: '5px',
+			minWidth: '95px',
+			height: '30px',
+			lineHeight: '30px',
+			textAlign: 'right',
+			textShadow: 'none'
+		},
+		count: {
+			// Settings
+			heatOn: null,
+			heatmap: null,
+
+			// Styles
+			position: 'absolute',
+			top: 0,
+			right: 0,
+			padding: '5px 10px',
+			height: '30px',
+			fontSize: '24px',
+			fontFamily: 'Consolas, Andale Mono, monospace',
+			zIndex: 2
+		},
+		legend: {
+			// Settings
+			heatOn: null,
+			heatmap: null,
+
+			// Styles
+			position: 'absolute',
+			top: 0,
+			left: 0,
+			padding: '5px 10px',
+			height: '30px',
+			fontSize: '12px',
+			lineHeight: '32px',
+			fontFamily: 'sans-serif',
+			textAlign: 'left',
+			zIndex: 2
+		},
+		graph: {
+			// Settings
+			heatOn: null,
+			heatmap: null,
+
+			// Styles
+			position: 'relative',
+			boxSizing: 'padding-box',
+			MozBoxSizing: 'padding-box',
+			height: '100%',
+			zIndex: 1
+		},
+		column: {
+			// Settings
+			width: 4,
+			spacing: 1,
+			heatOn: null,
+			heatmap: null
+		}
+	};
+
+	// Dark theme
+	FPSMeter.theme.dark = FPSMeter.extend({}, base, {
+		heatmaps: [{
+			saturation: 0.8,
+			lightness: 0.8
+		}],
+		container: {
+			background: '#222',
+			color: '#fff',
+			border: '1px solid #1a1a1a',
+			textShadow: '1px 1px 0 #222'
+		},
+		count: {
+			heatOn: 'color'
+		},
+		column: {
+			background: '#3f3f3f'
+		}
+	});
+
+	// Light theme
+	FPSMeter.theme.light = FPSMeter.extend({}, base, {
+		heatmaps: [{
+			saturation: 0.5,
+			lightness: 0.5
+		}],
+		container: {
+			color: '#666',
+			background: '#fff',
+			textShadow: '1px 1px 0 rgba(255,255,255,.5), -1px -1px 0 rgba(255,255,255,.5)',
+			boxShadow: '0 0 0 1px rgba(0,0,0,.1)'
+		},
+		count: {
+			heatOn: 'color'
+		},
+		column: {
+			background: '#eaeaea'
+		}
+	});
+
+	// Colorful theme
+	FPSMeter.theme.colorful = FPSMeter.extend({}, base, {
+		heatmaps: [{
+			saturation: 0.5,
+			lightness: 0.6
+		}],
+		container: {
+			heatOn: 'backgroundColor',
+			background: '#888',
+			color: '#fff',
+			textShadow: '1px 1px 0 rgba(0,0,0,.2)',
+			boxShadow: '0 0 0 1px rgba(0,0,0,.1)'
+		},
+		column: {
+			background: '#777',
+			backgroundColor: 'rgba(0,0,0,.2)'
+		}
+	});
+
+	// Transparent theme
+	FPSMeter.theme.transparent = FPSMeter.extend({}, base, {
+		heatmaps: [{
+			saturation: 0.8,
+			lightness: 0.5
+		}],
+		container: {
+			padding: 0,
+			color: '#fff',
+			textShadow: '1px 1px 0 rgba(0,0,0,.5)'
+		},
+		count: {
+			padding: '0 5px',
+			height: '40px',
+			lineHeight: '40px'
+		},
+		legend: {
+			padding: '0 5px',
+			height: '40px',
+			lineHeight: '42px'
+		},
+		graph: {
+			height: '40px'
+		},
+		column: {
+			width: 5,
+			background: '#999',
+			heatOn: 'backgroundColor',
+			opacity: 0.5
+		}
+	});
+}(window, FPSMeter));
+
+/***/ }),
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -32720,7 +32843,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 155 */
+/* 153 */
 /***/ (function(module, exports) {
 
 /*
@@ -32771,13 +32894,57 @@ module.exports = function naturalSort (a, b) {
 
 
 /***/ }),
-/* 156 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(158);
+module.exports = __webpack_require__(157);
 
 /***/ }),
-/* 157 */
+/* 155 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var core = __webpack_require__(154);
+
+/**
+ * math.js factory function. Creates a new instance of math.js
+ *
+ * @param {Object} [config] Available configuration options:
+ *                            {number} epsilon
+ *                              Minimum relative difference between two
+ *                              compared values, used by all comparison functions.
+ *                            {string} matrix
+ *                              A string 'matrix' (default) or 'array'.
+ *                            {string} number
+ *                              A string 'number' (default), 'bignumber', or
+ *                              'fraction'
+ *                            {number} precision
+ *                              The number of significant digits for BigNumbers.
+ *                              Not applicable for Numbers.
+ *                            {boolean} predictable
+ *                              Predictable output type of functions. When true,
+ *                              output type depends only on the input types. When
+ *                              false (default), output type can vary depending
+ *                              on input values. For example `math.sqrt(-4)`
+ *                              returns `complex('2i')` when predictable is false, and
+ *                              returns `NaN` when true.
+ */
+function create (config) {
+  // create a new math.js instance
+  var math = core.create(config);
+  math.create = create;
+
+  // import data types, functions, constants, expression parser, etc.
+  math['import'](__webpack_require__(506));
+
+  return math;
+}
+
+// return a new instance of math.js
+module.exports = create();
+
+
+/***/ }),
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32843,7 +33010,7 @@ function factory (type, config, load, typed, math) {
   setConstant(math, 'i', type.Complex.I);
 
   // meta information
-  setConstant(math, 'version', __webpack_require__(545));
+  setConstant(math, 'version', __webpack_require__(544));
 }
 
 // create a constant in both math and mathWithTransform
@@ -32863,15 +33030,15 @@ exports.lazy = false;  // no lazy loading of constants, the constants themselves
 exports.math = true;   // request access to the math namespace
 
 /***/ }),
-/* 158 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isFactory = __webpack_require__(5).isFactory;
-var typedFactory = __webpack_require__(161);
+var typedFactory = __webpack_require__(160);
 var emitter = __webpack_require__(146);
 
-var importFactory = __webpack_require__(160);
-var configFactory = __webpack_require__(159);
+var importFactory = __webpack_require__(159);
+var configFactory = __webpack_require__(158);
 
 /**
  * Math.js core. Creates a new, empty math.js instance
@@ -33001,7 +33168,7 @@ exports.create = function create (options) {
 
 
 /***/ }),
-/* 159 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33132,7 +33299,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 160 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33446,10 +33613,10 @@ exports.lazy = true;
 
 
 /***/ }),
-/* 161 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var typedFunction = __webpack_require__(549);
+var typedFunction = __webpack_require__(548);
 var digits = __webpack_require__(3).digits;
 
 // returns a new instance of typed-function
@@ -33689,7 +33856,7 @@ exports.create = function create(type) {
 
 
 /***/ }),
-/* 162 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33726,7 +33893,7 @@ module.exports = [
 
 
 /***/ }),
-/* 163 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33850,7 +34017,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 164 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -33869,7 +34036,7 @@ module.exports = {
 
 
 /***/ }),
-/* 165 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -33888,7 +34055,7 @@ module.exports = {
 
 
 /***/ }),
-/* 166 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -33907,7 +34074,7 @@ module.exports = {
 
 
 /***/ }),
-/* 167 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -33926,7 +34093,7 @@ module.exports = {
 
 
 /***/ }),
-/* 168 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -33945,7 +34112,7 @@ module.exports = {
 
 
 /***/ }),
-/* 169 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -33964,7 +34131,7 @@ module.exports = {
 
 
 /***/ }),
-/* 170 */
+/* 169 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -33983,7 +34150,7 @@ module.exports = {
 
 
 /***/ }),
-/* 171 */
+/* 170 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34002,7 +34169,7 @@ module.exports = {
 
 
 /***/ }),
-/* 172 */
+/* 171 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34020,7 +34187,7 @@ module.exports = {
 
 
 /***/ }),
-/* 173 */
+/* 172 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34040,7 +34207,7 @@ module.exports = {
 
 
 /***/ }),
-/* 174 */
+/* 173 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34058,7 +34225,7 @@ module.exports = {
 
 
 /***/ }),
-/* 175 */
+/* 174 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34076,7 +34243,7 @@ module.exports = {
 
 
 /***/ }),
-/* 176 */
+/* 175 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34095,7 +34262,7 @@ module.exports = {
 
 
 /***/ }),
-/* 177 */
+/* 176 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34113,7 +34280,7 @@ module.exports = {
 
 
 /***/ }),
-/* 178 */
+/* 177 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34131,7 +34298,7 @@ module.exports = {
 
 
 /***/ }),
-/* 179 */
+/* 178 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34156,7 +34323,7 @@ module.exports = {
 
 
 /***/ }),
-/* 180 */
+/* 179 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34183,7 +34350,7 @@ module.exports = {
 
 
 /***/ }),
-/* 181 */
+/* 180 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34208,7 +34375,7 @@ module.exports = {
 
 
 /***/ }),
-/* 182 */
+/* 181 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34232,7 +34399,7 @@ module.exports = {
 
 
 /***/ }),
-/* 183 */
+/* 182 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34255,7 +34422,7 @@ module.exports = {
 
 
 /***/ }),
-/* 184 */
+/* 183 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34286,7 +34453,7 @@ module.exports = {
 
 
 /***/ }),
-/* 185 */
+/* 184 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34317,7 +34484,7 @@ module.exports = {
 
 
 /***/ }),
-/* 186 */
+/* 185 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34346,7 +34513,7 @@ module.exports = {
 
 
 /***/ }),
-/* 187 */
+/* 186 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34371,7 +34538,7 @@ module.exports = {
 
 
 /***/ }),
-/* 188 */
+/* 187 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34392,7 +34559,7 @@ module.exports = {
 
 
 /***/ }),
-/* 189 */
+/* 188 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34416,7 +34583,7 @@ module.exports = {
 
 
 /***/ }),
-/* 190 */
+/* 189 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34442,7 +34609,7 @@ module.exports = {
 
 
 /***/ }),
-/* 191 */
+/* 190 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34464,7 +34631,7 @@ module.exports = {
 
 
 /***/ }),
-/* 192 */
+/* 191 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34485,7 +34652,7 @@ module.exports = {
 
 
 /***/ }),
-/* 193 */
+/* 192 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34506,7 +34673,7 @@ module.exports = {
 
 
 /***/ }),
-/* 194 */
+/* 193 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34534,7 +34701,7 @@ module.exports = {
 
 
 /***/ }),
-/* 195 */
+/* 194 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34557,7 +34724,7 @@ module.exports = {
 
 
 /***/ }),
-/* 196 */
+/* 195 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34580,7 +34747,7 @@ module.exports = {
 
 
 /***/ }),
-/* 197 */
+/* 196 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34603,7 +34770,7 @@ module.exports = {
 
 
 /***/ }),
-/* 198 */
+/* 197 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34624,7 +34791,7 @@ module.exports = {
 
 
 /***/ }),
-/* 199 */
+/* 198 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34649,7 +34816,7 @@ module.exports = {
 
 
 /***/ }),
-/* 200 */
+/* 199 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34669,7 +34836,7 @@ module.exports = {
 
 
 /***/ }),
-/* 201 */
+/* 200 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34690,7 +34857,7 @@ module.exports = {
 
 
 /***/ }),
-/* 202 */
+/* 201 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34709,7 +34876,7 @@ module.exports = {
 
 
 /***/ }),
-/* 203 */
+/* 202 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34734,7 +34901,7 @@ module.exports = {
 
 
 /***/ }),
-/* 204 */
+/* 203 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34765,7 +34932,7 @@ module.exports = {
 
 
 /***/ }),
-/* 205 */
+/* 204 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34786,7 +34953,7 @@ module.exports = {
 
 
 /***/ }),
-/* 206 */
+/* 205 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34810,7 +34977,7 @@ module.exports = {
 
 
 /***/ }),
-/* 207 */
+/* 206 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34836,7 +35003,7 @@ module.exports = {
 
 
 /***/ }),
-/* 208 */
+/* 207 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34861,7 +35028,7 @@ module.exports = {
 
 
 /***/ }),
-/* 209 */
+/* 208 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34886,7 +35053,7 @@ module.exports = {
 
 
 /***/ }),
-/* 210 */
+/* 209 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34909,7 +35076,7 @@ module.exports = {
 
 
 /***/ }),
-/* 211 */
+/* 210 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34934,7 +35101,7 @@ module.exports = {
 
 
 /***/ }),
-/* 212 */
+/* 211 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34956,7 +35123,7 @@ module.exports = {
 
 
 /***/ }),
-/* 213 */
+/* 212 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34977,7 +35144,7 @@ module.exports = {
 
 
 /***/ }),
-/* 214 */
+/* 213 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -34998,7 +35165,7 @@ module.exports = {
 
 
 /***/ }),
-/* 215 */
+/* 214 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35020,7 +35187,7 @@ module.exports = {
 
 
 /***/ }),
-/* 216 */
+/* 215 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35040,7 +35207,7 @@ module.exports = {
 
 
 /***/ }),
-/* 217 */
+/* 216 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35068,7 +35235,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 218 */
+/* 217 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35093,7 +35260,7 @@ module.exports = {
 
 
 /***/ }),
-/* 219 */
+/* 218 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35119,7 +35286,7 @@ module.exports = {
 
 
 /***/ }),
-/* 220 */
+/* 219 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35144,7 +35311,7 @@ module.exports = {
 
 
 /***/ }),
-/* 221 */
+/* 220 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35170,7 +35337,7 @@ module.exports = {
 
 
 /***/ }),
-/* 222 */
+/* 221 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35196,7 +35363,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 223 */
+/* 222 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35218,7 +35385,7 @@ module.exports = {
 
 
 /***/ }),
-/* 224 */
+/* 223 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35243,7 +35410,7 @@ module.exports = {
 
 
 /***/ }),
-/* 225 */
+/* 224 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35266,7 +35433,7 @@ module.exports = {
 
 
 /***/ }),
-/* 226 */
+/* 225 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35290,7 +35457,7 @@ module.exports = {
 
 
 /***/ }),
-/* 227 */
+/* 226 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35317,7 +35484,7 @@ module.exports = {
 
 
 /***/ }),
-/* 228 */
+/* 227 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35342,7 +35509,7 @@ module.exports = {
 
 
 /***/ }),
-/* 229 */
+/* 228 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35366,7 +35533,7 @@ module.exports = {
 
 
 /***/ }),
-/* 230 */
+/* 229 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35389,7 +35556,7 @@ module.exports = {
 
 
 /***/ }),
-/* 231 */
+/* 230 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35409,7 +35576,7 @@ module.exports = {
 
 
 /***/ }),
-/* 232 */
+/* 231 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35432,7 +35599,7 @@ module.exports = {
 
 
 /***/ }),
-/* 233 */
+/* 232 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35455,7 +35622,7 @@ module.exports = {
 
 
 /***/ }),
-/* 234 */
+/* 233 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35477,7 +35644,7 @@ module.exports = {
 
 
 /***/ }),
-/* 235 */
+/* 234 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35498,7 +35665,7 @@ module.exports = {
 
 
 /***/ }),
-/* 236 */
+/* 235 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35520,7 +35687,7 @@ module.exports = {
 
 
 /***/ }),
-/* 237 */
+/* 236 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35543,7 +35710,7 @@ module.exports = {
 
 
 /***/ }),
-/* 238 */
+/* 237 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35566,7 +35733,7 @@ module.exports = {
 
 
 /***/ }),
-/* 239 */
+/* 238 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35584,7 +35751,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 240 */
+/* 239 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35602,7 +35769,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 241 */
+/* 240 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35619,7 +35786,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 242 */
+/* 241 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35637,7 +35804,7 @@ module.exports = {
 
 
 /***/ }),
-/* 243 */
+/* 242 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35663,7 +35830,7 @@ module.exports = {
 
 
 /***/ }),
-/* 244 */
+/* 243 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35689,7 +35856,7 @@ module.exports = {
 
 
 /***/ }),
-/* 245 */
+/* 244 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35715,7 +35882,7 @@ module.exports = {
 
 
 /***/ }),
-/* 246 */
+/* 245 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35741,7 +35908,7 @@ module.exports = {
 
 
 /***/ }),
-/* 247 */
+/* 246 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35761,7 +35928,7 @@ module.exports = {
 
 
 /***/ }),
-/* 248 */
+/* 247 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35781,7 +35948,7 @@ module.exports = {
 
 
 /***/ }),
-/* 249 */
+/* 248 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35801,7 +35968,7 @@ module.exports = {
 
 
 /***/ }),
-/* 250 */
+/* 249 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35821,7 +35988,7 @@ module.exports = {
 
 
 /***/ }),
-/* 251 */
+/* 250 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35844,7 +36011,7 @@ module.exports = {
 
 
 /***/ }),
-/* 252 */
+/* 251 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35868,7 +36035,7 @@ module.exports = {
 
 
 /***/ }),
-/* 253 */
+/* 252 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35891,7 +36058,7 @@ module.exports = {
 
 
 /***/ }),
-/* 254 */
+/* 253 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35915,7 +36082,7 @@ module.exports = {
 
 
 /***/ }),
-/* 255 */
+/* 254 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35940,7 +36107,7 @@ module.exports = {
 
 
 /***/ }),
-/* 256 */
+/* 255 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35963,7 +36130,7 @@ module.exports = {
 
 
 /***/ }),
-/* 257 */
+/* 256 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -35984,7 +36151,7 @@ module.exports = {
 
 
 /***/ }),
-/* 258 */
+/* 257 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36008,7 +36175,7 @@ module.exports = {
 
 
 /***/ }),
-/* 259 */
+/* 258 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36032,7 +36199,7 @@ module.exports = {
 
 
 /***/ }),
-/* 260 */
+/* 259 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36058,7 +36225,7 @@ module.exports = {
 
 
 /***/ }),
-/* 261 */
+/* 260 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36078,7 +36245,7 @@ module.exports = {
 
 
 /***/ }),
-/* 262 */
+/* 261 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36101,7 +36268,7 @@ module.exports = {
 
 
 /***/ }),
-/* 263 */
+/* 262 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36119,7 +36286,7 @@ module.exports = {
 
 
 /***/ }),
-/* 264 */
+/* 263 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36141,7 +36308,7 @@ module.exports = {
 
 
 /***/ }),
-/* 265 */
+/* 264 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36162,7 +36329,7 @@ module.exports = {
 
 
 /***/ }),
-/* 266 */
+/* 265 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36180,7 +36347,7 @@ module.exports = {
 
 
 /***/ }),
-/* 267 */
+/* 266 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36210,7 +36377,7 @@ module.exports = {
 
 
 /***/ }),
-/* 268 */
+/* 267 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36230,7 +36397,7 @@ module.exports = {
 
 
 /***/ }),
-/* 269 */
+/* 268 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36261,7 +36428,7 @@ module.exports = {
 
 
 /***/ }),
-/* 270 */
+/* 269 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36283,7 +36450,7 @@ module.exports = {
 
 
 /***/ }),
-/* 271 */
+/* 270 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36308,7 +36475,7 @@ module.exports = {
 
 
 /***/ }),
-/* 272 */
+/* 271 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36332,7 +36499,7 @@ module.exports = {
 
 
 /***/ }),
-/* 273 */
+/* 272 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36355,7 +36522,7 @@ module.exports = {
 
 
 /***/ }),
-/* 274 */
+/* 273 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36378,7 +36545,7 @@ module.exports = {
 
 
 /***/ }),
-/* 275 */
+/* 274 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36409,7 +36576,7 @@ module.exports = {
 
 
 /***/ }),
-/* 276 */
+/* 275 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36430,7 +36597,7 @@ module.exports = {
 
 
 /***/ }),
-/* 277 */
+/* 276 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36453,7 +36620,7 @@ module.exports = {
 
 
 /***/ }),
-/* 278 */
+/* 277 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36482,7 +36649,7 @@ module.exports = {
 
 
 /***/ }),
-/* 279 */
+/* 278 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36500,7 +36667,7 @@ module.exports = {
 
 
 /***/ }),
-/* 280 */
+/* 279 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36520,7 +36687,7 @@ module.exports = {
 
 
 /***/ }),
-/* 281 */
+/* 280 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36541,7 +36708,7 @@ module.exports = {
 
 
 /***/ }),
-/* 282 */
+/* 281 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36560,7 +36727,7 @@ module.exports = {
 
 
 /***/ }),
-/* 283 */
+/* 282 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36577,7 +36744,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 284 */
+/* 283 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36597,7 +36764,7 @@ module.exports = {
 
 
 /***/ }),
-/* 285 */
+/* 284 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36625,7 +36792,7 @@ module.exports = {
 
 
 /***/ }),
-/* 286 */
+/* 285 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36651,7 +36818,7 @@ module.exports = {
 
 
 /***/ }),
-/* 287 */
+/* 286 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36674,7 +36841,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 288 */
+/* 287 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36699,7 +36866,7 @@ module.exports = {
 
 
 /***/ }),
-/* 289 */
+/* 288 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36728,7 +36895,7 @@ module.exports = {
 
 
 /***/ }),
-/* 290 */
+/* 289 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36750,7 +36917,7 @@ module.exports = {
 
 
 /***/ }),
-/* 291 */
+/* 290 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36777,7 +36944,7 @@ module.exports = {
 
 
 /***/ }),
-/* 292 */
+/* 291 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36805,7 +36972,7 @@ module.exports = {
 
 
 /***/ }),
-/* 293 */
+/* 292 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36831,7 +36998,7 @@ module.exports = {
 
 
 /***/ }),
-/* 294 */
+/* 293 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36858,7 +37025,7 @@ module.exports = {
 
 
 /***/ }),
-/* 295 */
+/* 294 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36884,7 +37051,7 @@ module.exports = {
 
 
 /***/ }),
-/* 296 */
+/* 295 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36912,7 +37079,7 @@ module.exports = {
 
 
 /***/ }),
-/* 297 */
+/* 296 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36933,7 +37100,7 @@ module.exports = {
 
 
 /***/ }),
-/* 298 */
+/* 297 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36955,7 +37122,7 @@ module.exports = {
 
 
 /***/ }),
-/* 299 */
+/* 298 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36976,7 +37143,7 @@ module.exports = {
 
 
 /***/ }),
-/* 300 */
+/* 299 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -36998,7 +37165,7 @@ module.exports = {
 
 
 /***/ }),
-/* 301 */
+/* 300 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37020,7 +37187,7 @@ module.exports = {
 
 
 /***/ }),
-/* 302 */
+/* 301 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37042,7 +37209,7 @@ module.exports = {
 
 
 /***/ }),
-/* 303 */
+/* 302 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37063,7 +37230,7 @@ module.exports = {
 
 
 /***/ }),
-/* 304 */
+/* 303 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37086,7 +37253,7 @@ module.exports = {
 
 
 /***/ }),
-/* 305 */
+/* 304 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37108,7 +37275,7 @@ module.exports = {
 
 
 /***/ }),
-/* 306 */
+/* 305 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37130,7 +37297,7 @@ module.exports = {
 
 
 /***/ }),
-/* 307 */
+/* 306 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37150,7 +37317,7 @@ module.exports = {
 
 
 /***/ }),
-/* 308 */
+/* 307 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37176,7 +37343,7 @@ module.exports = {
 
 
 /***/ }),
-/* 309 */
+/* 308 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37210,7 +37377,7 @@ module.exports = {
 
 
 /***/ }),
-/* 310 */
+/* 309 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37243,7 +37410,7 @@ module.exports = {
 
 
 /***/ }),
-/* 311 */
+/* 310 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37272,7 +37439,7 @@ module.exports = {
 
 
 /***/ }),
-/* 312 */
+/* 311 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37306,7 +37473,7 @@ module.exports = {
 
 
 /***/ }),
-/* 313 */
+/* 312 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37336,7 +37503,7 @@ module.exports = {
 
 
 /***/ }),
-/* 314 */
+/* 313 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37366,7 +37533,7 @@ module.exports = {
 
 
 /***/ }),
-/* 315 */
+/* 314 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37397,7 +37564,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 316 */
+/* 315 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37430,7 +37597,7 @@ module.exports = {
 
 
 /***/ }),
-/* 317 */
+/* 316 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37460,7 +37627,7 @@ module.exports = {
 
 
 /***/ }),
-/* 318 */
+/* 317 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37493,7 +37660,7 @@ module.exports = {
 
 
 /***/ }),
-/* 319 */
+/* 318 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37516,7 +37683,7 @@ module.exports = {
 
 
 /***/ }),
-/* 320 */
+/* 319 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37537,7 +37704,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 321 */
+/* 320 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37560,7 +37727,7 @@ module.exports = {
 
 
 /***/ }),
-/* 322 */
+/* 321 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37580,7 +37747,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 323 */
+/* 322 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37604,7 +37771,7 @@ module.exports = {
 
 
 /***/ }),
-/* 324 */
+/* 323 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37625,7 +37792,7 @@ module.exports = {
 
 
 /***/ }),
-/* 325 */
+/* 324 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37649,7 +37816,7 @@ module.exports = {
 
 
 /***/ }),
-/* 326 */
+/* 325 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37670,7 +37837,7 @@ module.exports = {
 
 
 /***/ }),
-/* 327 */
+/* 326 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37693,7 +37860,7 @@ module.exports = {
 
 
 /***/ }),
-/* 328 */
+/* 327 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37714,7 +37881,7 @@ module.exports = {
 
 
 /***/ }),
-/* 329 */
+/* 328 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37737,7 +37904,7 @@ module.exports = {
 
 
 /***/ }),
-/* 330 */
+/* 329 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37764,7 +37931,7 @@ module.exports = {
 
 
 /***/ }),
-/* 331 */
+/* 330 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37785,7 +37952,7 @@ module.exports = {
 
 
 /***/ }),
-/* 332 */
+/* 331 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37811,7 +37978,7 @@ module.exports = {
 
 
 /***/ }),
-/* 333 */
+/* 332 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37833,7 +38000,7 @@ module.exports = {
 
 
 /***/ }),
-/* 334 */
+/* 333 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37856,7 +38023,7 @@ module.exports = {
 
 
 /***/ }),
-/* 335 */
+/* 334 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37879,7 +38046,7 @@ module.exports = {
 
 
 /***/ }),
-/* 336 */
+/* 335 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37902,7 +38069,7 @@ module.exports = {
 
 
 /***/ }),
-/* 337 */
+/* 336 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37925,7 +38092,7 @@ module.exports = {
 
 
 /***/ }),
-/* 338 */
+/* 337 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37948,7 +38115,7 @@ module.exports = {
 
 
 /***/ }),
-/* 339 */
+/* 338 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37971,7 +38138,7 @@ module.exports = {
 
 
 /***/ }),
-/* 340 */
+/* 339 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -37997,7 +38164,7 @@ module.exports = {
 
 
 /***/ }),
-/* 341 */
+/* 340 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38018,7 +38185,7 @@ module.exports = {
 
 
 /***/ }),
-/* 342 */
+/* 341 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38043,7 +38210,7 @@ module.exports = {
 
 
 /***/ }),
-/* 343 */
+/* 342 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38065,7 +38232,7 @@ module.exports = {
 
 
 /***/ }),
-/* 344 */
+/* 343 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38086,7 +38253,7 @@ module.exports = {
 
 
 /***/ }),
-/* 345 */
+/* 344 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38108,7 +38275,7 @@ module.exports = {
 
 
 /***/ }),
-/* 346 */
+/* 345 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38130,7 +38297,7 @@ module.exports = {
 
 
 /***/ }),
-/* 347 */
+/* 346 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38150,7 +38317,7 @@ module.exports = {
 
 
 /***/ }),
-/* 348 */
+/* 347 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38171,7 +38338,7 @@ module.exports = {
 
 
 /***/ }),
-/* 349 */
+/* 348 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38192,7 +38359,7 @@ module.exports = {
 
 
 /***/ }),
-/* 350 */
+/* 349 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38217,7 +38384,7 @@ module.exports = {
 
 
 /***/ }),
-/* 351 */
+/* 350 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38238,7 +38405,7 @@ module.exports = {
 
 
 /***/ }),
-/* 352 */
+/* 351 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38257,7 +38424,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 353 */
+/* 352 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38278,7 +38445,7 @@ module.exports = {
 
 
 /***/ }),
-/* 354 */
+/* 353 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -38299,7 +38466,7 @@ module.exports = {
 
 
 /***/ }),
-/* 355 */
+/* 354 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38362,7 +38529,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 356 */
+/* 355 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38434,7 +38601,7 @@ exports.name = 'eval';
 exports.factory = factory;
 
 /***/ }),
-/* 357 */
+/* 356 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38507,20 +38674,20 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 358 */
+/* 357 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
+  __webpack_require__(354),
   __webpack_require__(355),
   __webpack_require__(356),
-  __webpack_require__(357),
-  __webpack_require__(359),
+  __webpack_require__(358),
   __webpack_require__(93)
 ];
 
 
 /***/ }),
-/* 359 */
+/* 358 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38579,23 +38746,23 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 360 */
+/* 359 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
   __webpack_require__(92),
-  __webpack_require__(358),
-  __webpack_require__(362),
-  __webpack_require__(367),
+  __webpack_require__(357),
+  __webpack_require__(361),
+  __webpack_require__(366),
 
-  __webpack_require__(163),
+  __webpack_require__(162),
   __webpack_require__(36),
   __webpack_require__(89)
 ];
 
 
 /***/ }),
-/* 361 */
+/* 360 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38619,7 +38786,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 362 */
+/* 361 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
@@ -38638,12 +38805,12 @@ module.exports = [
   __webpack_require__(59),
   __webpack_require__(73),
   __webpack_require__(35),
-  __webpack_require__(361)
+  __webpack_require__(360)
 ];
 
 
 /***/ }),
-/* 363 */
+/* 362 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38703,7 +38870,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 364 */
+/* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38750,7 +38917,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 365 */
+/* 364 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38847,7 +39014,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 366 */
+/* 365 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38925,25 +39092,25 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 367 */
+/* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
+  __webpack_require__(363),
   __webpack_require__(364),
   __webpack_require__(365),
-  __webpack_require__(366),
+  __webpack_require__(367),
   __webpack_require__(368),
   __webpack_require__(369),
   __webpack_require__(370),
   __webpack_require__(371),
   __webpack_require__(372),
-  __webpack_require__(373),
-  __webpack_require__(374)
+  __webpack_require__(373)
 ];
 
 
 /***/ }),
-/* 368 */
+/* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39001,7 +39168,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 369 */
+/* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39098,7 +39265,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 370 */
+/* 369 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39146,7 +39313,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 371 */
+/* 370 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39194,7 +39361,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 372 */
+/* 371 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39242,7 +39409,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 373 */
+/* 372 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39277,7 +39444,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 374 */
+/* 373 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39312,7 +39479,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 375 */
+/* 374 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39578,7 +39745,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 376 */
+/* 375 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40306,29 +40473,29 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 377 */
+/* 376 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
-  __webpack_require__(376),
+  __webpack_require__(375),
 
   // simplify
   __webpack_require__(104),
 
   // decomposition
-  __webpack_require__(375),
+  __webpack_require__(374),
   __webpack_require__(102),
   __webpack_require__(103),
 
   // solver
   __webpack_require__(106),
-  __webpack_require__(379),
+  __webpack_require__(378),
   __webpack_require__(107)
 ];
 
 
 /***/ }),
-/* 378 */
+/* 377 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40583,7 +40750,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 379 */
+/* 378 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40596,7 +40763,7 @@ function factory (type, config, load, typed) {
   var matrix = load(__webpack_require__(0));
   var lup = load(__webpack_require__(102));
   var slu = load(__webpack_require__(103));
-  var cs_ipvec = load(__webpack_require__(385));
+  var cs_ipvec = load(__webpack_require__(384));
 
   var solveValidation = load(__webpack_require__(75));
 
@@ -40715,7 +40882,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 380 */
+/* 379 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40724,7 +40891,7 @@ exports.factory = factory;
 function factory (type, config, load) {
 
   var cs_flip = load(__webpack_require__(76));
-  var cs_fkeep = load(__webpack_require__(384));
+  var cs_fkeep = load(__webpack_require__(383));
   var cs_tdfs = load(__webpack_require__(110));
   
   var add       = load(__webpack_require__(18));
@@ -41295,7 +41462,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 381 */
+/* 380 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41305,7 +41472,7 @@ function factory (type, config, load) {
 
   var transpose = load(__webpack_require__(62));
   
-  var cs_leaf = load(__webpack_require__(386));
+  var cs_leaf = load(__webpack_require__(385));
 
   /**
    * Computes the column counts using the upper triangular part of A.
@@ -41423,7 +41590,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 382 */
+/* 381 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41433,7 +41600,7 @@ function factory (type, config, load) {
 
   var cs_marked = load(__webpack_require__(109));
   var cs_mark   = load(__webpack_require__(108));
-  var cs_unflip = load(__webpack_require__(393));
+  var cs_unflip = load(__webpack_require__(392));
 
   /**
    * Depth-first search computes the nonzero pattern xi of the directed graph G (Matrix) starting
@@ -41515,7 +41682,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 383 */
+/* 382 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41598,7 +41765,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 384 */
+/* 383 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41670,7 +41837,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 385 */
+/* 384 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41718,7 +41885,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 386 */
+/* 385 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41791,7 +41958,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 387 */
+/* 386 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41806,7 +41973,7 @@ function factory (type, config, load) {
   var larger = load(__webpack_require__(32));
   var largerEq = load(__webpack_require__(126));
   
-  var cs_spsolve = load(__webpack_require__(391));
+  var cs_spsolve = load(__webpack_require__(390));
 
   var SparseMatrix = type.SparseMatrix;
 
@@ -41976,7 +42143,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 388 */
+/* 387 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42054,7 +42221,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 389 */
+/* 388 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42120,7 +42287,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 390 */
+/* 389 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42128,7 +42295,7 @@ exports.factory = factory;
 
 function factory (type, config, load) {
 
-  var cs_dfs = load(__webpack_require__(382));
+  var cs_dfs = load(__webpack_require__(381));
   var cs_marked = load(__webpack_require__(109));
   var cs_mark = load(__webpack_require__(108));
 
@@ -42188,7 +42355,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 391 */
+/* 390 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42200,7 +42367,7 @@ function factory (type, config, load) {
   var multiply = load(__webpack_require__(12));
   var subtract = load(__webpack_require__(21));
 
-  var cs_reach = load(__webpack_require__(390));
+  var cs_reach = load(__webpack_require__(389));
 
   /**
    * The function cs_spsolve() computes the solution to G * x = bk, where bk is the
@@ -42281,7 +42448,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 392 */
+/* 391 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42289,11 +42456,11 @@ exports.factory = factory;
 
 function factory (type, config, load) {
 
-  var cs_amd = load(__webpack_require__(380));
-  var cs_permute = load(__webpack_require__(388));
-  var cs_etree = load(__webpack_require__(383));
-  var cs_post = load(__webpack_require__(389));
-  var cs_counts = load(__webpack_require__(381));
+  var cs_amd = load(__webpack_require__(379));
+  var cs_permute = load(__webpack_require__(387));
+  var cs_etree = load(__webpack_require__(382));
+  var cs_post = load(__webpack_require__(388));
+  var cs_counts = load(__webpack_require__(380));
 
   /**
    * Symbolic ordering and analysis for QR and LU decompositions.
@@ -42451,7 +42618,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 393 */
+/* 392 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42482,7 +42649,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 394 */
+/* 393 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42674,7 +42841,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 395 */
+/* 394 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42742,7 +42909,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 396 */
+/* 395 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42813,7 +42980,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 397 */
+/* 396 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42963,7 +43130,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 398 */
+/* 397 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43111,7 +43278,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 399 */
+/* 398 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43175,7 +43342,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 400 */
+/* 399 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43242,7 +43409,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 401 */
+/* 400 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43448,7 +43615,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 402 */
+/* 401 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43539,46 +43706,46 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 403 */
+/* 402 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
   __webpack_require__(29),
   __webpack_require__(18),
   __webpack_require__(20),
+  __webpack_require__(393),
   __webpack_require__(394),
   __webpack_require__(395),
-  __webpack_require__(396),
   __webpack_require__(43),
   __webpack_require__(111),
+  __webpack_require__(396),
   __webpack_require__(397),
   __webpack_require__(398),
-  __webpack_require__(399),
   __webpack_require__(112),
+  __webpack_require__(399),
   __webpack_require__(400),
   __webpack_require__(401),
-  __webpack_require__(402),
-  __webpack_require__(404),
+  __webpack_require__(403),
   __webpack_require__(113),
+  __webpack_require__(404),
   __webpack_require__(405),
-  __webpack_require__(406),
   __webpack_require__(12),
+  __webpack_require__(406),
   __webpack_require__(407),
-  __webpack_require__(408),
   __webpack_require__(44),
   __webpack_require__(114),
   __webpack_require__(115),
   __webpack_require__(55),
-  __webpack_require__(409),
+  __webpack_require__(408),
   __webpack_require__(21),
   __webpack_require__(38),
-  __webpack_require__(410),
-  __webpack_require__(411)
+  __webpack_require__(409),
+  __webpack_require__(410)
 ];
 
 
 /***/ }),
-/* 404 */
+/* 403 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43799,7 +43966,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 405 */
+/* 404 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43884,7 +44051,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 406 */
+/* 405 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44075,7 +44242,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 407 */
+/* 406 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44297,7 +44464,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 408 */
+/* 407 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44603,7 +44770,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 409 */
+/* 408 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44675,7 +44842,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 410 */
+/* 409 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44754,7 +44921,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 411 */
+/* 410 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44898,14 +45065,14 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 412 */
+/* 411 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var isInteger = __webpack_require__(3).isInteger;
-var bigBitAnd = __webpack_require__(537);
+var bigBitAnd = __webpack_require__(536);
 
 function factory (type, config, load, typed) {
   var latex = __webpack_require__(4);
@@ -45054,7 +45221,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 413 */
+/* 412 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45117,14 +45284,14 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 414 */
+/* 413 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var isInteger = __webpack_require__(3).isInteger;
-var bigBitOr = __webpack_require__(538);
+var bigBitOr = __webpack_require__(537);
 
 function factory (type, config, load, typed) {
   var latex = __webpack_require__(4);
@@ -45273,14 +45440,14 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 415 */
+/* 414 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var isInteger = __webpack_require__(3).isInteger;
-var bigBitXor = __webpack_require__(539);
+var bigBitXor = __webpack_require__(538);
 
 function factory (type, config, load, typed) {
   var latex = __webpack_require__(4);
@@ -45429,29 +45596,29 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 416 */
+/* 415 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
+  __webpack_require__(411),
   __webpack_require__(412),
   __webpack_require__(413),
   __webpack_require__(414),
-  __webpack_require__(415),
+  __webpack_require__(416),
   __webpack_require__(417),
-  __webpack_require__(418),
-  __webpack_require__(419)
+  __webpack_require__(418)
 ];
 
 
 /***/ }),
-/* 417 */
+/* 416 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var isInteger = __webpack_require__(3).isInteger;
-var bigLeftShift = __webpack_require__(541);
+var bigLeftShift = __webpack_require__(540);
 
 function factory (type, config, load, typed) {
   var latex = __webpack_require__(4);
@@ -45613,14 +45780,14 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 418 */
+/* 417 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var isInteger = __webpack_require__(3).isInteger;
-var bigRightArithShift = __webpack_require__(542);
+var bigRightArithShift = __webpack_require__(541);
 
 function factory (type, config, load, typed) {
   var latex = __webpack_require__(4);
@@ -45782,7 +45949,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 419 */
+/* 418 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45951,7 +46118,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 420 */
+/* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46011,7 +46178,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 421 */
+/* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46069,7 +46236,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 422 */
+/* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46127,19 +46294,19 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 423 */
+/* 422 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
-  __webpack_require__(420),
-  __webpack_require__(422),
+  __webpack_require__(419),
+  __webpack_require__(421),
   __webpack_require__(116),
-  __webpack_require__(421)
+  __webpack_require__(420)
 ];
 
 
 /***/ }),
-/* 424 */
+/* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46205,7 +46372,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 425 */
+/* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46269,19 +46436,19 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 426 */
+/* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
-  __webpack_require__(424),
+  __webpack_require__(423),
   __webpack_require__(117),
-  __webpack_require__(425),
-  __webpack_require__(427)
+  __webpack_require__(424),
+  __webpack_require__(426)
 ];
 
 
 /***/ }),
-/* 427 */
+/* 426 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46345,7 +46512,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 428 */
+/* 427 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46653,17 +46820,17 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 429 */
+/* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
-  __webpack_require__(430),
-  __webpack_require__(428)
+  __webpack_require__(429),
+  __webpack_require__(427)
 ];
 
 
 /***/ }),
-/* 430 */
+/* 429 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46812,32 +46979,32 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 431 */
+/* 430 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
-  __webpack_require__(377),
-  __webpack_require__(403),
-  __webpack_require__(416),
-  __webpack_require__(423),
-  __webpack_require__(426),
-  __webpack_require__(429),
-  __webpack_require__(433),
-  __webpack_require__(442),
-  __webpack_require__(448),
-  __webpack_require__(457),
-  __webpack_require__(459),
+  __webpack_require__(376),
+  __webpack_require__(402),
+  __webpack_require__(415),
+  __webpack_require__(422),
+  __webpack_require__(425),
+  __webpack_require__(428),
+  __webpack_require__(432),
+  __webpack_require__(441),
+  __webpack_require__(447),
+  __webpack_require__(456),
+  __webpack_require__(458),
+  __webpack_require__(467),
   __webpack_require__(468),
-  __webpack_require__(469),
-  __webpack_require__(475),
-  __webpack_require__(495),
-  __webpack_require__(502),
-  __webpack_require__(504)
+  __webpack_require__(474),
+  __webpack_require__(494),
+  __webpack_require__(501),
+  __webpack_require__(503)
 ];
 
 
 /***/ }),
-/* 432 */
+/* 431 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47015,19 +47182,19 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 433 */
+/* 432 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
-  __webpack_require__(432),
+  __webpack_require__(431),
   __webpack_require__(118),
-  __webpack_require__(434),
-  __webpack_require__(435)
+  __webpack_require__(433),
+  __webpack_require__(434)
 ];
 
 
 /***/ }),
-/* 434 */
+/* 433 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47192,7 +47359,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 435 */
+/* 434 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47357,7 +47524,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 436 */
+/* 435 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47465,7 +47632,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 437 */
+/* 436 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47642,7 +47809,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 438 */
+/* 437 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47728,7 +47895,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 439 */
+/* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47819,7 +47986,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 440 */
+/* 439 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47871,7 +48038,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 441 */
+/* 440 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47955,30 +48122,30 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 442 */
+/* 441 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
   __webpack_require__(60),
-  __webpack_require__(436),
+  __webpack_require__(435),
   __webpack_require__(119),
+  __webpack_require__(436),
   __webpack_require__(437),
-  __webpack_require__(438),
   __webpack_require__(61),
+  __webpack_require__(438),
   __webpack_require__(439),
   __webpack_require__(440),
-  __webpack_require__(441),
   __webpack_require__(120),
-  __webpack_require__(443),
+  __webpack_require__(442),
   __webpack_require__(121),
-  __webpack_require__(444),
+  __webpack_require__(443),
   __webpack_require__(77),
   __webpack_require__(122),
+  __webpack_require__(444),
   __webpack_require__(445),
-  __webpack_require__(446),
   __webpack_require__(25),
   __webpack_require__(123),
-  __webpack_require__(447),
+  __webpack_require__(446),
   __webpack_require__(22),
   __webpack_require__(124),
   __webpack_require__(62),
@@ -47987,7 +48154,7 @@ module.exports = [
 
 
 /***/ }),
-/* 443 */
+/* 442 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48084,7 +48251,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 444 */
+/* 443 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48225,7 +48392,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 445 */
+/* 444 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48306,7 +48473,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 446 */
+/* 445 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48451,7 +48618,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 447 */
+/* 446 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48519,7 +48686,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 448 */
+/* 447 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
@@ -48527,17 +48694,17 @@ module.exports = [
   __webpack_require__(63),
   __webpack_require__(64),
   __webpack_require__(125),
+  __webpack_require__(448),
   __webpack_require__(449),
   __webpack_require__(450),
   __webpack_require__(451),
   __webpack_require__(452),
-  __webpack_require__(453),
-  __webpack_require__(454)
+  __webpack_require__(453)
 ];
 
 
 /***/ }),
-/* 449 */
+/* 448 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48635,7 +48802,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 450 */
+/* 449 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48695,7 +48862,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 451 */
+/* 450 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48796,7 +48963,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 452 */
+/* 451 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48848,7 +49015,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 453 */
+/* 452 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48900,7 +49067,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 454 */
+/* 453 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48950,13 +49117,13 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 455 */
+/* 454 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var seedrandom = __webpack_require__(547);
+var seedrandom = __webpack_require__(546);
 
 // create a random seed here to prevent an infinite loop from seed-random
 // inside the factory. Reason is that math.random is defined as a getter/setter
@@ -48999,7 +49166,7 @@ exports.math = true;
 
 
 /***/ }),
-/* 456 */
+/* 455 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49087,24 +49254,24 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 457 */
+/* 456 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
   __webpack_require__(45),
   __webpack_require__(30),
-  __webpack_require__(456),
+  __webpack_require__(455),
   __webpack_require__(31),
   __webpack_require__(32),
   __webpack_require__(126),
   __webpack_require__(46),
-  __webpack_require__(458),
+  __webpack_require__(457),
   __webpack_require__(127)
 ];
 
 
 /***/ }),
-/* 458 */
+/* 457 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49285,25 +49452,25 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 459 */
+/* 458 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
-  __webpack_require__(460),
+  __webpack_require__(459),
   __webpack_require__(128),
-  __webpack_require__(461),
+  __webpack_require__(460),
   __webpack_require__(129),
+  __webpack_require__(461),
   __webpack_require__(462),
   __webpack_require__(463),
   __webpack_require__(464),
-  __webpack_require__(465),
   __webpack_require__(130),
-  __webpack_require__(466)
+  __webpack_require__(465)
 ];
 
 
 /***/ }),
-/* 460 */
+/* 459 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49370,7 +49537,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 461 */
+/* 460 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49437,7 +49604,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 462 */
+/* 461 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49509,7 +49676,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 463 */
+/* 462 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49568,7 +49735,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 464 */
+/* 463 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49652,7 +49819,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 465 */
+/* 464 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49714,7 +49881,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 466 */
+/* 465 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49773,7 +49940,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 467 */
+/* 466 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49977,35 +50144,35 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 468 */
+/* 467 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
-  __webpack_require__(467)
+  __webpack_require__(466)
 ];
 
 
 /***/ }),
-/* 469 */
+/* 468 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
-  __webpack_require__(470),
+  __webpack_require__(469),
   __webpack_require__(131),
   __webpack_require__(132),
   __webpack_require__(133),
   __webpack_require__(134),
+  __webpack_require__(470),
   __webpack_require__(471),
   __webpack_require__(472),
   __webpack_require__(473),
-  __webpack_require__(474),
   __webpack_require__(135),
   __webpack_require__(136)
 ];
 
 
 /***/ }),
-/* 470 */
+/* 469 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50076,7 +50243,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 471 */
+/* 470 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50159,7 +50326,7 @@ exports.name = 'mode';
 exports.factory = factory;
 
 /***/ }),
-/* 472 */
+/* 471 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50242,7 +50409,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 473 */
+/* 472 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50506,7 +50673,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 474 */
+/* 473 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50587,17 +50754,17 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 475 */
+/* 474 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
   __webpack_require__(137),
-  __webpack_require__(476)
+  __webpack_require__(475)
 ];
 
 
 /***/ }),
-/* 476 */
+/* 475 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50691,7 +50858,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 477 */
+/* 476 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50757,7 +50924,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 478 */
+/* 477 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50818,7 +50985,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 479 */
+/* 478 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50880,7 +51047,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 480 */
+/* 479 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50945,7 +51112,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 481 */
+/* 480 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51005,7 +51172,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 482 */
+/* 481 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51069,7 +51236,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 483 */
+/* 482 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51140,7 +51307,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 484 */
+/* 483 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51207,7 +51374,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 485 */
+/* 484 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51267,7 +51434,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 486 */
+/* 485 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51329,7 +51496,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 487 */
+/* 486 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51488,7 +51655,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 488 */
+/* 487 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51560,7 +51727,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 489 */
+/* 488 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51629,7 +51796,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 490 */
+/* 489 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51702,7 +51869,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 491 */
+/* 490 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51767,7 +51934,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 492 */
+/* 491 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51843,7 +52010,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 493 */
+/* 492 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51908,7 +52075,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 494 */
+/* 493 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51990,12 +52157,13 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 495 */
+/* 494 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
-  __webpack_require__(477),
+  __webpack_require__(476),
   __webpack_require__(138),
+  __webpack_require__(477),
   __webpack_require__(478),
   __webpack_require__(479),
   __webpack_require__(480),
@@ -52012,18 +52180,17 @@ module.exports = [
   __webpack_require__(491),
   __webpack_require__(492),
   __webpack_require__(493),
-  __webpack_require__(494),
+  __webpack_require__(495),
   __webpack_require__(496),
   __webpack_require__(497),
   __webpack_require__(498),
   __webpack_require__(499),
-  __webpack_require__(500),
-  __webpack_require__(501)
+  __webpack_require__(500)
 ];
 
 
 /***/ }),
-/* 496 */
+/* 495 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52088,7 +52255,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 497 */
+/* 496 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52163,7 +52330,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 498 */
+/* 497 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52233,7 +52400,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 499 */
+/* 498 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52307,7 +52474,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 500 */
+/* 499 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52373,7 +52540,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 501 */
+/* 500 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52451,15 +52618,15 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 502 */
+/* 501 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
-  __webpack_require__(503)
+  __webpack_require__(502)
 ];
 
 /***/ }),
-/* 503 */
+/* 502 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52556,7 +52723,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 504 */
+/* 503 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
@@ -52565,15 +52732,15 @@ module.exports = [
   __webpack_require__(56),
   __webpack_require__(79),
   __webpack_require__(57),
-  __webpack_require__(506),
-  __webpack_require__(80),
   __webpack_require__(505),
+  __webpack_require__(80),
+  __webpack_require__(504),
   __webpack_require__(81)
 ];
 
 
 /***/ }),
-/* 505 */
+/* 504 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52646,7 +52813,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 506 */
+/* 505 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52734,30 +52901,30 @@ exports.factory = factory;
 
 
 /***/ }),
+/* 506 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = [
+  __webpack_require__(520),        // data types (Matrix, Complex, Unit, ...)
+  __webpack_require__(156),   // constants
+  __webpack_require__(359),  // expression parsing
+  __webpack_require__(430),    // functions
+  __webpack_require__(507),        // serialization utility (math.json.reviver)
+  __webpack_require__(161)        // errors
+];
+
+
+/***/ }),
 /* 507 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
-  __webpack_require__(521),        // data types (Matrix, Complex, Unit, ...)
-  __webpack_require__(157),   // constants
-  __webpack_require__(360),  // expression parsing
-  __webpack_require__(431),    // functions
-  __webpack_require__(508),        // serialization utility (math.json.reviver)
-  __webpack_require__(162)        // errors
+  __webpack_require__(508)
 ];
 
 
 /***/ }),
 /* 508 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = [
-  __webpack_require__(509)
-];
-
-
-/***/ }),
-/* 509 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52786,10 +52953,10 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 510 */
+/* 509 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Decimal = __webpack_require__(153); // make sure to pick the es5 version
+var Decimal = __webpack_require__(150); // make sure to pick the es5 version
 
 function factory (type, config, load, typed, math) {
   var BigNumber = Decimal.clone({precision: config.precision});
@@ -52839,7 +53006,7 @@ exports.factory = factory;
 exports.math = true; // request access to the math namespace
 
 /***/ }),
-/* 511 */
+/* 510 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52914,20 +53081,20 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 512 */
+/* 511 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
   // type
-  __webpack_require__(510),
+  __webpack_require__(509),
 
   // construction function
-  __webpack_require__(511)
+  __webpack_require__(510)
 ];
 
 
 /***/ }),
-/* 513 */
+/* 512 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53012,7 +53179,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 514 */
+/* 513 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53184,7 +53351,7 @@ exports.lazy = false; // we need to register a listener on the import events, so
 
 
 /***/ }),
-/* 515 */
+/* 514 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53242,20 +53409,20 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 516 */
+/* 515 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
   // type
-  __webpack_require__(514),
+  __webpack_require__(513),
 
   // construction function
-  __webpack_require__(515)
+  __webpack_require__(514)
 ];
 
 
 /***/ }),
-/* 517 */
+/* 516 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53362,7 +53529,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 518 */
+/* 517 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
@@ -53370,15 +53537,15 @@ module.exports = [
   __webpack_require__(140),
 
   // construction function
-  __webpack_require__(517)
+  __webpack_require__(516)
 ];
 
 
 /***/ }),
-/* 519 */
+/* 518 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Fraction = __webpack_require__(154);
+var Fraction = __webpack_require__(152);
 
 /**
  * Attach type information
@@ -53420,12 +53587,12 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 520 */
+/* 519 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
   // type
-  __webpack_require__(519),
+  __webpack_require__(518),
 
   // construction function
   __webpack_require__(141)
@@ -53433,25 +53600,25 @@ module.exports = [
 
 
 /***/ }),
-/* 521 */
+/* 520 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
+  __webpack_require__(511),
   __webpack_require__(512),
-  __webpack_require__(513),
-  __webpack_require__(516),
-  __webpack_require__(518),
-  __webpack_require__(520),
-  __webpack_require__(528),
+  __webpack_require__(515),
+  __webpack_require__(517),
+  __webpack_require__(519),
+  __webpack_require__(527),
   __webpack_require__(85),
+  __webpack_require__(528),
   __webpack_require__(529),
-  __webpack_require__(530),
-  __webpack_require__(535)
+  __webpack_require__(534)
 ];
 
 
 /***/ }),
-/* 522 */
+/* 521 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53807,7 +53974,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 523 */
+/* 522 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54047,7 +54214,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 524 */
+/* 523 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54195,7 +54362,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 525 */
+/* 524 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55636,7 +55803,7 @@ exports.lazy = false;  // no lazy loading, as we alter type.Matrix._storage
 
 
 /***/ }),
-/* 526 */
+/* 525 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55707,7 +55874,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 527 */
+/* 526 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55775,29 +55942,29 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 528 */
+/* 527 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
   // types
   __webpack_require__(82),
   __webpack_require__(48),
-  __webpack_require__(525),
   __webpack_require__(524),
-  __webpack_require__(522),
   __webpack_require__(523),
+  __webpack_require__(521),
+  __webpack_require__(522),
   __webpack_require__(26),
   __webpack_require__(142),
 
   // construction functions
-  __webpack_require__(526),
+  __webpack_require__(525),
   __webpack_require__(0),
-  __webpack_require__(527)
+  __webpack_require__(526)
 ];
 
 
 /***/ }),
-/* 529 */
+/* 528 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
@@ -55807,7 +55974,7 @@ module.exports = [
 
 
 /***/ }),
-/* 530 */
+/* 529 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55883,7 +56050,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 531 */
+/* 530 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59172,7 +59339,7 @@ exports.math = true; // request access to the math namespace
 
 
 /***/ }),
-/* 532 */
+/* 531 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59264,7 +59431,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 533 */
+/* 532 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59308,7 +59475,7 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 534 */
+/* 533 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59376,29 +59543,29 @@ exports.factory = factory;
 
 
 /***/ }),
-/* 535 */
+/* 534 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = [
   // type
-  __webpack_require__(531),
+  __webpack_require__(530),
 
   // construction function
-  __webpack_require__(534),
-
-  // create new units
-  __webpack_require__(532),
-
-  // split units
   __webpack_require__(533),
 
+  // create new units
+  __webpack_require__(531),
+
+  // split units
+  __webpack_require__(532),
+
   // physical constants
-  __webpack_require__(536)
+  __webpack_require__(535)
 ];
 
 
 /***/ }),
-/* 536 */
+/* 535 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var lazy = __webpack_require__(5).lazy;
@@ -59494,7 +59661,7 @@ exports.math = true;   // request access to the math namespace
 
 
 /***/ }),
-/* 537 */
+/* 536 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var bitwise = __webpack_require__(87);
@@ -59568,7 +59735,7 @@ module.exports = function bitAnd(x, y) {
 
 
 /***/ }),
-/* 538 */
+/* 537 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var bitwise = __webpack_require__(87);
@@ -59627,7 +59794,7 @@ module.exports = function bitOr (x, y) {
 
 
 /***/ }),
-/* 539 */
+/* 538 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var bitwise = __webpack_require__(87);
@@ -59693,7 +59860,7 @@ module.exports = function bitXor(x, y) {
 
 
 /***/ }),
-/* 540 */
+/* 539 */
 /***/ (function(module, exports) {
 
 /**
@@ -59882,7 +60049,7 @@ exports.toFixed = function (value, precision) {
 
 
 /***/ }),
-/* 541 */
+/* 540 */
 /***/ (function(module, exports) {
 
 
@@ -59929,7 +60096,7 @@ module.exports = function leftShift (x, y) {
 
 
 /***/ }),
-/* 542 */
+/* 541 */
 /***/ (function(module, exports) {
 
 /*
@@ -59982,7 +60149,7 @@ module.exports = function rightArithShift (x, y) {
 
 
 /***/ }),
-/* 543 */
+/* 542 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59999,7 +60166,7 @@ exports.isBoolean = function(value) {
 
 
 /***/ }),
-/* 544 */
+/* 543 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60070,7 +60237,7 @@ module.exports = function scatter(a, j, w, x, u, mark, c, f, inverse, update, va
 
 
 /***/ }),
-/* 545 */
+/* 544 */
 /***/ (function(module, exports) {
 
 module.exports = '3.15.0';
@@ -60079,7 +60246,7 @@ module.exports = '3.15.0';
 
 
 /***/ }),
-/* 546 */
+/* 545 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -60269,7 +60436,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 547 */
+/* 546 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60450,7 +60617,7 @@ mixkey(Math.random(), pool);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(553)))
 
 /***/ }),
-/* 548 */
+/* 547 */
 /***/ (function(module, exports) {
 
 function E () {
@@ -60522,7 +60689,7 @@ module.exports = E;
 
 
 /***/ }),
-/* 549 */
+/* 548 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61919,6 +62086,100 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ }),
+/* 549 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setStylesTarget", function() { return setStylesTarget; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssRaw", function() { return cssRaw; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cssRule", function() { return cssRule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "forceRenderStyles", function() { return forceRenderStyles; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fontFace", function() { return fontFace; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStyles", function() { return getStyles; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "keyframes", function() { return keyframes; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "reinit", function() { return reinit; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "style", function() { return style; });
+/* harmony export (immutable) */ __webpack_exports__["createTypeStyle"] = createTypeStyle;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_typestyle__ = __webpack_require__(551);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TypeStyle", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_typestyle__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__types__ = __webpack_require__(552);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__types__);
+/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "types", function() { return __WEBPACK_IMPORTED_MODULE_1__types__; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__internal_utilities__ = __webpack_require__(147);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "extend", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_utilities__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "classes", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_utilities__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "media", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_utilities__["c"]; });
+
+
+/**
+ * All the CSS types in the 'types' namespace
+ */
+
+
+/**
+ * Export certain utilities
+ */
+
+/** Zero configuration, default instance of TypeStyle */
+var ts = new __WEBPACK_IMPORTED_MODULE_0__internal_typestyle__["a" /* TypeStyle */]({ autoGenerateTag: true });
+/** Sets the target tag where we write the css on style updates */
+var setStylesTarget = ts.setStylesTarget;
+/**
+ * Insert `raw` CSS as a string. This is useful for e.g.
+ * - third party CSS that you are customizing with template strings
+ * - generating raw CSS in JavaScript
+ * - reset libraries like normalize.css that you can use without loaders
+ */
+var cssRaw = ts.cssRaw;
+/**
+ * Takes CSSProperties and registers it to a global selector (body, html, etc.)
+ */
+var cssRule = ts.cssRule;
+/**
+ * Renders styles to the singleton tag imediately
+ * NOTE: You should only call it on initial render to prevent any non CSS flash.
+ * After that it is kept sync using `requestAnimationFrame` and we haven't noticed any bad flashes.
+ **/
+var forceRenderStyles = ts.forceRenderStyles;
+/**
+ * Utility function to register an @font-face
+ */
+var fontFace = ts.fontFace;
+/**
+ * Allows use to use the stylesheet in a node.js environment
+ */
+var getStyles = ts.getStyles;
+/**
+ * Takes keyframes and returns a generated animationName
+ */
+var keyframes = ts.keyframes;
+/**
+ * Helps with testing. Reinitializes FreeStyle + raw
+ */
+var reinit = ts.reinit;
+/**
+ * Takes CSSProperties and return a generated className you can use on your component
+ */
+var style = ts.style;
+/**
+ * Creates a new instance of TypeStyle separate from the default instance.
+ *
+ * - Use this for creating a different typestyle instance for a shadow dom component.
+ * - Use this if you don't want an auto tag generated and you just want to collect the CSS.
+ *
+ * NOTE: styles aren't shared between different instances.
+ */
+function createTypeStyle(target) {
+    var instance = new __WEBPACK_IMPORTED_MODULE_0__internal_typestyle__["a" /* TypeStyle */]({ autoGenerateTag: false });
+    if (target) {
+        instance.setStylesTarget(target);
+    }
+    return instance;
+}
+
+
+/***/ }),
 /* 550 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -62204,6 +62465,13 @@ try {
 // easier to handle this case. if(!global) { ...}
 
 module.exports = g;
+
+
+/***/ }),
+/* 554 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(148);
 
 
 /***/ })
