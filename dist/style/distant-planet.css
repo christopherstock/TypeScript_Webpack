@@ -9,13 +9,11 @@ body {
 	margin-left: 20%;
 }
 #HEADER {
-	background-image: url(images/Distant-Planet_02.gif);
 	float: left;
 	height: 202px;
 	width: 713px;
 }
 #NAVIGATION {
-	background-image: url(images/Distant-Planet_04.gif);
 	float: left;
 	height: 39px;
 	width: 713px;
@@ -26,13 +24,11 @@ body {
 	width: 713px;
 }
 .LEFT {
-	background-image: url(images/Distant-Planet_05.gif);
 	float: left;
 	width: 51px;
 	height: 493px;
 }
 .MIDDLE {
-	background-image: url(images/Distant-Planet_06.gif);
 	float: left;
 	width: 593px;
 	padding-bottom: 14px;
@@ -55,7 +51,6 @@ body {
 }
 
 .RIGHT {
-	background-image: url(images/Distant-Planet_07.gif);
 	float: left;
 	width: 69px;
 	height: 493px;
@@ -118,7 +113,6 @@ body {
 	text-decoration: underline;
 }
 #FOOTER {
-	background-image: url(images/Distant-Planet_08.gif);
 	float: left;
 	width: 713px;
 }

@@ -28,8 +28,6 @@ span.key {
 	text-decoration: underline;
 }
 #BODYBOX {
-	background-image: url(images/bodybox_bg.png);
-	background-repeat: repeat-y;
 }
 p {
 	padding-left: 20px;
