@@ -1,9 +1,15 @@
 
-    // namespace MyTest
-    //{
-        // Example A =======================================================================================================
+    import { style } from 'typestyle';
+    import 'fpsmeter';
+    import * as math from 'mathjs';
 
-        console.log("Chris and Carsten here! TEST 2 !");
+    namespace MyTest
+    {
+
+
+        // Example A ===================================================================================================
+
+        console.log("Chris and Carsten here!");
 
         export function component () {
 
@@ -14,9 +20,7 @@
         document.body.appendChild( component() );
 
 
-        // Example B =======================================================================================================
-
-        import { style } from 'typestyle';
+        // Example B ===================================================================================================
 
         /** convert a style object to a CSS class name */
         const className = style({color: 'red', fontSize: '20px'});
@@ -26,7 +30,7 @@
         console.log("Classname is: [" + className + "]");
 
         let element2 = document.createElement('div');
-        element2.innerHTML = 'Carsten und Christopher';
+        element2.innerHTML = 'Carsten und Christopher - solved it all! :D :D';
         element2.className = className;
 
         document.body.appendChild(element2);
@@ -44,19 +48,15 @@
                 // let fpsMeter:FPSMeter = new FPSMeter();
 
                 //let test:number = style.length;
-
-
             }
         }
 
         NodeTest1.test();
 
 
-        // Example C =======================================================================================================
+        // Example C ===================================================================================================
 
-         import 'fpsmeter';
-
-         const fpsMeter = new FPSMeter(
+        const fpsMeter = new FPSMeter(
             undefined,
             {
                 graph:    1,
@@ -76,10 +76,8 @@
         options.heat = 1;
 
 
-        // Example D =======================================================================================================
-
-        import * as math from 'mathjs';
+        // Example D ===================================================================================================
 
         let test2:number = math.abs(-7.5);
         console.log("Math abs is: [" + test2 + "]");
-    //}
+    }
