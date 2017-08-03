@@ -25792,14 +25792,17 @@ function createTypeStyle(target) {
 
 "use strict";
 
+// namespace MyTest
+//{
 // Example A =======================================================================================================
 Object.defineProperty(exports, "__esModule", { value: true });
-console.log("Chris and Carsten here! TEST !");
+console.log("Chris and Carsten here! TEST 2 !");
 function component() {
     var element = document.createElement('div');
     element.innerHTML = 'Welcome to our TypeScript test!';
     return element;
 }
+exports.component = component;
 document.body.appendChild(component());
 // Example B =======================================================================================================
 var typestyle_1 = __webpack_require__(150);
@@ -25808,7 +25811,7 @@ var className = typestyle_1.style({ color: 'red', fontSize: '20px' });
 console.log("Testing import of 'typestyle':");
 console.log("Classname is: [" + className + "]");
 var element2 = document.createElement('div');
-element2.innerHTML = 'Carsten';
+element2.innerHTML = 'Carsten und Christopher';
 element2.className = className;
 document.body.appendChild(element2);
 var NodeTest1 = (function () {
@@ -25823,6 +25826,7 @@ var NodeTest1 = (function () {
     };
     return NodeTest1;
 }());
+exports.NodeTest1 = NodeTest1;
 NodeTest1.test();
 // Example C =======================================================================================================
 __webpack_require__(148);
@@ -25844,6 +25848,7 @@ options.heat = 1;
 var math = __webpack_require__(149);
 var test2 = math.abs(-7.5);
 console.log("Math abs is: [" + test2 + "]");
+//}
 //# sourceMappingURL=index.js.map
 
 /***/ }),
