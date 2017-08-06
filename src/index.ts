@@ -5,7 +5,11 @@
 
     import * as BABYLON from 'babylonjs';
 
-    // import { BABYLON } from 'babylonjs';
+    //import from
+
+    //import de from "./de/mayflower/mfg/g3d/MfgMaterial";
+
+    import Mfg = de.mayflower.mfg.Mfg;
 
     namespace MyTest
     {
@@ -90,4 +94,26 @@
     console.log( "Test-Vektor: [" + v.x + "]" );
 
 
+
+    //MfgInit.init();
+
+    /*****************************************************************************
+*   This is the application's point of entry.
+*****************************************************************************/
+window.onload = function()
+{
+    console.log("window.onload");
+
+    //invoke main method
+    // Mfg.main();
+
+
+};
+
+/*****************************************************************************
+*   This is the application's point of termination.
+*****************************************************************************/
+window.onunload = function()
+{
+};
 
