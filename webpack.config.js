@@ -3,7 +3,11 @@ var path = require('path');
 
 module.exports = {
     entry: [
+
+        './lib/de/mayflower/mfg/Mfg.js',
+
         './lib/index.js'
+
     ],
     output: {
         filename: 'bundled.js',

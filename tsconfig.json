@@ -69,6 +69,9 @@
         // "src/**/*",
         // "src_lib/**/*"
 
+
+        "src/de/mayflower/mfg/Mfg.ts",
+
         "src/index.ts"
 
     ]

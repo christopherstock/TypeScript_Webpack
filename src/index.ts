@@ -2,14 +2,18 @@
     import { style } from 'typestyle';
     import 'fpsmeter';
     import * as math from 'mathjs';
-
     import * as BABYLON from 'babylonjs';
 
-    //import from
+    // import * as test1 from 'de_mayflower_mfg';
 
-    //import de from "./de/mayflower/mfg/g3d/MfgMaterial";
+    import {de_mayflower_mfg} from './de/mayflower/mfg/Mfg';
 
-    //import Mfg = de.mayflower.mfg.Mfg;
+    // import * as Mfg from "Mfg";
+
+    console.dir(de_mayflower_mfg);
+
+
+
 
     namespace MyTest
     {
@@ -107,9 +111,7 @@ window.onload = function()
     console.log(">>>>> window.onload !");
 
     //invoke main method
-    // Mfg.main();
-
-
+    de_mayflower_mfg.Mfg.main();
 };
 
 /*****************************************************************************

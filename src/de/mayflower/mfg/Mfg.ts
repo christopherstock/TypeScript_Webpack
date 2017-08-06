@@ -1,4 +1,4 @@
-export namespace de.mayflower.mfg
+export module de_mayflower_mfg
 {
     /************************************************************************************
     *   The main class contains the application's points of entry and termination.
