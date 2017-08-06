@@ -6,7 +6,7 @@ module.exports = {
 
         './lib/de/mayflower/mfg/Mfg.js',
 
-        //'./lib/de/mayflower/mfg/base/MfgVersion.js',
+        './lib/de/mayflower/mfg/base/MfgInit.js',
 
         './lib/index.js'
 

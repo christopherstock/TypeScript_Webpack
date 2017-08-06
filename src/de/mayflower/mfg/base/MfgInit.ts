@@ -1,6 +1,6 @@
 import * as BABYLON from 'babylonjs';
 
-export namespace de.mayflower.mfg
+export module de_mayflower_mfg_mfginit
 {
     /*****************************************************************************
     *   Specifies the initialization part of the game logic.
@@ -30,8 +30,11 @@ export namespace de.mayflower.mfg
         *****************************************************************************/
         public static init()
         {
-            MfgDebug.init.log( "Acclaiming and setting title." );
+            console.log("test");
 
+            // MfgDebug.init.log( "Acclaiming and setting title." );
+
+/*
             //acclaim debug console
             MfgDebug.acclaim.log( MfgSettings.TITLE );
 
@@ -80,6 +83,7 @@ export namespace de.mayflower.mfg
             //setup the level
             MfgDebug.init.log( "Setup the level" );
             MfgGame.currentLevel = new MfgLevelFirstPerson();
+*/
         }
 
         /*****************************************************************************
@@ -87,12 +91,14 @@ export namespace de.mayflower.mfg
         *****************************************************************************/
         public static onInitCompleted()
         {
+/*
             MfgDebug.init.log( "> onInitCompleted" );
 
             MfgScene.scene.executeWhenReady
             (
                 MfgScene.initSceneCompleted
             );
+*/
         }
     }
 }

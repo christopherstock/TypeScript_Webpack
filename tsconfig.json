@@ -72,7 +72,7 @@
 
         "src/de/mayflower/mfg/Mfg.ts",
 
-        //"src/de/mayflower/mfg/base/MfgVersion.ts",
+        "src/de/mayflower/mfg/base/MfgInit.ts",
 
         "src/index.ts"
 

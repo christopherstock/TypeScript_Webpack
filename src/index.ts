@@ -109,8 +109,6 @@ window.onload = function()
 
     //invoke main method
     de_mayflower_mfg_mfg.Mfg.main();
-
-    //console.log(">>>>> Version: [" + de_mayflower_mfg2.MfgVersion.CURRENT_VERSION.getVersionDescriptor() + "]");
 };
 
 /*****************************************************************************

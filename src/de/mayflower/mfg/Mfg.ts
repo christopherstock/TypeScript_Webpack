@@ -1,3 +1,5 @@
+import {de_mayflower_mfg_mfginit} from './base/MfgInit';
+
 export module de_mayflower_mfg_mfg
 {
     /************************************************************************************
@@ -21,9 +23,7 @@ export module de_mayflower_mfg_mfg
             console.log("main() ... :D ");
 
             //init game engine
-            // if ( false ) MfgInit.init();
-
-
+            de_mayflower_mfg_mfginit.MfgInit.init();
         }
     }
 }
