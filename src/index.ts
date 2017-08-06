@@ -6,11 +6,15 @@
     import * as BABYLON from 'babylonjs';
 
     import {de_mayflower_mfg_mfg} from './de/mayflower/mfg/Mfg';
+    import {de_mayflower_mfg_mfginit} from './de/mayflower/mfg/base/MfgInit';
+
+    // import {MfgVersion} from './de/mayflower/mfg/base/MfgVersion';
 
     console.log("Welcome!!");
     console.dir(de_mayflower_mfg_mfg);
+    console.dir(de_mayflower_mfg_mfginit);
 
-    // import {MfgVersion} from './de/mayflower/mfg/base/MfgVersion';
+
 
     namespace Main
     {
