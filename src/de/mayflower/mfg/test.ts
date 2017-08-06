@@ -1,3 +1,3 @@
 
-export * from './Mfg';
-export * from './base/MfgInit';
+    export {Mfg} from './Mfg';
+    export {MfgInit} from './base/MfgInit';

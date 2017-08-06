@@ -1,7 +1,6 @@
-import * as BABYLON from 'babylonjs';
 
-export module de_mayflower_mfg_mfginit
-{
+    import * as BABYLON from 'babylonjs';
+
     /*****************************************************************************
     *   Specifies the initialization part of the game logic.
     *
@@ -101,4 +100,3 @@ export module de_mayflower_mfg_mfginit
 */
         }
     }
-}

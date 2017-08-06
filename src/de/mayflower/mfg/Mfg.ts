@@ -1,7 +1,6 @@
-import {de_mayflower_mfg_mfginit} from './base/MfgInit';
 
-export module de_mayflower_mfg_mfg
-{
+    import {MfgInit} from './test';
+
     /************************************************************************************
     *   The main class contains the application's points of entry and termination.
     *
@@ -23,7 +22,6 @@ export module de_mayflower_mfg_mfg
             console.log("main() ... :D ");
 
             //init game engine
-            de_mayflower_mfg_mfginit.MfgInit.init();
+            MfgInit.init();
         }
     }
-}

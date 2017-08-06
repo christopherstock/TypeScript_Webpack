@@ -5,17 +5,14 @@
 
     import * as BABYLON from 'babylonjs';
 
-    import {de_mayflower_mfg_mfg} from './de/mayflower/mfg/test';
-    import {de_mayflower_mfg_mfginit} from './de/mayflower/mfg/test';
+    import {Mfg, MfgInit} from './de/mayflower/mfg/test';
 
     // import {MfgVersion} from './de/mayflower/mfg/base/MfgVersion';
 
     console.log("Welcome!! 7");
 
-    console.dir(de_mayflower_mfg_mfg);
-    console.dir(de_mayflower_mfg_mfginit);
-
-
+    console.dir(Mfg);
+    console.dir(MfgInit);
 
     namespace Main
     {
@@ -113,7 +110,7 @@ window.onload = function()
     console.log(">>>>> window.onload !!");
 
     //invoke main method
-    de_mayflower_mfg_mfg.Mfg.main();
+    Mfg.main();
 };
 
 /*****************************************************************************
