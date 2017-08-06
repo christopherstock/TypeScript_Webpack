@@ -71,8 +71,8 @@
 
 
         "src/de/mayflower/mfg/Mfg.ts",
-
         "src/de/mayflower/mfg/base/MfgInit.ts",
+        "src/de/mayflower/mfg/test.ts",
 
         "src/index.ts"
 

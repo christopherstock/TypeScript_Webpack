@@ -5,12 +5,13 @@
 
     import * as BABYLON from 'babylonjs';
 
-    import {de_mayflower_mfg_mfg} from './de/mayflower/mfg/Mfg';
-    import {de_mayflower_mfg_mfginit} from './de/mayflower/mfg/base/MfgInit';
+    import {de_mayflower_mfg_mfg} from './de/mayflower/mfg/test';
+    import {de_mayflower_mfg_mfginit} from './de/mayflower/mfg/test';
 
     // import {MfgVersion} from './de/mayflower/mfg/base/MfgVersion';
 
-    console.log("Welcome!!");
+    console.log("Welcome!! 7");
+
     console.dir(de_mayflower_mfg_mfg);
     console.dir(de_mayflower_mfg_mfginit);
 
