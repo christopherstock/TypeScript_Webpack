@@ -20,9 +20,9 @@
         {
             super
             (
-                new BABYLON.Vector3( -10.0, 10.0, -10.0 ),
+                new BABYLON.Vector3( 0.0, 0.0, 0.0 ),
                 new BABYLON.Vector3( 0,     0,    0     ),
-                LibUI.COLOR_DARK_GREY
+                LibUI.COLOR_ORANGE_MAYFLOWER
             );
 
             this.setupLights();

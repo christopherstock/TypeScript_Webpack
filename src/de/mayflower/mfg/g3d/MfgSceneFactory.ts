@@ -28,11 +28,7 @@
             var box:BABYLON.Mesh = BABYLON.Mesh.CreateBox
             (
                 id,
-                {
-                    width:  width,
-                    height: height,
-                    depth:  depth,
-                },
+                width,
                 scene
             );
 

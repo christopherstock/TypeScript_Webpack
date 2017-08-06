@@ -78,7 +78,7 @@
 
             //setup physics
             MfgDebug.init.log( "Setup all physics" );
-            MfgScene.scene.enablePhysics( null, new BABYLON.OimoJSPlugin() );
+            MfgScene.scene.enablePhysics( null, new BABYLON.CannonJSPlugin() );
 
             //setup the level
             MfgDebug.init.log( "Setup the level" );
