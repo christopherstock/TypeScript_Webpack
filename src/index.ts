@@ -2,20 +2,17 @@
     import { style } from 'typestyle';
     import 'fpsmeter';
     import * as math from 'mathjs';
+
     import * as BABYLON from 'babylonjs';
 
-    // import * as test1 from 'de_mayflower_mfg';
+    import {de_mayflower_mfg_mfg} from './de/mayflower/mfg/Mfg';
 
-    import {de_mayflower_mfg} from './de/mayflower/mfg/Mfg';
+    console.log("Welcome!!");
+    console.dir(de_mayflower_mfg_mfg);
 
-    // import * as Mfg from "Mfg";
+    // import {MfgVersion} from './de/mayflower/mfg/base/MfgVersion';
 
-    console.dir(de_mayflower_mfg);
-
-
-
-
-    namespace MyTest
+    namespace Main
     {
         // Example A ===================================================================================================
 
@@ -108,10 +105,12 @@ console.log("Test 1");
 *****************************************************************************/
 window.onload = function()
 {
-    console.log(">>>>> window.onload !");
+    console.log(">>>>> window.onload !!");
 
     //invoke main method
-    de_mayflower_mfg.Mfg.main();
+    de_mayflower_mfg_mfg.Mfg.main();
+
+    //console.log(">>>>> Version: [" + de_mayflower_mfg2.MfgVersion.CURRENT_VERSION.getVersionDescriptor() + "]");
 };
 
 /*****************************************************************************

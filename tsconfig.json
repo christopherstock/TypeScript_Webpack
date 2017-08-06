@@ -72,6 +72,8 @@
 
         "src/de/mayflower/mfg/Mfg.ts",
 
+        //"src/de/mayflower/mfg/base/MfgVersion.ts",
+
         "src/index.ts"
 
     ]
