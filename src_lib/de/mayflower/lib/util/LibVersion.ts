@@ -1,5 +1,4 @@
-export namespace de.mayflower.lib
-{
+
     /*****************************************************************************
     *   Represents one specific project version.
     *
@@ -43,4 +42,3 @@ export namespace de.mayflower.lib
             return ( "v. " + this.version + ", " + this.date );
         }
     }
-}

@@ -1,5 +1,8 @@
-export namespace de.mayflower.mfg
-{
+
+    import * as BABYLON        from 'babylonjs';
+    import {MfgLevel, MfgInit, MfgSceneFactory, MfgMaterial, MfgScene} from '../../src';
+    import {LibUI}             from '../../../../../../src_lib/de/mayflower/lib/lib';
+
     /*****************************************************************************
     *   Specifies the 'first person' level.
     *
@@ -58,4 +61,3 @@ export namespace de.mayflower.mfg
             );
         }
     }
-}

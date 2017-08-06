@@ -65,16 +65,7 @@
     },
 
     "include": [
-
-        // "src/**/*",
-        // "src_lib/**/*"
-
-
-        "src/de/mayflower/mfg/Mfg.ts",
-        "src/de/mayflower/mfg/base/MfgInit.ts",
-        "src/de/mayflower/mfg/test.ts",
-
-        "src/index.ts"
-
+        "src/**/*",
+        "src_lib/**/*"
     ]
 }

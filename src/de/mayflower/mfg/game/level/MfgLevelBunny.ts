@@ -1,11 +1,8 @@
-///<reference path="./MfgLevel.ts"/>
 
-import * as BABYLON from 'babylonjs';
+    import * as BABYLON from 'babylonjs';
+    import {MfgLevel, MfgInit, MfgScene, MfgSceneFactory, MfgMaterial, MfgSprite, MfgSettings} from '../../src';
+    import {LibUI} from '../../../../../../src_lib/de/mayflower/lib/lib';
 
-import MfgLevel = de.mayflower.mfg.MfgLevel;
-
-export namespace de.mayflower.mfg
-{
     /*****************************************************************************
     *   Specifies the 'bunny' level.
     *
@@ -312,4 +309,3 @@ export namespace de.mayflower.mfg
             );
         }
     }
-}

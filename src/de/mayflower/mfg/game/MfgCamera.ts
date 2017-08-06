@@ -1,7 +1,7 @@
-import * as BABYLON from 'babylonjs';
 
-export namespace de.mayflower.mfg
-{
+    import * as BABYLON from 'babylonjs';
+    import {MfgSettings, MfgScene} from '../src';
+
     /*****************************************************************************
     *   Specifies the paramount part of the game logic.
     *
@@ -36,4 +36,3 @@ export namespace de.mayflower.mfg
             );
         }
     }
-}

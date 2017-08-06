@@ -1,5 +1,4 @@
-export namespace de.mayflower.lib
-{
+
     /*****************************************************************************
     *   Formats strings in a specified way.
     *
@@ -33,4 +32,3 @@ export namespace de.mayflower.lib
             return ( day + '.' + month + '.' + year + ' ' + hour + ':' + minute + ':' + second );
         }
     }
-}

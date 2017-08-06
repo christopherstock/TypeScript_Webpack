@@ -1,5 +1,4 @@
-export namespace de.mayflower.lib
-{
+
     /*****************************************************************************
     *   Offers static string functionality.
     *
@@ -32,4 +31,3 @@ export namespace de.mayflower.lib
             return ret;
         }
     }
-}

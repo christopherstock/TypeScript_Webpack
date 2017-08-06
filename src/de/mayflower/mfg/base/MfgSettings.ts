@@ -1,11 +1,7 @@
-///<reference path="../../../../../src/de/mayflower/mfg/base/MfgDebugSettings.ts"/>
-///<reference path="../../../../../src/de/mayflower/mfg/base/MfgVersion.ts"/>
 
-import MfgDebugSettings = de.mayflower.mfg.MfgDebugSettings;
-import MfgVersion = de.mayflower.mfg.MfgVersion;
+    import {MfgVersion}       from '../src';
+    import {MfgDebugSettings} from '../src';
 
-export namespace de.mayflower.mfg
-{
     /*****************************************************************************
     *   Specifies all adjustments and balancings for the application.
     *
@@ -15,10 +11,10 @@ export namespace de.mayflower.mfg
     export class MfgSettings
     {
         /** Determines the app's operation mode. */
-        public      static      MODE                                        :number             = MfgDebugSettings.MODE_DEBUG;
+        public      static      MODE                                        :number             = 1;
 
         /** The application's internal name. */
-        public      static      TITLE                                       :string             = "Babylon.js primer, (c) 2016 Mayflower GmbH, v. [" + MfgVersion.CURRENT_VERSION.getVersionDescriptor() + "]";
+        public      static      TITLE                                       :string             = "Babylon.js primer, (c) 2016 Mayflower GmbH, v.0.0.1";
 
         /** The desired canvas3D width. */
         public      static      CANVAS_WIDTH                                :number             = 800;
@@ -58,4 +54,3 @@ export namespace de.mayflower.mfg
         /** The player's speed for centering the up/down view aim in degrees per tick. */
         public      static      PLAYER_SPEED_CENTER_VIEW_AIM                :number             = 5.0;
     }
-}

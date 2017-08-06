@@ -5,9 +5,9 @@
 
     import * as BABYLON from 'babylonjs';
 
-    import {Mfg, MfgInit} from './de/mayflower/mfg/test';
+    import {Mfg, MfgInit} from './de/mayflower/mfg/src';
 
-    // import {MfgVersion} from './de/mayflower/mfg/base/MfgVersion';
+
 
     console.log("Welcome!! 7");
 

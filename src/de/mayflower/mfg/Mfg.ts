@@ -1,5 +1,5 @@
 
-    import {MfgInit} from './test';
+    import {MfgInit} from './src';
 
     /************************************************************************************
     *   The main class contains the application's points of entry and termination.
@@ -19,7 +19,7 @@
         *****************************************************************************/
         public static main():void
         {
-            console.log("main() ... :D ");
+            console.log(">> main() ... :D ");
 
             //init game engine
             MfgInit.init();

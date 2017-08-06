@@ -1,7 +1,7 @@
-import * as BABYLON from 'babylonjs';
 
-export namespace de.mayflower.mfg
-{
+    import * as BABYLON from 'babylonjs';
+    import {MfgCamera, MfgScene, MfgSettings} from '../../src';
+
     /*****************************************************************************
     *   Handles different level sets.
     *
@@ -18,4 +18,3 @@ export namespace de.mayflower.mfg
             MfgScene.scene.gravity    = new BABYLON.Vector3( 0, MfgSettings.GRAVITY, 0 );
         }
     }
-}

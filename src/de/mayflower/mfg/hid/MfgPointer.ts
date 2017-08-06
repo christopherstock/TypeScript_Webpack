@@ -1,5 +1,6 @@
-export namespace de.mayflower.mfg
-{
+
+    import {MfgScene} from '../src';
+
     /*****************************************************************************
     *   Pointer controls.
     *
@@ -17,4 +18,3 @@ export namespace de.mayflower.mfg
             }
         }
     }
-}

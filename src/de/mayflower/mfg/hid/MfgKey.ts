@@ -1,5 +1,4 @@
-export namespace de.mayflower.mfg
-{
+
     /*****************************************************************************
     *   Key controls.
     *
@@ -9,4 +8,3 @@ export namespace de.mayflower.mfg
     export class MfgKey
     {
     }
-}

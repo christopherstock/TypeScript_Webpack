@@ -1,7 +1,7 @@
-import * as BABYLON from 'babylonjs';
 
-export namespace de.mayflower.mfg
-{
+    import * as BABYLON from 'babylonjs';
+    import {MfgSettings, MfgScene} from '../src';
+
     /*****************************************************************************
     *   Specifies the sprite system.
     *
@@ -20,4 +20,3 @@ export namespace de.mayflower.mfg
             MfgSprite.spriteManager = new BABYLON.SpriteManager( "treesManager", MfgSettings.PATH_IMAGE_TEXTURE + "tree.png", 100, 357, MfgScene.scene );
         }
     }
-}

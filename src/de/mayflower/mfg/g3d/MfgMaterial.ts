@@ -1,7 +1,8 @@
-import * as BABYLON from 'babylonjs';
 
-export namespace de.mayflower.mfg
-{
+    import * as BABYLON from 'babylonjs';
+
+    import {MfgSettings, MfgScene} from '../src';
+
     /*****************************************************************************
     *   Specifies the game material.
     *
@@ -60,4 +61,3 @@ export namespace de.mayflower.mfg
             MfgMaterial.materialGlass.alpha = 0.5;
         }
     }
-}

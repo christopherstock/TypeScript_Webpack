@@ -4,12 +4,9 @@ var path = require('path');
 module.exports = {
     entry: [
 
-//        './lib/de/mayflower/mfg/Mfg.js',
-//        './lib/de/mayflower/mfg/base/MfgInit.js',
-
-        './lib/de/mayflower/mfg/test.js',
-
-        './lib/index.js'
+        './lib/src/de/mayflower/mfg/src.js',
+        './lib/src_lib/de/mayflower/lib/lib.js',
+        './lib/src/index.js'
 
     ],
     output: {

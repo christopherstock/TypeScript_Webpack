@@ -1,5 +1,6 @@
-export namespace de.mayflower.lib
-{
+
+    import {LibStringFormat} from './../lib';
+
     /*****************************************************************************
     *   Represents a debug group whose logging can be enabled or disabled.
     *
@@ -35,4 +36,3 @@ export namespace de.mayflower.lib
             }
         }
     }
-}

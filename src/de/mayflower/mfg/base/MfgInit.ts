@@ -1,5 +1,6 @@
 
     import * as BABYLON from 'babylonjs';
+    import {MfgDebug, MfgSettings, MfgGame, MfgScene, MfgSprite, MfgMaterial, MfgLevelFirstPerson} from '../src';
 
     /*****************************************************************************
     *   Specifies the initialization part of the game logic.
@@ -33,7 +34,7 @@
 
             // MfgDebug.init.log( "Acclaiming and setting title." );
 
-/*
+
             //acclaim debug console
             MfgDebug.acclaim.log( MfgSettings.TITLE );
 
@@ -82,7 +83,6 @@
             //setup the level
             MfgDebug.init.log( "Setup the level" );
             MfgGame.currentLevel = new MfgLevelFirstPerson();
-*/
         }
 
         /*****************************************************************************
@@ -90,13 +90,11 @@
         *****************************************************************************/
         public static onInitCompleted()
         {
-/*
             MfgDebug.init.log( "> onInitCompleted" );
 
             MfgScene.scene.executeWhenReady
             (
                 MfgScene.initSceneCompleted
             );
-*/
         }
     }

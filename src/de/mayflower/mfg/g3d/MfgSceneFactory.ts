@@ -1,7 +1,5 @@
-import * as BABYLON from 'babylonjs';
+    import * as BABYLON from 'babylonjs';
 
-export namespace de.mayflower.mfg
-{
     /*****************************************************************************
     *   Constructs scene objects.
     *
@@ -102,4 +100,3 @@ export namespace de.mayflower.mfg
             return ground;
         }
     }
-}

@@ -1,5 +1,3 @@
-export namespace de.mayflower.mfg
-{
     /*****************************************************************************
     *   Specifies all debug adjustments for the application.
     *
@@ -16,4 +14,3 @@ export namespace de.mayflower.mfg
         /** Disables all sounds. */
         public      static      DEBUG_DISABLE_SOUNDS                        :boolean            = true;
     }
-}

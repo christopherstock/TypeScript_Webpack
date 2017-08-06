@@ -1,7 +1,8 @@
-import * as BABYLON from 'babylonjs';
 
-export namespace de.mayflower.mfg
-{
+    import * as BABYLON from 'babylonjs';
+    import {MfgDebug, MfgInit, MfgPointer, MfgGame} from '../src';
+    import {LibDebug}         from '../../../../../src_lib/de/mayflower/lib/lib';
+
     /*****************************************************************************
     *   Specifies the game scene.
     *
@@ -42,4 +43,3 @@ export namespace de.mayflower.mfg
             MfgInit.engine.runRenderLoop( MfgGame.render );
         }
     }
-}

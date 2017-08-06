@@ -1,9 +1,6 @@
-///<reference path="../../../../../src_lib/de/mayflower/lib/util/LibVersion.ts"/>
 
-import LibVersion = de.mayflower.lib.LibVersion;
+    import {LibVersion} from '../../../../../src_lib/de/mayflower/lib/lib';
 
-export namespace de.mayflower.mfg
-{
     /**************************************************************************************
     *   Contains the project history with all current and completed version information.
     *
@@ -18,4 +15,3 @@ export namespace de.mayflower.mfg
         /** The project's current version. */
         public      static      CURRENT_VERSION         :LibVersion         = MfgVersion.V_0_0_1;
     }
-}

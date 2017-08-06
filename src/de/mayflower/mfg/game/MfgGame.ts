@@ -1,5 +1,6 @@
-export namespace de.mayflower.mfg
-{
+
+    import {MfgLevel, MfgInit, MfgScene} from '../src';
+
     /*****************************************************************************
     *   Specifies the paramount part of the game logic.
     *
@@ -36,4 +37,3 @@ export namespace de.mayflower.mfg
             }
         }
     }
-}

@@ -1,7 +1,6 @@
-export import * as BABYLON from 'babylonjs';
 
-namespace de.mayflower.lib
-{
+    import * as BABYLON from 'babylonjs';
+
     /*****************************************************************************
     *   Offers general ui functionality.
     *
@@ -16,4 +15,3 @@ namespace de.mayflower.lib
         /** The RGB statement representing the color 'mayflower orange'. */
         public      static  COLOR_ORANGE_MAYFLOWER                  :BABYLON.Color3    = new BABYLON.Color3( 0.92, 0.45, 0.01 );
     }
-}

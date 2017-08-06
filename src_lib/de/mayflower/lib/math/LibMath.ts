@@ -1,5 +1,4 @@
-export namespace de.mayflower.lib
-{
+
     /*****************************************************************************
     *   Offers general arithmetic functionality.
     *
@@ -20,4 +19,3 @@ export namespace de.mayflower.lib
             return Math.floor( ( Math.random() * ( to - from ) ) + from );
         }
     }
-}
