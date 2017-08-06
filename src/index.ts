@@ -3,8 +3,9 @@
     import 'fpsmeter';
     import * as math from 'mathjs';
 
-    import b2d_collision = Box2D.Collision;
+    const b2d = require("box2d");
 
+    //import b2d_collision = Box2D.Collision;
     // import * from 'Box2D.Collision';
     // import 'Box2D.Collision';
 
@@ -14,6 +15,7 @@
 
         // Example A ===================================================================================================
 
+        import b2Vec2 = Box2D.Common.Math.b2Vec2;
         console.log("Chris and Carsten here!");
 
         export function component () {
@@ -114,13 +116,18 @@ alert("2");
 
 	console.log("createWorld() invoked");
 
-	var worldAABB = new b2d_collision.b2AABB();
+	let worldAABB = new b2d.b2AABB();
 
 	console.log("ACCESS SOLVED!");
 
+    //let t = new Box2D.Common.Math.b2Vec2(-1000, -1000);
 
-	worldAABB.minVertex.Set(-1000, -1000);
-	worldAABB.maxVertex.Set(1000, 1000);
+
+	worldAABB.lowerBound.Set(-1000, -1000);
+	worldAABB.upperBound.Set(1000, 1000);
+
+	console.log("OKAY ....");
+/*
 	var gravity = new b2Vec2(0, 300);
 	var doSleep = true;
 	var world = new b2World(worldAABB, gravity, doSleep);
@@ -128,6 +135,7 @@ alert("2");
 	createBox(world, 0, 125, 10, 250);
 	createBox(world, 500, 125, 10, 250);
 	return world;
+*/
 }
 
 
