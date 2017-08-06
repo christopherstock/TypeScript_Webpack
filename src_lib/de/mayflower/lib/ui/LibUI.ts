@@ -1,4 +1,4 @@
-import * as BABYLON from 'babylonjs';
+export import * as BABYLON from 'babylonjs';
 
 namespace de.mayflower.lib
 {

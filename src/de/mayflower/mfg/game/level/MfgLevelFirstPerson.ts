@@ -1,4 +1,4 @@
-namespace de.mayflower.mfg
+export namespace de.mayflower.mfg
 {
     /*****************************************************************************
     *   Specifies the 'first person' level.

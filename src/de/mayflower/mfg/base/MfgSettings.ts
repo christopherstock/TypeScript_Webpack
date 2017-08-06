@@ -4,7 +4,7 @@
 import MfgDebugSettings = de.mayflower.mfg.MfgDebugSettings;
 import MfgVersion = de.mayflower.mfg.MfgVersion;
 
-namespace de.mayflower.mfg
+export namespace de.mayflower.mfg
 {
     /*****************************************************************************
     *   Specifies all adjustments and balancings for the application.

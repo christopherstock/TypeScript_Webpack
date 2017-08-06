@@ -6,7 +6,7 @@ import MfgSettings      = de.mayflower.mfg.MfgSettings;
 import MfgDebugSettings = de.mayflower.mfg.MfgDebugSettings;
 import LibDebug         = de.mayflower.lib.LibDebug;
 
-namespace de.mayflower.mfg
+export namespace de.mayflower.mfg
 {
     /*****************************************************************************
     *   The debug system, specifying switchable debug groups

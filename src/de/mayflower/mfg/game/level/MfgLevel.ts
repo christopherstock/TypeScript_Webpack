@@ -1,6 +1,6 @@
 import * as BABYLON from 'babylonjs';
 
-namespace de.mayflower.mfg
+export namespace de.mayflower.mfg
 {
     /*****************************************************************************
     *   Handles different level sets.

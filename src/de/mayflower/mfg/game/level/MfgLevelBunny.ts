@@ -1,4 +1,10 @@
-namespace de.mayflower.mfg
+///<reference path="./MfgLevel.ts"/>
+
+import * as BABYLON from 'babylonjs';
+
+import MfgLevel = de.mayflower.mfg.MfgLevel;
+
+export namespace de.mayflower.mfg
 {
     /*****************************************************************************
     *   Specifies the 'bunny' level.

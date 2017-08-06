@@ -2,7 +2,7 @@
 
 import LibVersion = de.mayflower.lib.LibVersion;
 
-namespace de.mayflower.mfg
+export namespace de.mayflower.mfg
 {
     /**************************************************************************************
     *   Contains the project history with all current and completed version information.

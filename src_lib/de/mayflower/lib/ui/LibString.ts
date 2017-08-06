@@ -1,4 +1,4 @@
-namespace de.mayflower.lib
+export namespace de.mayflower.lib
 {
     /*****************************************************************************
     *   Offers static string functionality.

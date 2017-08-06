@@ -1,4 +1,4 @@
-namespace de.mayflower.lib
+export namespace de.mayflower.lib
 {
     /*****************************************************************************
     *   Formats strings in a specified way.

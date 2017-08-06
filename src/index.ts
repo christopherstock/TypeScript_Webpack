@@ -9,7 +9,7 @@
 
     //import de from "./de/mayflower/mfg/g3d/MfgMaterial";
 
-    import Mfg = de.mayflower.mfg.Mfg;
+    //import Mfg = de.mayflower.mfg.Mfg;
 
     namespace MyTest
     {
@@ -97,12 +97,14 @@
 
     //MfgInit.init();
 
-    /*****************************************************************************
+console.log("Test 1");
+
+/*****************************************************************************
 *   This is the application's point of entry.
 *****************************************************************************/
 window.onload = function()
 {
-    console.log("window.onload");
+    console.log(">>>>> window.onload !");
 
     //invoke main method
     // Mfg.main();
@@ -116,4 +118,3 @@ window.onload = function()
 window.onunload = function()
 {
 };
-

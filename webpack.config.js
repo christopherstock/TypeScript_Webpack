@@ -3,7 +3,7 @@ var path = require('path');
 
 module.exports = {
     entry: [
-        './lib/compiled.js'
+        './lib/index.js'
     ],
     output: {
         filename: 'bundled.js',

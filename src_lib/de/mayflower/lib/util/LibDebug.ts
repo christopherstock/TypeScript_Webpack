@@ -1,4 +1,4 @@
-namespace de.mayflower.lib
+export namespace de.mayflower.lib
 {
     /*****************************************************************************
     *   Represents a debug group whose logging can be enabled or disabled.
