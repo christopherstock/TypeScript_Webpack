@@ -2,7 +2,10 @@
     import { style } from 'typestyle';
     import 'fpsmeter';
     import * as math from 'mathjs';
-    const b2d = require("box2d");
+
+    import * as BABYLON from 'babylonjs';
+
+    // import { BABYLON } from 'babylonjs';
 
     namespace MyTest
     {
@@ -82,6 +85,9 @@
 
     // trying example ..
 
+    let v:BABYLON.Vector2 = new BABYLON.Vector2(2, 1);
+
+    console.log( "Test-Vektor: [" + v.x + "]" );
 
 
 
