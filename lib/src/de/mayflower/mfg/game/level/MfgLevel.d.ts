@@ -6,5 +6,6 @@ import * as BABYLON from 'babylonjs';
 *   @version    0.0.1
 *****************************************************************************/
 export declare class MfgLevel {
+    static currentLevel: MfgLevel;
     constructor(cameraStartup: BABYLON.Vector3, cameraTarget: BABYLON.Vector3, clearColor: BABYLON.Color4);
 }

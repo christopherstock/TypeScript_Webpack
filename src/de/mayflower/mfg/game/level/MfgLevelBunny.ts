@@ -71,9 +71,9 @@
         private setupShadows()
         {
             //setup shadows
-            this.shadowGenerator1                      = new BABYLON.ShadowGenerator( 2048, this.light1 );
-            this.shadowGenerator1.useVarianceShadowMap = true;
-            this.shadowGenerator1.usePoissonSampling   = true;
+            this.shadowGenerator1                         = new BABYLON.ShadowGenerator( 2048, this.light1 );
+            this.shadowGenerator1.useExponentialShadowMap = true;
+            this.shadowGenerator1.usePoissonSampling      = true;
         }
 
         /*****************************************************************************

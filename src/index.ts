@@ -18,8 +18,6 @@
     {
         // Example A ===================================================================================================
 
-        console.log("Chris and Carsten here!");
-
         export function component () {
 
             let element = document.createElement('div');
@@ -38,7 +36,7 @@
         console.log("Classname is: [" + className + "]");
 
         let element2 = document.createElement('div');
-        element2.innerHTML = 'Carsten und Christopher - solved it all! :D :D';
+        element2.innerHTML = 'solved!';
         element2.className = className;
 
         document.body.appendChild(element2);

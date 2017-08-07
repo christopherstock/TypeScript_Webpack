@@ -1,5 +1,5 @@
 
-    import {MfgLevel, MfgInit, MfgScene} from '../src';
+    import {MfgInit, MfgScene} from '../src';
 
     /*****************************************************************************
     *   Specifies the paramount part of the game logic.
@@ -9,8 +9,6 @@
     *****************************************************************************/
     export class MfgGame
     {
-        public          static          currentLevel            :MfgLevel               = null;
-
         /*****************************************************************************
         *   The render loop. This method is being invoked each tick.
         *****************************************************************************/

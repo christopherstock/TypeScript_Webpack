@@ -1,6 +1,12 @@
 
     import * as BABYLON from 'babylonjs';
-    import {MfgDebug, MfgSettings, MfgGame, MfgScene, MfgSprite, MfgMaterial, MfgLevelFirstPerson} from '../src';
+    import {MfgDebug} from '../src';
+    import {MfgSettings} from '../src';
+    import {MfgSprite} from '../src';
+    import {MfgScene} from '../src';
+    import {MfgMaterial} from '../src';
+    import {MfgLevel} from '../src';
+    import {MfgLevelBunny} from '../src';
 
     /*****************************************************************************
     *   Specifies the initialization part of the game logic.
@@ -82,7 +88,7 @@
 
             //setup the level
             MfgDebug.init.log( "Setup the level" );
-            MfgGame.currentLevel = new MfgLevelFirstPerson();
+            MfgLevel.currentLevel = new MfgLevelBunny();
         }
 
         /*****************************************************************************
