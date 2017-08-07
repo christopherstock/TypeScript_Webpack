@@ -20,8 +20,8 @@
         {
             super
             (
+                new BABYLON.Vector3( -20.0, 0.0, -20.0 ),
                 new BABYLON.Vector3( 0.0, 0.0, 0.0 ),
-                new BABYLON.Vector3( 0,     0,    0     ),
                 LibUI.COLOR_ORANGE_MAYFLOWER
             );
 
@@ -51,6 +51,84 @@
             (
                 "Ground1",
                 new BABYLON.Vector3( 0.0,   0.0,  0.0   ),
+                10.0,
+                0.5,
+                10.0,
+                new BABYLON.Vector3( 0.0,   0.0,  0.0   ),
+                0.0,
+                MfgMaterial.materialTest1,
+                MfgScene.scene
+            );
+
+            MfgSceneFactory.createBox
+            (
+                "Ground2",
+                new BABYLON.Vector3( 10.0,  0.0,  0.0   ),
+                10.0,
+                0.5,
+                10.0,
+                new BABYLON.Vector3( 0.0,   0.0,  0.0   ),
+                0.0,
+                MfgMaterial.materialTest1,
+                MfgScene.scene
+            );
+
+            MfgSceneFactory.createBox
+            (
+                "Ground3",
+                new BABYLON.Vector3( 0.0,  10.0,  0.0   ),
+                10.0,
+                0.5,
+                10.0,
+                new BABYLON.Vector3( 0.0,   0.0,  0.0   ),
+                0.0,
+                MfgMaterial.materialTest1,
+                MfgScene.scene
+            );
+
+            MfgSceneFactory.createBox
+            (
+                "Ground4",
+                new BABYLON.Vector3( 0.0,  0.0,  10.0   ),
+                10.0,
+                0.5,
+                10.0,
+                new BABYLON.Vector3( 0.0,   0.0,  0.0   ),
+                0.0,
+                MfgMaterial.materialTest1,
+                MfgScene.scene
+            );
+
+            MfgSceneFactory.createBox
+            (
+                "Ground5",
+                new BABYLON.Vector3( -10.0,  0.0,  0.0   ),
+                10.0,
+                0.5,
+                10.0,
+                new BABYLON.Vector3( 0.0,   0.0,  0.0   ),
+                0.0,
+                MfgMaterial.materialTest1,
+                MfgScene.scene
+            );
+
+            MfgSceneFactory.createBox
+            (
+                "Ground6",
+                new BABYLON.Vector3( 0.0,  -10.0,  0.0   ),
+                10.0,
+                0.5,
+                10.0,
+                new BABYLON.Vector3( 0.0,   0.0,  0.0   ),
+                0.0,
+                MfgMaterial.materialTest1,
+                MfgScene.scene
+            );
+
+            MfgSceneFactory.createBox
+            (
+                "Ground7",
+                new BABYLON.Vector3( 0.0,  0.0,  -10.0   ),
                 10.0,
                 0.5,
                 10.0,
