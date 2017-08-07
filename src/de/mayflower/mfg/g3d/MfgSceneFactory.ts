@@ -83,6 +83,7 @@
             ground.receiveShadows   = true;
 
             ground.rotate( rotationAxis, rotationAmount, BABYLON.Space.WORLD );
+/*
             ground.setPhysicsState
             (
                 BABYLON.PhysicsEngine.BoxImpostor,
@@ -92,7 +93,7 @@
                     restitution: 0.7
                 }
             );
-
+*/
             return ground;
         }
     }
