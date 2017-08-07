@@ -25,17 +25,22 @@
         public static initMaterials( scene:BABYLON.Scene )
         {
             MfgMaterial.materialTest1 = new BABYLON.StandardMaterial( "test", scene );
-            MfgMaterial.materialTest1.diffuseTexture = new BABYLON.Texture( MfgSettings.PATH_IMAGE_TEXTURE + "test1.jpg", scene );
+            var tex1:BABYLON.Texture = new BABYLON.Texture( MfgSettings.PATH_IMAGE_TEXTURE + "test1.jpg", scene );
+            tex1.uScale = 10.0;
+            tex1.vScale = 10.0;
+            MfgMaterial.materialTest1.diffuseTexture = tex1;
             MfgMaterial.materialTest1.emissiveColor = new BABYLON.Color3( 1.0, 1.0, 1.0 );
-            MfgMaterial.materialTest1.diffuseTexture.wrapU = 1;
-            MfgMaterial.materialTest1.diffuseTexture.wrapV = 1;
 
             MfgMaterial.materialMFLogo = new BABYLON.StandardMaterial( "amiga", scene );
-            MfgMaterial.materialMFLogo.diffuseTexture = new BABYLON.Texture( MfgSettings.PATH_IMAGE_TEXTURE + "mfLogo.jpg", scene );
+            var tex2:BABYLON.Texture = new BABYLON.Texture( MfgSettings.PATH_IMAGE_TEXTURE + "mfLogo.jpg", scene );
+            tex2.uScale = 10.0;
+            tex2.vScale = 10.0;
+            MfgMaterial.materialMFLogo.diffuseTexture = tex2;
             MfgMaterial.materialMFLogo.emissiveColor = new BABYLON.Color3( 0.5, 0.5, 0.5 );
-            MfgMaterial.materialMFLogo.diffuseTexture.wrapU = 5;
-            MfgMaterial.materialMFLogo.diffuseTexture.wrapV = 5;
-
+/*
+            MfgMaterial.materialMFLogo.diffuseTexture.wrapU = 5.0;
+            MfgMaterial.materialMFLogo.diffuseTexture.wrapV = 5.0;
+*/
             MfgMaterial.materialAmiga = new BABYLON.StandardMaterial( "amiga", scene );
             MfgMaterial.materialAmiga.diffuseTexture = new BABYLON.Texture( MfgSettings.PATH_IMAGE_TEXTURE + "mosaic.jpg", scene );
             MfgMaterial.materialAmiga.emissiveColor = new BABYLON.Color3( 0.5, 0.5, 0.5 );
