@@ -1,3 +1,4 @@
+
     import * as BABYLON from 'babylonjs';
 
     /*****************************************************************************
@@ -25,7 +26,7 @@
         )
         :BABYLON.Mesh
         {
-            var box:BABYLON.Mesh = BABYLON.Mesh.CreateBox
+            let box:BABYLON.Mesh = BABYLON.Mesh.CreateBox
             (
                 id,
                 width,
@@ -42,20 +43,20 @@
             box.material        = material;
             box.receiveShadows  = false;
 
+            box.rotate( rotationAxis, rotationAmount, BABYLON.Space.WORLD );
 
-
-            //ground.rotate( rotationAxis, rotationAmount, BABYLON.Space.WORLD );
-/*
-            ground.setPhysicsState
+            box.physicsImpostor = new BABYLON.PhysicsImpostor
             (
-                BABYLON.PhysicsEngine.BoxImpostor,
+                box,
+                BABYLON.PhysicsImpostor.BoxImpostor,
                 {
                     mass:        0,
                     friction:    0.5,
                     restitution: 0.7
-                }
+                },
+                scene
             );
-*/
+
             return box;
         }
 
@@ -74,26 +75,28 @@
         )
         :BABYLON.Mesh
         {
-            var ground:BABYLON.Mesh = BABYLON.Mesh.CreateBox( id, 1, scene );
+            let box:BABYLON.Mesh = BABYLON.Mesh.CreateBox( id, 1, scene );
 
-            ground.position         = position;
-            ground.scaling          = scaling;
-            ground.checkCollisions  = true;
-            ground.material         = material;
-            ground.receiveShadows   = true;
+            box.position         = position;
+            box.scaling          = scaling;
+            box.checkCollisions  = true;
+            box.material         = material;
+            box.receiveShadows   = true;
 
-            ground.rotate( rotationAxis, rotationAmount, BABYLON.Space.WORLD );
-/*
-            ground.setPhysicsState
+            box.rotate( rotationAxis, rotationAmount, BABYLON.Space.WORLD );
+
+            box.physicsImpostor = new BABYLON.PhysicsImpostor
             (
-                BABYLON.PhysicsEngine.BoxImpostor,
+                box,
+                BABYLON.PhysicsImpostor.BoxImpostor,
                 {
                     mass:        0,
                     friction:    0.5,
                     restitution: 0.7
-                }
+                },
+                scene
             );
-*/
-            return ground;
+
+            return box;
         }
     }

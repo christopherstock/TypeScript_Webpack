@@ -37,7 +37,9 @@
             this.setupCollidableBox();
             this.setupSpheres();
             this.setupBox0();
+/*
             this.setupCompound();
+*/
             this.setupGlassPanes();
             this.setupSkybox();
             this.setupSprites();
@@ -125,9 +127,19 @@
                 sphere.position = new BABYLON.Vector3( Math.random() * 20 - 10, y, Math.random() * 10 - 5 );
 
                 this.shadowGenerator1.getShadowMap().renderList.push( sphere );
-/*
-                sphere.setPhysicsState(BABYLON.PhysicsEngine.SphereImpostor, { mass: 1, friction: 0.0, restitution: 0.0 });
-*/
+
+                sphere.physicsImpostor = new BABYLON.PhysicsImpostor
+                (
+                    sphere,
+                    BABYLON.PhysicsImpostor.SphereImpostor,
+                    {
+                        mass: 1,
+                        friction: 0.0,
+                        restitution: 0.0
+                    },
+                    MfgScene.scene
+                );
+
                 y += 4;
             }
 
@@ -141,15 +153,25 @@
                 sphere.position = new BABYLON.Vector3(Math.random() * 20 - 10, y, Math.random() * 10 - 5);
 
                 this.shadowGenerator1.getShadowMap().renderList.push( sphere );
-/*
-                sphere.setPhysicsState(BABYLON.PhysicsEngine.SphereImpostor, { mass: 1, friction: 0.0, restitution: 0.0 });
-*/
-            }
 
+                sphere.physicsImpostor = new BABYLON.PhysicsImpostor
+                (
+                    sphere,
+                    BABYLON.PhysicsImpostor.SphereImpostor,
+                    {
+                        mass: 1,
+                        friction: 0.0,
+                        restitution: 0.0
+                    },
+                    MfgScene.scene
+                );
+            }
+/*
             for (index = 0; index < 10; index++)
             {
                 spheres[index].setPhysicsLinkWith(spheres[index + 1], new BABYLON.Vector3(0, 0.5, 0), new BABYLON.Vector3(0, -0.5, 0));
             }
+*/
         }
 
         /*****************************************************************************
@@ -163,14 +185,24 @@
             box0.material        = MfgMaterial.materialWood;
 
             this.shadowGenerator1.getShadowMap().renderList.push( box0 );
-/*
-            box0.setPhysicsState(   BABYLON.PhysicsEngine.BoxImpostor, { mass: 2, friction: 0.4, restitution: 0.3 } );
-*/
+
+            box0.physicsImpostor = new BABYLON.PhysicsImpostor
+            (
+                box0,
+                BABYLON.PhysicsImpostor.BoxImpostor,
+                {
+                    mass: 2,
+                    friction: 0.4,
+                    restitution: 0.3
+                },
+                MfgScene.scene
+            );
         }
 
         /*****************************************************************************
         *   Sets up the compound for the scene.
         *****************************************************************************/
+/*
         private setupCompound()
         {
             // Compound
@@ -185,7 +217,7 @@
 
             this.shadowGenerator1.getShadowMap().renderList.push( part0 );
             this.shadowGenerator1.getShadowMap().renderList.push( part1 );
-/*
+
             MfgScene.scene.createCompoundImpostor(
                 [
                     { mesh: part0, impostor: BABYLON.PhysicsEngine.BoxImpostor },
@@ -195,9 +227,8 @@
                     mass: 2, friction: 0.4, restitution: 0.3
                 }
             );
-*/
         }
-
+*/
         /*****************************************************************************
         *   Sets up the borders for the scene.
         *****************************************************************************/
@@ -212,10 +243,31 @@
             glassPane2.position         = new BABYLON.Vector3( 0.0,   5.0,  0.0 );
             glassPane2.scaling          = new BABYLON.Vector3( 50.0,  20.0, 1.0 );
             glassPane2.checkCollisions  = true;
-/*
-            glassPane1.setPhysicsState( BABYLON.PhysicsEngine.BoxImpostor, { mass: 0, friction: 0.0, restitution: 0.0 } );
-            glassPane2.setPhysicsState( BABYLON.PhysicsEngine.BoxImpostor, { mass: 0, friction: 0.0, restitution: 0.0 } );
-*/
+
+            glassPane1.physicsImpostor = new BABYLON.PhysicsImpostor
+            (
+                glassPane1,
+                BABYLON.PhysicsImpostor.BoxImpostor,
+                {
+                    mass: 0,
+                    friction: 0.0,
+                    restitution: 0.0
+                },
+                MfgScene.scene
+            );
+
+            glassPane2.physicsImpostor = new BABYLON.PhysicsImpostor
+            (
+                glassPane2,
+                BABYLON.PhysicsImpostor.BoxImpostor,
+                {
+                    mass: 0,
+                    friction: 0.0,
+                    restitution: 0.0
+                },
+                MfgScene.scene
+            );
+
             glassPane1.material = MfgMaterial.materialGlass;
             glassPane2.material = MfgMaterial.materialGlass;
 
